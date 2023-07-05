@@ -7,12 +7,12 @@ import org.jsoup.select.Elements;
 
 import com.hust.cybersec.objects.Dynasty;
 
-public class DynastyScrapeWikiYear extends BasicDataCrawler{
+public class DynastyYear extends BasicDataCrawler{
 	private String tenTrieuDai;
 	private String beginYear;
 	private String endYear;
 
-	public DynastyScrapeWikiYear(String tenTrieuDai) {
+	public DynastyYear(String tenTrieuDai) {
 		this.url = nameToUrl(tenTrieuDai);
 		this.tenTrieuDai = tenTrieuDai;		
 		connect();
@@ -109,10 +109,10 @@ public class DynastyScrapeWikiYear extends BasicDataCrawler{
 
 	public static void main(String[] args) {
 		ArrayList<Dynasty> dynastys = new ArrayList<Dynasty>();
-		DynastyScrapeName names = new DynastyScrapeName();
+		DynastyName names = new DynastyName();
 		names.scraping();
 		for (String e : names.getDynasty_names()) {
-			DynastyScrapeWikiYear y = new DynastyScrapeWikiYear(e);
+			DynastyYear y = new DynastyYear(e);
 			y.scraping();
 			Dynasty dynasty = new Dynasty(y.getBeginYear(), y.getEndYear(), y.getTenTrieuDai());
 			dynastys.add(dynasty);

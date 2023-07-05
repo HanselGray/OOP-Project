@@ -22,11 +22,11 @@ public class RelicScrapeFull implements ICombineData, IWriteJson {
 
     @Override
     public void combine() throws IOException {
-        RelicScrapeDiTich r_d = new RelicScrapeDiTich();
+        ScrapeFromDiTichCombine r_d = new ScrapeFromDiTichCombine();
         r_d.combine();
         relics.addAll(r_d.getRelics());
 
-        RelicScrapeVHHN r_h = new RelicScrapeVHHN();
+        ScrapeFromVHHNCombine r_h = new ScrapeFromVHHNCombine();
         r_h.combine();
         relics.addAll(r_h.getRelics());
         System.out.println(r_h.getLienKetDynasty());

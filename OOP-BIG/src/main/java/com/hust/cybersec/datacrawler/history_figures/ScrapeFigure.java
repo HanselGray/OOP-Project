@@ -13,12 +13,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class ScrapeFigureMain implements IWriteJson, ICombineData {
+public class ScrapeFigure implements IWriteJson, ICombineData {
 	private LinkedList<Figure> list = new LinkedList<>();
 
 	public static void main(String[] args) {
 		// ArrayList<String> links = new ArrayList<String>();
-		ScrapeFigureMain figure = new ScrapeFigureMain();
+		ScrapeFigure figure = new ScrapeFigure();
 		figure.combine();
 		try {
 			figure.writeJSon();
@@ -74,7 +74,7 @@ public class ScrapeFigureMain implements IWriteJson, ICombineData {
 
 	@Override
 	public void writeJSon() throws JsonIOException, IOException {
-		String filePath = "D:\\webCrawler\\jSoupWebCrawler\\src\\data\\figureUpdate.json";
+		String filePath = new File(System.getProperty("user.dir")).getParent() + "/OOP-Project/OOP-BIG/src/main/data/figures.json";
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		try {
 			FileWriter writer = new FileWriter(new File(filePath));

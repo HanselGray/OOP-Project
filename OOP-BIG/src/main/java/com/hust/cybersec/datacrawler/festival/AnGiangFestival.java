@@ -14,9 +14,9 @@ import com.google.gson.GsonBuilder;
 import com.hust.cybersec.objects.Festival;
 import com.hust.cybersec.objects.Figure;
 
-public class LeHoiAnGiang extends BasicFindFestival {
+public class AnGiangFestival extends FindFestivalAbstract {
 
-    public LeHoiAnGiang() {
+    public AnGiangFestival() {
         this.url = "https://angiangtourist.vn/thoi-gian-va-dia-diem-to-chuc-cac-le-hoi-lon-o-an-giang/#";
         connect();
     }
@@ -86,7 +86,7 @@ public class LeHoiAnGiang extends BasicFindFestival {
     }
 
     public static void main(String[] args) {
-        LeHoiAnGiang anGiang = new LeHoiAnGiang();
+        AnGiangFestival anGiang = new AnGiangFestival();
         anGiang.scraping();
         String filePath = "D:\\webCrawler\\webcrawler\\src\\webcrawler\\jsonFiles\\festival.json";
         Gson gson = new GsonBuilder().setPrettyPrinting().create();

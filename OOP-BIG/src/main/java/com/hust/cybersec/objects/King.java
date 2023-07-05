@@ -1,41 +1,16 @@
 package com.hust.cybersec.objects;
 
+import java.util.*;
+
 
 public class King extends HistoricalFigure {
 	private String paperURL;
-	private String mieuHieu;
-	private String thuyHieu;
-	private String nienHieu;
-	private String tenHuy;
-	private String theThu;
-	private String namTriVi;
+	private String reignBegin;
+	private String reignEnd;
+	private List<String> aliases = new ArrayList<>();
 
-	public King(String ten, String namSinh, String namMat, String paperURL, String mieuHieu, String thuyHieu,
-			String nienHieu, String tenHuy, String theThu, String namTriVi) {
-		super(ten, namSinh, namMat);
-		this.paperURL = paperURL;
-		this.mieuHieu = mieuHieu;
-		this.thuyHieu = thuyHieu;
-		this.nienHieu = nienHieu;
-		this.tenHuy = tenHuy;
-		this.theThu = theThu;
-		this.namTriVi = namTriVi;
-	}
-
-	public King(String paperURL, String mieuHieu, String thuyHieu,
-			String nienHieu, String tenHuy, String theThu, String namTriVi, String ten) {
-		super(ten);
-		this.paperURL = paperURL;
-		this.mieuHieu = mieuHieu;
-		this.thuyHieu = thuyHieu;
-		this.nienHieu = nienHieu;
-		this.tenHuy = tenHuy;
-		this.theThu = theThu;
-		this.namTriVi = namTriVi;
-	}
-
-	public King(String ten) {
-		super(ten);
+	public King(String name) {
+		super(name);
 	}
 
 	public King() {
@@ -49,52 +24,31 @@ public class King extends HistoricalFigure {
 		this.paperURL = paperURL;
 	}
 
-	public String getMieuHieu() {
-		return mieuHieu;
+	public String getReignBegin() {
+		return reignBegin;
 	}
 
-	public void setMieuHieu(String mieuHieu) {
-		this.mieuHieu = mieuHieu;
+	public void setReignBegin(String reignBegin) {
+		this.reignBegin = reignBegin;
 	}
 
-	public String getThuyHieu() {
-		return thuyHieu;
+	public String getReignEnd() {
+		return reignEnd;
 	}
 
-	public void setThuyHieu(String thuyHieu) {
-		this.thuyHieu = thuyHieu;
+	public void setReignEnd(String reignEnd) {
+		this.reignEnd = reignEnd;
 	}
 
-	public String getNienHieu() {
-		return nienHieu;
+	public List<String> getAliases() {
+		return aliases;
 	}
 
-	public void setNienHieu(String nienHieu) {
-		this.nienHieu = nienHieu;
+	public void setAliases(List<String> aliases) {
+		this.aliases = aliases;
 	}
-
-	public String getTenHuy() {
-		return tenHuy;
-	}
-
-	public void setTenHuy(String tenHuy) {
-		this.tenHuy = tenHuy;
-	}
-
-	public String getTheThu() {
-		return theThu;
-	}
-
-	public void setTheThu(String theThu) {
-		this.theThu = theThu;
-	}
-
-	public String getNamTriVi() {
-		return namTriVi;
-	}
-
-	public void setNamTriVi(String namTriVi) {
-		this.namTriVi = namTriVi;
+	public void setId(int id) {
+		this.id = id;
 	}
 
 }

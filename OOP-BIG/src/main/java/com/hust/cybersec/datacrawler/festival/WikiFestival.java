@@ -14,9 +14,9 @@ import com.google.gson.GsonBuilder;
 import com.hust.cybersec.objects.Festival;
 import com.hust.cybersec.objects.Figure;
 
-public class Wikipedia extends BasicFindFestival {
+public class WikiFestival extends FindFestivalAbstract {
 
-    public Wikipedia() {
+    public WikiFestival() {
         this.url = "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam";
         connect();
     }
@@ -334,7 +334,7 @@ public class Wikipedia extends BasicFindFestival {
     }
 
     public static void main(String[] args) {
-        Wikipedia obj = new Wikipedia();
+        WikiFestival obj = new WikiFestival();
         obj.scraping();
         String filePath = "D:\\webCrawler\\webcrawler\\src\\webcrawler\\jsonFiles\\festival.json";
         Gson gson = new GsonBuilder().setPrettyPrinting().create();

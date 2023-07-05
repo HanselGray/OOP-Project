@@ -8,14 +8,14 @@ import org.jsoup.select.Elements;
 
 import com.hust.cybersec.objects.Dynasty;
 
-public class DynastyScrapeWikiKings extends BasicDataCrawler {
+public class DynastyWikiKingsCombine extends BasicDataCrawler {
 
     private LinkedList<String> blackList;
     private LinkedList<Dynasty> dynastys;
 
     public void scraping() {
-        DynastyScrapeName names;
-        names = new DynastyScrapeName();
+        DynastyName names;
+        names = new DynastyName();
         names.scraping();
 
         Elements canCrawlNames = this.getDoc()
@@ -25,7 +25,7 @@ public class DynastyScrapeWikiKings extends BasicDataCrawler {
                 if (!this.blackList.contains(e.text())) {
                     Dynasty dynasty = new Dynasty(e.text());
                     String absHref = e.attr("abs:href");
-                    DynastyScrapeOnePageWiki onePage = new DynastyScrapeOnePageWiki(absHref);
+                    DynastySingleWiki onePage = new DynastySingleWiki(absHref);
                     onePage.scraping();
                     dynasty.setKings(onePage.getKingNames());
                     dynastys.add(dynasty);
@@ -39,7 +39,7 @@ public class DynastyScrapeWikiKings extends BasicDataCrawler {
         return dynastys;
     }
 
-    public DynastyScrapeWikiKings() {
+    public DynastyWikiKingsCombine() {
         this.url = "https://vi.wikipedia.org/wiki/Tri%E1%BB%81u_%C4%91%E1%BA%A1i";
         this.blackList = new LinkedList<String>();
         this.blackList.add("Nhà Lý");
@@ -57,7 +57,7 @@ public class DynastyScrapeWikiKings extends BasicDataCrawler {
     }
 
     public static void main(String[] args) {
-        DynastyScrapeWikiKings dynastyScrapeWiki = new DynastyScrapeWikiKings();
+        DynastyWikiKingsCombine dynastyScrapeWiki = new DynastyWikiKingsCombine();
         dynastyScrapeWiki.scraping();
 
     }

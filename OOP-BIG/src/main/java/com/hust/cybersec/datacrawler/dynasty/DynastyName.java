@@ -9,12 +9,12 @@ import org.jsoup.select.Elements;
 
 
 
-public class DynastyScrapeName extends BasicDataCrawler {
+public class DynastyName extends BasicDataCrawler {
 
 	private LinkedList<String> dynasty_names;
 	private LinkedList<String> black_list;
 
-	public DynastyScrapeName() {
+	public DynastyName() {
 		dynasty_names = new LinkedList<>();
 		black_list = new LinkedList<>();
 		black_list.add("Khởi nghĩa Bà Triệu");
@@ -70,7 +70,7 @@ public class DynastyScrapeName extends BasicDataCrawler {
 	}
 
 	public static void main(String[] args) {
-		DynastyScrapeName dynastyScrape = new DynastyScrapeName();
+		DynastyName dynastyScrape = new DynastyName();
 		dynastyScrape.scraping();
 	}
 	

@@ -8,9 +8,9 @@ import org.jsoup.nodes.Element;
 
 import org.jsoup.select.Elements;
 
-public class LeHoiDaNang extends BasicFindFestival {
+public class DaNangFestival extends FindFestivalAbstract {
 
-    public LeHoiDaNang() {
+    public DaNangFestival() {
         this.url = "https://dulichkhampha24.com/le-hoi-o-da-nang.html";
         connect();
     }

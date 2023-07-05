@@ -4,7 +4,7 @@ import com.hust.cybersec.datacrawler.basic_data_crawler.BasicDataCrawler;
 import com.hust.cybersec.objects.Festival;
 import java.util.ArrayList;
 
-public abstract class BasicFindFestival extends BasicDataCrawler {
+public abstract class FindFestivalAbstract extends BasicDataCrawler {
 
     protected ArrayList<Festival> list = new ArrayList<>();
 

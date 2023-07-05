@@ -1,7 +1,7 @@
 package com.hust.cybersec.datacrawler.relic;
 
 import com.hust.cybersec.datacrawler.basic_data_crawler.BasicDataCrawler;
-import com.hust.cybersec.datalinker.LinkRelicWithFigureAndDynasty;
+import com.hust.cybersec.datalinker.LinkData;
 import com.hust.cybersec.objects.Dynasty;
 import com.hust.cybersec.objects.Figure;
 import com.hust.cybersec.objects.King;
@@ -13,9 +13,9 @@ import java.util.LinkedList;
 
 
 
-public class RelicScrapeVHHNOneBox extends BasicDataCrawler {
+public class ScrapeFromVHHNOneBox extends BasicDataCrawler {
 	private Relic relic;
-	private LinkRelicWithFigureAndDynasty linkRelic;
+	private LinkData linkRelic;
 	private int lienKetKing = 0;
 	private int lienKetDynasty = 0;
 	private int lienKetFigure = 0;
@@ -43,10 +43,10 @@ public class RelicScrapeVHHNOneBox extends BasicDataCrawler {
 
 
 
-	public RelicScrapeVHHNOneBox(String url) throws IOException {
+	public ScrapeFromVHHNOneBox(String url) throws IOException {
 		this.url = url;
 		connect();
-		linkRelic = new LinkRelicWithFigureAndDynasty();
+		linkRelic = new LinkData();
 	}
 
 	public void scraping() {

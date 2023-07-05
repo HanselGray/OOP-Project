@@ -10,23 +10,22 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.hust.cybersec.datacrawler.basic_data_crawler.BasicDataCrawler;
-import com.hust.cybersec.objects.SuKien;
+import com.hust.cybersec.objects.Event;
 
-public class TranDanhLon extends BasicDataCrawler {
+public class Battle extends BasicDataCrawler {
 
-    private ArrayList<SuKien> TranDanh = new ArrayList<>();
+    private ArrayList<Event> TranDanh = new ArrayList<>();
 
-    public ArrayList<SuKien> getList() {
+    public ArrayList<Event> getList() {
         return TranDanh;
     }
 
-    TranDanhLon() {
+    Battle() {
         this.url = "https://vi.wikipedia.org/wiki/Danh_s%C3%A1ch_tr%E1%BA%ADn_%C4%91%C3%A1nh_trong_l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam";
         connect();
     }
 
-    // kiem tra xem trong phan element co chua 3 hoac 4 ki tu chu so lien tuc hay
-    // khong
+    // kiem tra xem trong phan element co chua 3 hoac 4 ki tu chu so lien tuc hay khong
     private String CaoThoiGian(String DuLieuTho) {
         DuLieuTho = DuLieuTho.replaceAll("[^0-9]", "#");
         String[] arr = DuLieuTho.split("#");
@@ -104,7 +103,7 @@ public class TranDanhLon extends BasicDataCrawler {
             if (thoi_gian.length() != 0) {
                 TamNhoGiaTriThoiGian = thoi_gian;
             }
-            SuKien s = new SuKien();
+            Event s = new Event();
             s.setTen(tran_danh);
             s.setThoi_gian(TamNhoGiaTriThoiGian);
             s.setDia_diem(CaoDiaDiem(tran_danh, TamNhoGiaTriThoiGian));
@@ -117,13 +116,13 @@ public class TranDanhLon extends BasicDataCrawler {
     }
 
     public static void main(String args[]) {
-        TranDanhLon trandanh = new TranDanhLon();
+        Battle trandanh = new Battle();
         trandanh.scraping();
         String JsonURL = "src\\objects\\event\\TranDanhLon.json";
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try {
             FileWriter writer = new FileWriter(new File(JsonURL));
-            ArrayList<SuKien> DanhSachTranDanh = new ArrayList<SuKien>();
+            ArrayList<Event> DanhSachTranDanh = new ArrayList<Event>();
             DanhSachTranDanh.addAll(trandanh.getList());
             gson.toJson(DanhSachTranDanh, writer);
             writer.close();

@@ -10,16 +10,16 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.hust.cybersec.datacrawler.basic_data_crawler.BasicDataCrawler;
-import com.hust.cybersec.objects.SuKien;
+import com.hust.cybersec.objects.Event;
 
-public class SuKienLonTuWiki extends BasicDataCrawler  {
-	private ArrayList<SuKien> SuKienWiki = new ArrayList<SuKien>();
+public class BigEventWiki extends BasicDataCrawler  {
+	private ArrayList<Event> SuKienWiki = new ArrayList<Event>();
 
-	public ArrayList<SuKien> getList() {
+	public ArrayList<Event> getList() {
 		return SuKienWiki;
 	}
 
-	SuKienLonTuWiki() {
+	BigEventWiki() {
 		this.url = "https://vi.wikipedia.org/wiki/Ni%C3%AAn_bi%E1%BB%83u_l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam";		
 		connect();
 	}
@@ -143,7 +143,7 @@ public class SuKienLonTuWiki extends BasicDataCrawler  {
 				continue;
 			if (CaoThoiGian(thoi_gian) == "")
 				thoi_gian = thoi_gian.concat(" " + TamNhoGiaTriThoiGian);
-			SuKien s = new SuKien();
+			Event s = new Event();
 			s.setTen(ten);
 			s.setThoi_gian(thoi_gian);
 			s.setDia_diem(CaoDiaDiem(ten, thoi_gian));
@@ -156,14 +156,14 @@ public class SuKienLonTuWiki extends BasicDataCrawler  {
 	}
 
 	public static void main(String args[]) {
-		SuKienLonTuWiki sukien = new SuKienLonTuWiki();
+		BigEventWiki sukien = new BigEventWiki();
 		sukien.scraping();
 		// can chinh sua khi len remote
 		String JsonURL = "src\\objects\\event\\SuKienLon.json";
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		try {
 			FileWriter writer = new FileWriter(new File(JsonURL));
-			ArrayList<SuKien> DanhSachSuKien = new ArrayList<SuKien>();
+			ArrayList<Event> DanhSachSuKien = new ArrayList<Event>();
 			DanhSachSuKien.addAll(sukien.getList());
 			gson.toJson(DanhSachSuKien, writer);
 			writer.close();

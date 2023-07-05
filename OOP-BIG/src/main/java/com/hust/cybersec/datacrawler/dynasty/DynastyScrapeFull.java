@@ -15,11 +15,11 @@ import com.hust.cybersec.objects.King;
 
 public class DynastyScrapeFull implements ICombineData, IWriteJson {
 
-    private DynastyScrapeName crawlNames;
-    private DynastyScrapeWikiFounder crawlFounder;
-    private DynastyScrapeWikiKings firstKings;
+    private DynastyName crawlNames;
+    private DynastyFounder crawlFounder;
+    private DynastyWikiKingsCombine firstKings;
     private LinkedList<Dynasty> dynastys;
-    private DynastyScrapeNKSKings remainedKings;
+    private DynastyRemainedKings remainedKings;
 
     public DynastyScrapeFull() {
         dynastys = new LinkedList<Dynasty>();
@@ -27,7 +27,7 @@ public class DynastyScrapeFull implements ICombineData, IWriteJson {
 
     @Override
     public void writeJSon() throws JsonIOException, IOException {
-        String filePath = "..\\data\\dynasty.json";
+        String filePath = new File(System.getProperty("user.dir")).getParent() + "/OOP-Project/OOP-BIG/src/main/data/dynasties.json";
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try {
             FileWriter writer = new FileWriter(new File(filePath));
@@ -47,16 +47,16 @@ public class DynastyScrapeFull implements ICombineData, IWriteJson {
 
     @Override
     public void combine() throws IOException {
-        firstKings = new DynastyScrapeWikiKings();
+        firstKings = new DynastyWikiKingsCombine();
         firstKings.scraping();
 
-        crawlNames = new DynastyScrapeName();
+        crawlNames = new DynastyName();
         crawlNames.scraping();
 
-        crawlFounder = new DynastyScrapeWikiFounder();
+        crawlFounder = new DynastyFounder();
         crawlFounder.scraping();
 
-        remainedKings = new DynastyScrapeNKSKings();
+        remainedKings = new DynastyRemainedKings();
         remainedKings.scraping();
 
         LinkedList<String> dynastyNames = crawlNames.getDynasty_names();
@@ -94,7 +94,7 @@ public class DynastyScrapeFull implements ICombineData, IWriteJson {
 
         for (Dynasty d : dynastys) {
             if (d.getKings() == null) {
-                DynastyScrapeWikiWandKings d_w = new DynastyScrapeWikiWandKings(d.getName());
+                DynastyWikiWandKings d_w = new DynastyWikiWandKings(d.getName());
                 d_w.scraping();
 
                 System.out.println("** " + d.getName());
@@ -103,7 +103,7 @@ public class DynastyScrapeFull implements ICombineData, IWriteJson {
                 d.setKings(d_w.getKings());
             }
 
-            DynastyScrapeWikiYear d_y = new DynastyScrapeWikiYear(d.getName());
+            DynastyYear d_y = new DynastyYear(d.getName());
             d_y.scraping();
 
             d.setStartYear(d_y.getBeginYear());
@@ -111,7 +111,7 @@ public class DynastyScrapeFull implements ICombineData, IWriteJson {
             // System.out.println(d.getName() + " " + d.getStartYear() + " " +
             // d.getEndYear());
 
-            DynastyScrapeWikiCapital d_c = new DynastyScrapeWikiCapital(d.getName());
+            DynastyCapital d_c = new DynastyCapital(d.getName());
             d_c.scraping();
 
             d.setCapital(d_c.getCapital());

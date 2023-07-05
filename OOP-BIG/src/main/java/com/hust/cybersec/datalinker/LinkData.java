@@ -8,7 +8,7 @@ import com.hust.cybersec.objects.Dynasty;
 import com.hust.cybersec.objects.Figure;
 import com.hust.cybersec.objects.King;
 
-public class LinkRelicWithFigureAndDynasty {
+public class LinkData {
 
     private LinkedList<Figure> figures;
     private LinkedList<King> kings;
@@ -18,7 +18,7 @@ public class LinkRelicWithFigureAndDynasty {
     private int lienKetDynasty = 0;
     private int lienKetFigure = 0;
 
-    public LinkRelicWithFigureAndDynasty() throws IOException {
+    public LinkData() throws IOException {
         listObservablesFigure = new ReadData<Figure>()
                 .FromJsonToArray("src/data/figureUpdate.json", Figure.class);
 

@@ -1,22 +1,12 @@
 package com.hust.cybersec.objects;
 
-public class SuKien {
+public class Event {
 	private String ten;
 	private String thoi_gian;
 	private String dia_diem;
 	private Dynasty nien_dai;
 	private Figure nhan_vat_lien_quan;
 
-	/*
-	 * public SuKien(String ten, String thoi_gian, String dia_diem,
-	 * HistoricalDynasty nien_dai, HistoricalFigure nhan_vat_lien_quan) {
-	 * this.ten = ten;
-	 * this.thoi_gian = thoi_gian;
-	 * this.dia_diem = dia_diem;
-	 * this.nien_dai = nien_dai;
-	 * this.nhan_vat_lien_quan = nhan_vat_lien_quan;
-	 * }
-	 */
 	public String getTen() {
 		return ten;
 	}

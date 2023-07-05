@@ -12,10 +12,10 @@ import org.jsoup.select.Elements;
 
 
 
-public class DynastyScrapeNKSKings extends BasicDataCrawler{
+public class DynastyRemainedKings extends BasicDataCrawler{
 	LinkedList<Dynasty> dynastys = new LinkedList<>();
 	
-	public DynastyScrapeNKSKings() {
+	public DynastyRemainedKings() {
 		this.url = "https://nguoikesu.com/tu-lieu/bang-doi-chieu-cac-trieu-dai-viet-nam-va-cac-trieu-dai-trung-quoc";		
 		connect();
 	}
@@ -68,7 +68,7 @@ public class DynastyScrapeNKSKings extends BasicDataCrawler{
 	}
 
 	public static void main(String[] args) {
-		DynastyScrapeNKSKings n = new DynastyScrapeNKSKings();
+		DynastyRemainedKings n = new DynastyRemainedKings();
 		n.scraping();
 	}
 	

@@ -9,7 +9,7 @@ import org.jsoup.select.Elements;
 
 
 
-public class DynastyScrapeOnePageWiki extends BasicDataCrawler {
+public class DynastySingleWiki extends BasicDataCrawler {
 	private LinkedList<King> kingNames;
 
 	public void scraping() {
@@ -42,7 +42,7 @@ public class DynastyScrapeOnePageWiki extends BasicDataCrawler {
 		}
 	}
 
-	public DynastyScrapeOnePageWiki(String url) {
+	public DynastySingleWiki(String url) {
 		this.kingNames = new LinkedList<King>();	
                                     this.url = url;
 		connect();
@@ -53,7 +53,7 @@ public class DynastyScrapeOnePageWiki extends BasicDataCrawler {
 	}
 
 	public static void main(String[] args) {
-		DynastyScrapeOnePageWiki one = new DynastyScrapeOnePageWiki(
+		DynastySingleWiki one = new DynastySingleWiki(
 				"https://vi.wikipedia.org/wiki/Nh%C3%A0_Nguy%E1%BB%85n");
 		one.scraping();
 	}

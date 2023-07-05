@@ -37,79 +37,63 @@ public class FindKing extends BasicDataCrawler implements IWriteJson {
     }
 
     public void scraping() {
-        Elements firstTable = this.doc.select("table.toccolours");
-        Elements tables = doc.select("table");
-        for (Element t : firstTable) {
-            if (tables.contains(t)) {
-                tables.remove(t);
-            }
-        }
-        int lastTable = tables.size() - 1;
-        tables.remove(lastTable);
-        String strRegEx = "<sup[^?]*";
-        String attrRegEx = "<a[^?]*";
-        for (Element table : tables) {
-            Elements rows = table.select("tr");
-            for (Element row : rows) {
-                Elements datas = row.getElementsByTag("td");
-                if (datas.size() >= 10 && datas.size() < 18) {
-                    String name = datas.get(1).text();
-                    name = cleanData(name);
-                    // name = name.replaceAll(openRegEx, "");
-                    King king = new King(name);
-                    Element attr = datas.get(1).select("a").first();
-                    if (attr != null) {
-                        String url = attr.absUrl("href");
-                        System.out.println(url);
-                        king.setPaperURL(url);
-                    }
-
-                    String mieuHieu = datas.get(2).text();
-                    mieuHieu = cleanData(mieuHieu);
-                    // mieuHieu = mieuHieu.replaceAll(openRegEx,"");
-
-                    king.setMieuHieu(mieuHieu);
-                    String thuyHieu = datas.get(3).text();
-                    thuyHieu = cleanData(thuyHieu);
-                    // thuyHieu = thuyHieu.replaceAll(openRegEx,"");
-
-                    king.setThuyHieu(thuyHieu);
-                    String nienHieu = datas.get(4).text();
-                    // nienHieu = nienHieu.replaceAll(openRegEx,"");
-                    nienHieu = cleanData(nienHieu);
-                    king.setNienHieu(nienHieu);
-                    String tenHuy = datas.get(5).text();
-                    tenHuy = cleanData(tenHuy);
-                    king.setTenHuy(tenHuy);
-
-                    // tenHuy = tenHuy.replaceAll(openRegEx,"");
-                    String theThu = datas.get(6).text();
-                    // theThu.replace("[^\\[a-z\\]]", "");
-                    // theThu = theThu.replaceAll(strRegEx, "");
-                    // theThu = theThu.replaceAll(attrRegEx, "");
-                    theThu = cleanData(theThu);
-                    king.setTheThu(theThu);
-                    String namTriVi = datas.get(7).html();
-
-                    namTriVi = namTriVi.replaceAll(strRegEx, "");
-                    String ngang = datas.get(8).text();
-                    String end = datas.get(9).html();
-                    end = end.replaceAll(strRegEx, "");
-                    // end = end.replaceAll(strRegEx, "");
-                    namTriVi = namTriVi.concat(ngang);
-                    namTriVi = namTriVi.concat(end);
-                    namTriVi = namTriVi.replaceAll(attrRegEx, "");
-                    namTriVi = cleanData(namTriVi);
-                    // System.out.println(namTriVi);
-                    king.setNamTriVi(namTriVi);
-                    if (!mieuHieu.equals("")) {
-                        kings.add(king);
-                    }
-                } else {
-                    continue;
-                }
-            }
-        }
+    	Elements tables = doc.select("#mw-content-text > div.mw-parser-output > table");
+		ArrayList<Element> kingTables = new ArrayList<>();
+		for (Element table : tables) {
+			Elements columns = table.select("tr:nth-child(2) > td");
+			if (columns.size()== 10) {
+				kingTables.add(table);
+			}
+		}
+		int identifier = 1;
+		for (Element table : kingTables) {
+			
+			//select so hang cua bang
+			Elements kingElements = table.select("tr");
+			//xu li neu bang khong co cai gi
+			if (kingElements.size() == 0) {
+				System.out.println("Data not found");
+				return;
+			}
+			for (int i = 1; i < kingElements.size(); i++) {
+				Element row = kingElements.get(i);
+				King king = new King();
+				//set cac attribute cho class king
+				Elements columns = row.select("td"); //chon cot
+				king.setId(identifier);
+				
+				String nameText = columns.get(1).text();
+				String name = nameText.replaceAll("\\[.*\\]", "").trim();
+				king.setName(name);
+				
+				String reignBeginText = columns.get(7).text();
+				String reignBegin = reignBeginText.replaceAll("\\[.*\\]", "").trim();
+				king.setReignBegin(reignBegin);
+				
+				String reignEndText = columns.get(9).text();
+				String reignEnd = reignEndText.replaceAll("\\[.*\\]", "").trim();
+				king.setReignEnd(reignEnd);
+				
+				ArrayList<String> aliases = new ArrayList<>();
+				ArrayList<String> aliasesNone = new ArrayList<>();
+				for (int j = 2; j < 6; j++) {
+					String aliasText = columns.get(j).text();
+					String alias = aliasText.replaceAll("\\[.*\\]", "").trim();
+					if ((alias.equals("không rõ")) || (alias.equals("không có"))) {
+						aliasesNone.add(alias);
+					} else {
+						aliases.add(alias);
+					}
+				}
+				king.setAliases(aliases);
+				
+				king.setPaperURL(columns.get(1).select("> b > a").attr("href"));
+				
+				//cho phan tu vao list kings
+				kings.add(king);
+				identifier++;
+			}
+		}
     }
 
     public String cleanData(String sample) {
@@ -136,7 +120,7 @@ public class FindKing extends BasicDataCrawler implements IWriteJson {
 
     @Override
     public void writeJSon() throws JsonIOException, IOException {
-        String filePath = "D:\\webCrawler\\jSoupWebCrawler\\src\\data\\king.json";
+        String filePath = new File(System.getProperty("user.dir")).getParent() + "/OOP-Project/OOP-BIG/src/main/data/kings.json";
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try {
             FileWriter writer = new FileWriter(new File(filePath));

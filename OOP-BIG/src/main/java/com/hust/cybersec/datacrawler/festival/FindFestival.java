@@ -28,18 +28,15 @@ public class FindFestival implements IWriteJson, ICombineData {
 
 	@Override
 	public void combine() {
-		LeHoiDaNang daNang = new LeHoiDaNang();
+		DaNangFestival daNang = new DaNangFestival();
 		daNang.scraping();
-		LeHoiTuyenQuang tuyenQuang = new LeHoiTuyenQuang();
+		TuyenQuangFestival tuyenQuang = new TuyenQuangFestival();
 		tuyenQuang.scraping();
-		LeHoiBacNinh bacNinh = new LeHoiBacNinh();
-		bacNinh.scraping();
-		LeHoiAnGiang anGiang = new LeHoiAnGiang();
+		AnGiangFestival anGiang = new AnGiangFestival();
 		anGiang.scraping();
-		Wikipedia obj = new Wikipedia();
+		WikiFestival obj = new WikiFestival();
 		obj.scraping();
 		list.addAll(tuyenQuang.getList());
-		list.addAll(bacNinh.getList());
 		list.addAll(anGiang.getList());
 		list.addAll(daNang.getList());
 		list.addAll(obj.getList());

@@ -1,21 +1,22 @@
 package com.hust.cybersec.objects;
 
 public abstract class HistoricalFigure {
+	protected int id;
 	protected String namSinh;
 	protected String namMat;
-	protected String ten;
+	protected String name;
 
 	protected HistoricalFigure(String ten, String namSinh, String namMat) {
 		this.namMat = namMat;
 		this.namSinh = namSinh;
-		this.ten = ten;
+		this.name = ten;
 	}
 
 	public HistoricalFigure() {
 	}
 
 	public HistoricalFigure(String ten) {
-		this.ten = ten;
+		this.name = ten;
 	}
 
 	public String getNamSinh() {
@@ -34,12 +35,16 @@ public abstract class HistoricalFigure {
 		this.namMat = namMat;
 	}
 
-	public String getTen() {
-		return ten;
+	public String getName() {
+		return name;
 	}
 
-	public void setTen(String ten) {
-		this.ten = ten;
+	public void setName(String ten) {
+		this.name = ten;
+	}
+
+	public int getId() {
+		return id;
 	}
 
 }

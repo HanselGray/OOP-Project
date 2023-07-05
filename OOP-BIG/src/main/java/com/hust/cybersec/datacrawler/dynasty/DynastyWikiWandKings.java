@@ -10,7 +10,7 @@ import org.jsoup.select.Elements;
 
 
 
-public class DynastyScrapeWikiWandKings extends BasicDataCrawler {
+public class DynastyWikiWandKings extends BasicDataCrawler {
 	private String tenTrieuDai;
 	private LinkedList<King> kings;
 
@@ -18,7 +18,7 @@ public class DynastyScrapeWikiWandKings extends BasicDataCrawler {
 		return tenTrieuDai;
 	}
 
-	public DynastyScrapeWikiWandKings(String tenTrieuDai) {
+	public DynastyWikiWandKings(String tenTrieuDai) {
 		this.tenTrieuDai = tenTrieuDai;
 		this.kings = new LinkedList<King>();
 		this.url = "https://www.wikiwand.com/vi/B%E1%BA%A3n_m%E1%BA%ABu:Danh_s%C3%A1ch_vua_v%C3%A0_ho%C3%A0ng_%C4%91%E1%BA%BF_Vi%E1%BB%87t_Nam";		
@@ -66,7 +66,7 @@ public class DynastyScrapeWikiWandKings extends BasicDataCrawler {
 		remained.add("Họ Khúc");
 		remained.add("Nhà Thục");
 		for (String s : remained) {
-			DynastyScrapeWikiWandKings d = new DynastyScrapeWikiWandKings(s);
+			DynastyWikiWandKings d = new DynastyWikiWandKings(s);
 			d.scraping();
 			System.out.println(s);
 			System.out.println(d.getKings().size());

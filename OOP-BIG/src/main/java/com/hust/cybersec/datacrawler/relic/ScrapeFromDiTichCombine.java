@@ -10,20 +10,20 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
 import com.hust.cybersec.datacrawler.interfaces.ICombineData;
 import com.hust.cybersec.datacrawler.interfaces.IWriteJson;
-import com.hust.cybersec.datalinker.LinkRelicWithFigureAndDynasty;
+import com.hust.cybersec.datalinker.LinkData;
 import com.hust.cybersec.objects.Dynasty;
 import com.hust.cybersec.objects.Figure;
 import com.hust.cybersec.objects.King;
 import com.hust.cybersec.objects.Relic;
 
-public class RelicScrapeDiTich implements ICombineData, IWriteJson {
+public class ScrapeFromDiTichCombine implements ICombineData, IWriteJson {
 
     private LinkedList<Relic> relics;
     private int lienKetKing = 0;
     private int lienKetDynasty = 0;
     private int lienKetFigure = 0;
 
-    public RelicScrapeDiTich() throws IOException {
+    public ScrapeFromDiTichCombine() throws IOException {
         relics = new LinkedList<Relic>();
     }
 
@@ -54,7 +54,7 @@ public class RelicScrapeDiTich implements ICombineData, IWriteJson {
     }
 
     public static void main(String[] args) throws JsonIOException, IOException {
-        RelicScrapeDiTich rd = new RelicScrapeDiTich();
+        ScrapeFromDiTichCombine rd = new ScrapeFromDiTichCombine();
         rd.combine();
         rd.writeJSon();
     }
@@ -65,13 +65,13 @@ public class RelicScrapeDiTich implements ICombineData, IWriteJson {
 
     @Override
     public void combine() throws IOException {
-        LinkRelicWithFigureAndDynasty linkRelic = new LinkRelicWithFigureAndDynasty();
+        LinkData linkRelic = new LinkData();
 
         String baseUrl = "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId="; // 6193 - 1865
         for (int i = 1865; i <= 6139; i++) {
 
             String url = baseUrl + Integer.toString(i);
-            RelicScrapeDiTichOnePage r = new RelicScrapeDiTichOnePage(url);
+            ScrapeFromDiTichOnePage r = new ScrapeFromDiTichOnePage(url);
             r.scraping();
             if (r.getName().strip() != "") {
                 System.out.println(i);

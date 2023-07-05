@@ -8,11 +8,11 @@ import com.hust.cybersec.objects.King;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class DynastyScrapeWikiFounder extends BasicDataCrawler {
+public class DynastyFounder extends BasicDataCrawler {
 
     private LinkedList<Dynasty> dynastys;
 
-    public DynastyScrapeWikiFounder() {
+    public DynastyFounder() {
         this.url = "https://vi.wikipedia.org/wiki/Vua_Vi%E1%BB%87t_Nam";    
         connect();
         this.dynastys = new LinkedList<>();
@@ -24,8 +24,8 @@ public class DynastyScrapeWikiFounder extends BasicDataCrawler {
     }
 
     public void scraping() {
-        DynastyScrapeName names;
-        names = new DynastyScrapeName();
+        DynastyName names;
+        names = new DynastyName();
         names.scraping();
         Elements data = this.getDoc().select("#mw-content-text > div.mw-parser-output > table > tbody > tr");
         for (Element e : data) {
@@ -52,7 +52,7 @@ public class DynastyScrapeWikiFounder extends BasicDataCrawler {
     }
 
     public static void main(String[] args) {
-        DynastyScrapeWikiFounder w = new DynastyScrapeWikiFounder();
+        DynastyFounder w = new DynastyFounder();
         w.scraping();
     }
 }

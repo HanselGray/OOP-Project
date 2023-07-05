@@ -10,11 +10,11 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
 import com.hust.cybersec.datacrawler.interfaces.ICombineData;
 import com.hust.cybersec.datacrawler.interfaces.IWriteJson;
-import com.hust.cybersec.objects.SuKien;
+import com.hust.cybersec.objects.Event;
 
 public class ScrapeEvent implements IWriteJson, ICombineData {
 
-    private LinkedList<SuKien> list = new LinkedList<>();
+    private LinkedList<Event> list = new LinkedList<>();
 
     public static void main(String[] args) {
         ScrapeEvent event = new ScrapeEvent();
@@ -28,9 +28,9 @@ public class ScrapeEvent implements IWriteJson, ICombineData {
 
     @Override
     public void combine() {
-        SuKienLonTuWiki sukien = new SuKienLonTuWiki();
+        BigEventWiki sukien = new BigEventWiki();
         sukien.scraping();
-        TranDanhLon trandanh = new TranDanhLon();
+        Battle trandanh = new Battle();
         trandanh.scraping();
         list.addAll(sukien.getList());
         list.addAll(trandanh.getList());

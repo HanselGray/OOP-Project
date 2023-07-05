@@ -4,12 +4,12 @@ import com.hust.cybersec.datacrawler.basic_data_crawler.BasicDataCrawler;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class DynastyScrapeWikiCapital extends BasicDataCrawler {
+public class DynastyCapital extends BasicDataCrawler {
 
     private String capital;
     private String tenTrieuDai;
 
-    public DynastyScrapeWikiCapital(String tenTrieuDai) {
+    public DynastyCapital(String tenTrieuDai) {
         this.tenTrieuDai = tenTrieuDai;
         this.url = "https://vi.wikipedia.org/wiki/Th%E1%BB%A7_%C4%91%C3%B4_Vi%E1%BB%87t_Nam";
         connect();
@@ -75,11 +75,11 @@ public class DynastyScrapeWikiCapital extends BasicDataCrawler {
     }
 
     public static void main(String[] args) {
-        DynastyScrapeName names = new DynastyScrapeName();
+        DynastyName names = new DynastyName();
         names.scraping();
         for (String e : names.getDynasty_names()) {
             // System.out.println("*"+e+"*");
-            DynastyScrapeWikiCapital c = new DynastyScrapeWikiCapital(e);
+            DynastyCapital c = new DynastyCapital(e);
             c.scraping();
             // Dynasty dynasty = new Dynasty(y.getBeginYear(), y.getEndYear(),
             // y.getTenTrieuDai());

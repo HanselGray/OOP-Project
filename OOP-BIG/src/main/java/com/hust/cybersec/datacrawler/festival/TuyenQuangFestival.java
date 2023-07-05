@@ -6,9 +6,9 @@ import org.jsoup.nodes.Element;
 
 import org.jsoup.select.Elements;
 
-public class LeHoiTuyenQuang extends BasicFindFestival {
+public class TuyenQuangFestival extends FindFestivalAbstract {
 
-    public LeHoiTuyenQuang() {
+    public TuyenQuangFestival() {
         this.url = "https://alltours.vn/tuyen-quang/cac-le-hoi-o-tuyen-quang.html";
         connect();
     }

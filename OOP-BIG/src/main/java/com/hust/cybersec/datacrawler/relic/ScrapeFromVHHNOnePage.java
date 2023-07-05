@@ -9,7 +9,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 
-public class RelicScrapeVHHNOnePage extends BasicDataCrawler{
+public class ScrapeFromVHHNOnePage extends BasicDataCrawler{
 	private LinkedList<Relic> relics;
 	private int lienKetKing = 0;
 	private int lienKetDynasty = 0;
@@ -35,7 +35,7 @@ public class RelicScrapeVHHNOnePage extends BasicDataCrawler{
 		return lienKetFigure;
 	}
 
-	public RelicScrapeVHHNOnePage(int i) {
+	public ScrapeFromVHHNOnePage(int i) {
 		relics = new LinkedList<Relic>();
 		String baseUrl = "http://ditichlichsu-vanhoahanoi.com/category/2dtlsvh/page/";
 		this.url = baseUrl + Integer.toString(i) + "/";		
@@ -48,7 +48,7 @@ public class RelicScrapeVHHNOnePage extends BasicDataCrawler{
 		for (Element e: aData) {
 			String boxUrl = e.attr("href");
 			System.out.println(boxUrl);
-			RelicScrapeVHHNOneBox h = new RelicScrapeVHHNOneBox(boxUrl);
+			ScrapeFromVHHNOneBox h = new ScrapeFromVHHNOneBox(boxUrl);
 			h.scraping();
 			lienKetDynasty += h.getLienKetDynasty();
 			lienKetKing += h.getLienKetKing();
@@ -58,7 +58,7 @@ public class RelicScrapeVHHNOnePage extends BasicDataCrawler{
 	}
 	
 	public static void main(String[] args) throws IOException {
-		RelicScrapeVHHNOnePage r = new RelicScrapeVHHNOnePage(1);
+		ScrapeFromVHHNOnePage r = new ScrapeFromVHHNOnePage(1);
 		r.scraping();
 	}
 }

@@ -5,14 +5,14 @@ import com.hust.cybersec.objects.Relic;
 import java.io.IOException;
 import java.util.LinkedList;
 
-public class RelicScrapeVHHN implements ICombineData {
+public class ScrapeFromVHHNCombine implements ICombineData {
 
     private LinkedList<Relic> relics;
     private int lienKetKing = 0;
     private int lienKetDynasty = 0;
     private int lienKetFigure = 0;
 
-    public RelicScrapeVHHN() throws IOException {
+    public ScrapeFromVHHNCombine() throws IOException {
         relics = new LinkedList<>();
     }
 
@@ -33,7 +33,7 @@ public class RelicScrapeVHHN implements ICombineData {
     }
 
     public static void main(String[] args) throws IOException {
-        RelicScrapeVHHN r = new RelicScrapeVHHN();
+        ScrapeFromVHHNCombine r = new ScrapeFromVHHNCombine();
         r.combine();
     }
 
@@ -41,7 +41,7 @@ public class RelicScrapeVHHN implements ICombineData {
     public void combine() throws IOException {
         int cnt = 0;
         for (int i = 1; i <= 44; i++) {
-            RelicScrapeVHHNOnePage r_one = new RelicScrapeVHHNOnePage(i);
+            ScrapeFromVHHNOnePage r_one = new ScrapeFromVHHNOnePage(i);
             r_one.scraping();
             cnt += r_one.getRelics().size();
             lienKetDynasty += r_one.getLienKetDynasty();

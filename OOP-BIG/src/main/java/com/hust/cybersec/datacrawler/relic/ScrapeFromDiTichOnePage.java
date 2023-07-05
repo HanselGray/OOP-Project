@@ -5,14 +5,14 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 
-public class RelicScrapeDiTichOnePage extends BasicDataCrawler {
+public class ScrapeFromDiTichOnePage extends BasicDataCrawler {
 	private String type;
 	private String rank;
 	private String person;
 	private String name;
 	private String address;
 	
-	public RelicScrapeDiTichOnePage(String url) {
+	public ScrapeFromDiTichOnePage(String url) {
 		this.url = url;
 		connect();
 	}
@@ -58,12 +58,6 @@ public class RelicScrapeDiTichOnePage extends BasicDataCrawler {
 			this.person = personB.toString().replace("Đối tượng thờ: ", "");
 		}
 		
-		
-//		System.out.println(person);
-//		System.out.println(rank);
-//		System.out.println(type);
-		
-		
 	}
 	
 	public String getType() {
@@ -91,7 +85,7 @@ public class RelicScrapeDiTichOnePage extends BasicDataCrawler {
 		for (int i = 1865;i<=6139;i++) {
 			System.out.println(i);
 			String url = baseUrl + Integer.toString(i);
-			RelicScrapeDiTichOnePage r = new RelicScrapeDiTichOnePage(url);
+			ScrapeFromDiTichOnePage r = new ScrapeFromDiTichOnePage(url);
 			r.scraping();
 		}
 		
