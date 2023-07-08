@@ -1,6 +1,6 @@
 package com.hust.cybersec.objects;
 
-import java.util.ArrayList;
+import java.util.List;
 
 
 public class Relic{
@@ -8,9 +8,9 @@ public class Relic{
 	private String type;
 	private String rank;
 	private String desc;
-	private ArrayList<Figure> figures;
-	private ArrayList<King> kings;
-	private ArrayList<Dynasty> dynastys;
+	private List<Figure> figures;
+	private List<King> kings;
+	private List<Dynasty> dynastys;
 	private String name;
 	
 	public String getName() {
@@ -21,19 +21,19 @@ public class Relic{
 		this.name = name;
 	}
 	
-	public ArrayList<Figure> getFigures() {
+	public List<Figure> getFigures() {
 		return figures;
 	}
 
-	public void setFigures(ArrayList<Figure> figures) {
+	public void setFigures(List<Figure> figures) {
 		this.figures = figures;
 	}
 
-	public ArrayList<King> getKings() {
+	public List<King> getKings() {
 		return kings;
 	}
 
-	public void setKings(ArrayList<King> kings) {
+	public void setKings(List<King> kings) {
 		this.kings = kings;
 	}
 
@@ -61,11 +61,11 @@ public class Relic{
 		this.desc = desc;
 	}
 
-	public ArrayList<Dynasty> getDynastys() {
+	public List<Dynasty> getDynastys() {
 		return dynastys;
 	}
 
-	public void setDynastys(ArrayList<Dynasty> dynastys) {
+	public void setDynastys(List<Dynasty> dynastys) {
 		this.dynastys = dynastys;
 	}
 
@@ -77,8 +77,8 @@ public class Relic{
 		this.rank = rank;
 	}
 
-	public Relic(String name, String location, String type, String rank, String desc, ArrayList<Figure> figures,
-			ArrayList<King> kings, ArrayList<Dynasty> dynastys) {
+	public Relic(String name, String location, String type, String rank, String desc, List<Figure> figures,
+			List<King> kings, List<Dynasty> dynastys) {
 		super();
 		this.name = name;
 		this.location = location;

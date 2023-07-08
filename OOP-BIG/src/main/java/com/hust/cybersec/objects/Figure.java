@@ -16,7 +16,7 @@ public class Figure extends HistoricalFigure {
 	private String otherAliases;
 	private King doiVua;
 
-	private ArrayList<Dynasty> dynasty = new ArrayList<>();
+	private List<Dynasty> dynasty = new ArrayList<>();
 
 	public void setOtherAliases(String otherAliases) {
 		this.otherAliases = otherAliases;
@@ -115,11 +115,11 @@ public class Figure extends HistoricalFigure {
 		this.notes = notes;
 	}
 
-	public ArrayList<Dynasty> getDynasty() {
+	public List<Dynasty> getDynasty() {
 		return dynasty;
 	}
 
-	public void setDynasty(ArrayList<Dynasty> dynasty) {
+	public void setDynasty(List<Dynasty> dynasty) {
 		this.dynasty = dynasty;
 	}
 

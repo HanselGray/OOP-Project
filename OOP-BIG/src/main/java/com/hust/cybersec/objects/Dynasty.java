@@ -1,6 +1,6 @@
 package com.hust.cybersec.objects;
 
-import java.util.LinkedList;
+import java.util.List;
 import java.util.Objects;
 
 public class Dynasty {
@@ -8,7 +8,7 @@ public class Dynasty {
     private String startYear;
     private String endYear;
     private String name;
-    private LinkedList<King> kings;
+    private List<King> kings;
     private String capital;
     private King founder;
 
@@ -21,7 +21,7 @@ public class Dynasty {
         this.name = name;
     }
 
-    public Dynasty(String startYear, String endYear, String name, LinkedList<King> kings, String capital,
+    public Dynasty(String startYear, String endYear, String name, List<King> kings, String capital,
             King founder) {
         super();
         this.startYear = startYear;
@@ -71,11 +71,11 @@ public class Dynasty {
         this.name = name;
     }
 
-    public LinkedList<King> getKings() {
+    public List<King> getKings() {
         return kings;
     }
 
-    public void setKings(LinkedList<King> kings) {
+    public void setKings(List<King> kings) {
         this.kings = kings;
     }
 

@@ -8,8 +8,8 @@ public class King extends HistoricalFigure {
     private String reignBegin;
     private String reignEnd;
     private List<String> aliases = new ArrayList<>();
-    private LinkedList<Dynasty> relatedDynasty = new LinkedList<>();
-    private LinkedList<Relic>  relatedRelic = new LinkedList<>();
+    private List<Dynasty> relatedDynasty = new ArrayList<>();
+    private List<Relic>  relatedRelic = new ArrayList<>();
 
     public King(String name) {
         super(name);
@@ -54,19 +54,19 @@ public class King extends HistoricalFigure {
         this.id = id;
     }
 
-    public LinkedList<Dynasty> getRelatedDynasty() {
+    public List<Dynasty> getRelatedDynasty() {
         return relatedDynasty;
     }
 
-    public void setRelatedDynasty(LinkedList<Dynasty> relatedDynasty) {
+    public void setRelatedDynasty(List<Dynasty> relatedDynasty) {
         this.relatedDynasty = relatedDynasty;
     }
 
-    public void setRelatedRelic(LinkedList<Relic> relatedRelic) {
+    public void setRelatedRelic(List<Relic> relatedRelic) {
         this.relatedRelic = relatedRelic;
     }
        
-    public LinkedList<Relic> getRelatedRelic() {
+    public List<Relic> getRelatedRelic() {
         return relatedRelic;
     }
     

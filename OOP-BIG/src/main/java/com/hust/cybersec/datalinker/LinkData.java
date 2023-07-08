@@ -26,10 +26,10 @@ public class LinkData {
     }
 
     public void genLink(String relatedFigure) {
-        this.figures = new List<Figure>();
-        this.kings = new List<King>();
-        this.dynastys = new List<Dynasty>();
-        this.added = new List<String>();
+        this.figures = new ArrayList<Figure>();
+        this.kings = new ArrayList<King>();
+        this.dynastys = new ArrayList<Dynasty>();
+        this.added = new ArrayList<String>();
 
         for (King king : listObservablesKing) {
             if (king.getName() != null && relatedFigure.toLowerCase().contains(king.getName().toLowerCase())) {
