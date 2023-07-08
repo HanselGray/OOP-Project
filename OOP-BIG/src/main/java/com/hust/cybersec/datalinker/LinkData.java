@@ -1,7 +1,7 @@
 package com.hust.cybersec.datalinker;
 
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 import com.hust.cybersec.application.datareader.ReadData;
 import com.hust.cybersec.objects.Dynasty;
 import com.hust.cybersec.objects.Figure;
@@ -12,10 +12,10 @@ public class LinkData {
 
     List<Figure> listObservablesFigure;
     List<King> listObservablesKing;
-    private ArrayList<Figure> figures;
-    private ArrayList<King> kings;
-    private ArrayList<Dynasty> dynastys;
-    private ArrayList<String> added;
+    private List<Figure> figures;
+    private List<King> kings;
+    private List<Dynasty> dynastys;
+    private List<String> added;
 
     public LinkData() throws IOException {
         listObservablesFigure = new ReadData<Figure>()
@@ -26,10 +26,10 @@ public class LinkData {
     }
 
     public void genLink(String relatedFigure) {
-        this.figures = new ArrayList<Figure>();
-        this.kings = new ArrayList<King>();
-        this.dynastys = new ArrayList<Dynasty>();
-        this.added = new ArrayList<String>();
+        this.figures = new List<Figure>();
+        this.kings = new List<King>();
+        this.dynastys = new List<Dynasty>();
+        this.added = new List<String>();
 
         for (King king : listObservablesKing) {
             if (king.getName() != null && relatedFigure.toLowerCase().contains(king.getName().toLowerCase())) {
@@ -67,15 +67,15 @@ public class LinkData {
         }
     }
 
-    public ArrayList<Figure> getFigures() {
+    public List<Figure> getFigures() {
         return figures;
     }
 
-    public ArrayList<King> getKings() {
+    public List<King> getKings() {
         return kings;
     }
 
-    public ArrayList<Dynasty> getDynastys() {
+    public List<Dynasty> getDynastys() {
         return dynastys;
     }
 
