@@ -3,8 +3,6 @@ package com.hust.cybersec.datacrawler.history_figures;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
-import com.hust.cybersec.datacrawler.interfaces.ICombineData;
-import com.hust.cybersec.datacrawler.interfaces.IWriteJson;
 import com.hust.cybersec.objects.Dynasty;
 import com.hust.cybersec.objects.Figure;
 import java.io.File;
@@ -12,8 +10,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import com.hust.cybersec.datacrawler.interfaces.DataCombine;
+import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class FigureScrapeMain implements IWriteJson, ICombineData {
+public class FigureScrapeMain implements WriteToJSON, DataCombine {
 
     private LinkedList<Figure> list = new LinkedList<>();
 

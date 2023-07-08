@@ -8,12 +8,12 @@ import java.util.LinkedList;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
-import com.hust.cybersec.datacrawler.interfaces.ICombineData;
-import com.hust.cybersec.datacrawler.interfaces.IWriteJson;
 import com.hust.cybersec.objects.Dynasty;
 import com.hust.cybersec.objects.King;
+import com.hust.cybersec.datacrawler.interfaces.DataCombine;
+import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class DynastyScrapeMain implements ICombineData, IWriteJson {
+public class DynastyScrapeMain implements DataCombine, WriteToJSON {
 
     private DynastyName crawlNames;
     private DynastyFounder crawlFounder;

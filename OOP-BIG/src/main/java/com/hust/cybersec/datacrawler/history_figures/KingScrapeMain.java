@@ -4,7 +4,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
 import com.hust.cybersec.datacrawler.basic_data_crawler.BasicDataCrawler;
-import com.hust.cybersec.datacrawler.interfaces.IWriteJson;
 import com.hust.cybersec.objects.King;
 
 import java.io.File;
@@ -14,8 +13,9 @@ import java.util.ArrayList;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class KingScrapeMain extends BasicDataCrawler implements IWriteJson {
+public class KingScrapeMain extends BasicDataCrawler implements WriteToJSON {
 
     private ArrayList<King> kings = new ArrayList<King>();
 

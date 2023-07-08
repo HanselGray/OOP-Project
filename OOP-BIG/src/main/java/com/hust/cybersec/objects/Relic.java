@@ -1,6 +1,6 @@
 package com.hust.cybersec.objects;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 
 public class Relic{
@@ -8,9 +8,9 @@ public class Relic{
 	private String type;
 	private String rank;
 	private String desc;
-	private LinkedList<Figure> figures;
-	private LinkedList<King> kings;
-	private LinkedList<Dynasty> dynastys;
+	private ArrayList<Figure> figures;
+	private ArrayList<King> kings;
+	private ArrayList<Dynasty> dynastys;
 	private String name;
 	
 	public String getName() {
@@ -21,19 +21,19 @@ public class Relic{
 		this.name = name;
 	}
 	
-	public LinkedList<Figure> getFigures() {
+	public ArrayList<Figure> getFigures() {
 		return figures;
 	}
 
-	public void setFigures(LinkedList<Figure> figures) {
+	public void setFigures(ArrayList<Figure> figures) {
 		this.figures = figures;
 	}
 
-	public LinkedList<King> getKings() {
+	public ArrayList<King> getKings() {
 		return kings;
 	}
 
-	public void setKings(LinkedList<King> kings) {
+	public void setKings(ArrayList<King> kings) {
 		this.kings = kings;
 	}
 
@@ -61,11 +61,11 @@ public class Relic{
 		this.desc = desc;
 	}
 
-	public LinkedList<Dynasty> getDynastys() {
+	public ArrayList<Dynasty> getDynastys() {
 		return dynastys;
 	}
 
-	public void setDynastys(LinkedList<Dynasty> dynastys) {
+	public void setDynastys(ArrayList<Dynasty> dynastys) {
 		this.dynastys = dynastys;
 	}
 
@@ -77,8 +77,8 @@ public class Relic{
 		this.rank = rank;
 	}
 
-	public Relic(String name, String location, String type, String rank, String desc, LinkedList<Figure> figures,
-			LinkedList<King> kings, LinkedList<Dynasty> dynastys) {
+	public Relic(String name, String location, String type, String rank, String desc, ArrayList<Figure> figures,
+			ArrayList<King> kings, ArrayList<Dynasty> dynastys) {
 		super();
 		this.name = name;
 		this.location = location;

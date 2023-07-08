@@ -1,7 +1,7 @@
 package com.hust.cybersec.datalinker;
 
 import java.io.IOException;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import com.hust.cybersec.application.datareader.ReadData;
 import com.hust.cybersec.objects.Dynasty;
 import com.hust.cybersec.objects.Figure;
@@ -12,10 +12,10 @@ public class LinkData {
 
     List<Figure> listObservablesFigure;
     List<King> listObservablesKing;
-    private LinkedList<Figure> figures;
-    private LinkedList<King> kings;
-    private LinkedList<Dynasty> dynastys;
-    private LinkedList<String> added;
+    private ArrayList<Figure> figures;
+    private ArrayList<King> kings;
+    private ArrayList<Dynasty> dynastys;
+    private ArrayList<String> added;
 
     public LinkData() throws IOException {
         listObservablesFigure = new ReadData<Figure>()
@@ -26,25 +26,56 @@ public class LinkData {
     }
 
     public void genLink(String relatedFigure) {
-        this.figures = new LinkedList<Figure>();
-        this.kings = new LinkedList<King>();
-        this.dynastys = new LinkedList<Dynasty>();
-        this.added = new LinkedList<String>();
+        this.figures = new ArrayList<Figure>();
+        this.kings = new ArrayList<King>();
+        this.dynastys = new ArrayList<Dynasty>();
+        this.added = new ArrayList<String>();
 
-        for (King f : listObservablesKing) {
+        for (King king : listObservablesKing) {
+            if (king.getName() != null && relatedFigure.toLowerCase().contains(king.getName().toLowerCase())) {
+                kings.add(king);
+                continue;
+            }
+            for (String allias : king.getAliases()) {
+                if (relatedFigure.toLowerCase().contains(allias.toLowerCase())) {
+                    kings.add(king);
+                    break;
+                }
+            }
+        }
 
+        for (Figure f : listObservablesFigure) {
+            if (f.getName() != null && relatedFigure.toLowerCase().contains(f.getName().toLowerCase())) {
+                figures.add(f);
+                for (Dynasty d : f.getDynasty()) {
+                    if (!added.contains(d.getName())) {
+                        added.add(d.getName());
+                        dynastys.add(d);
+                    }
+                }
+                continue;
+            }
+            if (f.getOtherAliases() != null && relatedFigure.toLowerCase().contains(f.getOtherAliases().toLowerCase())) {
+                figures.add(f);
+                for (Dynasty d : f.getDynasty()) {
+                    if (!added.contains(d.getName())) {
+                        added.add(d.getName());
+                        dynastys.add(d);
+                    }
+                }
+            }
         }
     }
 
-    public LinkedList<Figure> getFigures() {
+    public ArrayList<Figure> getFigures() {
         return figures;
     }
 
-    public LinkedList<King> getKings() {
+    public ArrayList<King> getKings() {
         return kings;
     }
 
-    public LinkedList<Dynasty> getDynastys() {
+    public ArrayList<Dynasty> getDynastys() {
         return dynastys;
     }
 

@@ -3,25 +3,25 @@ package com.hust.cybersec.datacrawler.relic;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
-import com.hust.cybersec.datacrawler.interfaces.ICombineData;
-import com.hust.cybersec.datacrawler.interfaces.IWriteJson;
 import com.hust.cybersec.datalinker.LinkData;
 import com.hust.cybersec.objects.Dynasty;
 import com.hust.cybersec.objects.Figure;
 import com.hust.cybersec.objects.King;
 import com.hust.cybersec.objects.Relic;
+import com.hust.cybersec.datacrawler.interfaces.DataCombine;
+import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class ScrapeFromDiTichCombine implements ICombineData, IWriteJson {
+public class ScrapeFromDiTichCombine implements DataCombine, WriteToJSON {
 
-    private LinkedList<Relic> relics;
+    private ArrayList<Relic> relics;
 
     public ScrapeFromDiTichCombine() throws IOException {
-        relics = new LinkedList<Relic>();
+        relics = new ArrayList<Relic>();
     }
 
     @Override
@@ -44,7 +44,7 @@ public class ScrapeFromDiTichCombine implements ICombineData, IWriteJson {
         rd.writeJSon();
     }
 
-    public LinkedList<Relic> getRelics() {
+    public ArrayList<Relic> getRelics() {
         return relics;
     }
 
@@ -66,9 +66,9 @@ public class ScrapeFromDiTichCombine implements ICombineData, IWriteJson {
                 String tenNguoiTho = r.getPerson();
 
                 linkRelic.genLink(tenNguoiTho);
-                LinkedList<Figure> figures = linkRelic.getFigures();
-                LinkedList<King> kings = linkRelic.getKings();
-                LinkedList<Dynasty> dynastys = linkRelic.getDynastys();
+                ArrayList<Figure> figures = linkRelic.getFigures();
+                ArrayList<King> kings = linkRelic.getKings();
+                ArrayList<Dynasty> dynastys = linkRelic.getDynastys();
 
                 Relic r1 = new Relic(r.getName(), r.getAddress(), r.getType(), r.getRank(), tenNguoiTho, figures, kings,
                         dynastys);

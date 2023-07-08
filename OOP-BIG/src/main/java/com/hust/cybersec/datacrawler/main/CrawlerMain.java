@@ -7,10 +7,10 @@ import com.hust.cybersec.datacrawler.dynasty.DynastyScrapeMain;
 import com.hust.cybersec.datacrawler.event.ScrapeEvent;
 import com.hust.cybersec.datacrawler.history_figures.FigureScrapeMain;
 import com.hust.cybersec.datacrawler.history_figures.KingScrapeMain;
-import com.hust.cybersec.datacrawler.interfaces.ICombineData;
 import com.hust.cybersec.datacrawler.relic.RelicScrapeFull;
+import com.hust.cybersec.datacrawler.interfaces.DataCombine;
 
-public class CrawlerMain implements ICombineData {
+public class CrawlerMain implements DataCombine {
 	private DynastyScrapeMain dynasty; 
 	private RelicScrapeFull relic;
 	private KingScrapeMain king;

@@ -1,11 +1,11 @@
 package com.hust.cybersec.datacrawler.relic;
 
-import com.hust.cybersec.datacrawler.interfaces.ICombineData;
 import com.hust.cybersec.objects.Relic;
 import java.io.IOException;
 import java.util.LinkedList;
+import com.hust.cybersec.datacrawler.interfaces.DataCombine;
 
-public class ScrapeFromVHHNCombine implements ICombineData {
+public class ScrapeFromVHHNCombine implements DataCombine {
 
     private LinkedList<Relic> relics;
 

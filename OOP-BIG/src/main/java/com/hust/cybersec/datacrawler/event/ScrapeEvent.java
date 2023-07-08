@@ -8,11 +8,11 @@ import java.util.LinkedList;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
-import com.hust.cybersec.datacrawler.interfaces.ICombineData;
-import com.hust.cybersec.datacrawler.interfaces.IWriteJson;
 import com.hust.cybersec.objects.Event;
+import com.hust.cybersec.datacrawler.interfaces.DataCombine;
+import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class ScrapeEvent implements IWriteJson, ICombineData {
+public class ScrapeEvent implements WriteToJSON, DataCombine {
 
     private LinkedList<Event> list = new LinkedList<>();
 
