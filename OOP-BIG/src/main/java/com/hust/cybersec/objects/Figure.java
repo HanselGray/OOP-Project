@@ -8,52 +8,52 @@ import java.util.ArrayList;
 
 
 public class Figure extends HistoricalFigure {
-	private String queQuan;
-	private String danToc;
+	private String Hometown;
+	private String Ethnicity;
 	private String namNhapNgu;
-	private String ghiChu;
+	private String notes;
 	private String namDoTrangNguyen;
-	private String tenKhac;
+	private String otherAliases;
 	private King doiVua;
 
-	private ArrayList<Dynasty> trieuDai = new ArrayList<>();
+	private ArrayList<Dynasty> dynasty = new ArrayList<>();
 
-	public void setTenKhac(String tenKhac) {
-		this.tenKhac = tenKhac;
+	public void setOtherAliases(String otherAliases) {
+		this.otherAliases = otherAliases;
 	}
 
-	public String getTenKhac() {
-		return tenKhac;
+	public String getOtherAliases() {
+		return otherAliases;
 	}
 
-	public Figure(String ten, String namSinh, String namMat, String queQuan, String danToc, String namNhapNgu,
-			String ghiChu, String namDoTrangNguyen) {
+	public Figure(String ten, String namSinh, String namMat, String Hometown, String Ethnicity, String namNhapNgu,
+			String notes, String namDoTrangNguyen) {
 		super(ten, namSinh, namMat);
-		this.queQuan = queQuan;
-		this.danToc = danToc;
+		this.Hometown = Hometown;
+		this.Ethnicity = Ethnicity;
 		this.namNhapNgu = namNhapNgu;
-		this.ghiChu = ghiChu;
+		this.notes = notes;
 		this.namDoTrangNguyen = namDoTrangNguyen;
 
 	}
 
-	public Figure(String ten, String queQuan, String danToc, String namNhapNgu, String ghiChu,
+	public Figure(String ten, String Hometown, String Ethnicity, String namNhapNgu, String notes,
 			String namDoTrangNguyen) {
 		super(ten);
-		this.queQuan = queQuan;
-		this.danToc = danToc;
+		this.Hometown = Hometown;
+		this.Ethnicity = Ethnicity;
 		this.namNhapNgu = namNhapNgu;
-		this.ghiChu = ghiChu;
+		this.notes = notes;
 		this.namDoTrangNguyen = namDoTrangNguyen;
 	}
 
-	public Figure(String ten, String namSinh, String namMat, String queQuan, String ghiChu, String tenKhac,
-			ArrayList<Dynasty> trieuDai) {
+	public Figure(String ten, String namSinh, String namMat, String Hometown, String notes, String otherAliases,
+			ArrayList<Dynasty> dynasty) {
 		super(ten, namSinh, namMat);
-		this.queQuan = queQuan;
-		this.ghiChu = ghiChu;
-		this.tenKhac = tenKhac;
-		this.trieuDai = trieuDai;
+		this.Hometown = Hometown;
+		this.notes = notes;
+		this.otherAliases = otherAliases;
+		this.dynasty = dynasty;
 	}
 
 	public Figure() {
@@ -83,20 +83,20 @@ public class Figure extends HistoricalFigure {
 		super(ten, namSinh, namMat);
 	}
 
-	public String getQueQuan() {
-		return queQuan;
+	public String getHometown() {
+		return Hometown;
 	}
 
-	public void setQueQuan(String queQuan) {
-		this.queQuan = queQuan;
+	public void setHometown(String Hometown) {
+		this.Hometown = Hometown;
 	}
 
-	public String getDanToc() {
-		return danToc;
+	public String getEthnicity() {
+		return Ethnicity;
 	}
 
-	public void setDanToc(String danToc) {
-		this.danToc = danToc;
+	public void setEthnicity(String Ethnicity) {
+		this.Ethnicity = Ethnicity;
 	}
 
 	public String getNamNhapNgu() {
@@ -107,20 +107,20 @@ public class Figure extends HistoricalFigure {
 		this.namNhapNgu = namPhongChuc;
 	}
 
-	public String getGhiChu() {
-		return ghiChu;
+	public String getNotes() {
+		return notes;
 	}
 
-	public void setGhiChu(String ghiChu) {
-		this.ghiChu = ghiChu;
+	public void setNotes(String notes) {
+		this.notes = notes;
 	}
 
-	public ArrayList<Dynasty> getTrieuDai() {
-		return trieuDai;
+	public ArrayList<Dynasty> getDynasty() {
+		return dynasty;
 	}
 
-	public void setTrieuDai(ArrayList<Dynasty> trieuDai) {
-		this.trieuDai = trieuDai;
+	public void setDynasty(ArrayList<Dynasty> dynasty) {
+		this.dynasty = dynasty;
 	}
 
 }

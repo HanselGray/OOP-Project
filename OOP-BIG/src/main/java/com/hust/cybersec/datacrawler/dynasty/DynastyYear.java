@@ -8,31 +8,31 @@ import org.jsoup.select.Elements;
 import com.hust.cybersec.objects.Dynasty;
 
 public class DynastyYear extends BasicDataCrawler{
-	private String tenTrieuDai;
+	private String dynastyName;
 	private String beginYear;
 	private String endYear;
 
-	public DynastyYear(String tenTrieuDai) {
-		this.url = nameToUrl(tenTrieuDai);
-		this.tenTrieuDai = tenTrieuDai;		
+	public DynastyYear(String dynastyName) {
+		this.url = nameToUrl(dynastyName);
+		this.dynastyName = dynastyName;		
 		connect();
 	}
 
-	private String nameToUrl(String tenTrieuDaiCu) {
+	private String nameToUrl(String oldDynastyName) {
 		String baseUrl = "https://vi.wikipedia.org/wiki/";
-		String tenTrieuDai;
-		if (tenTrieuDaiCu.equals("Bắc thuộc lần I")) {
-			tenTrieuDai = "Thời kỳ Bắc thuộc lần thứ nhất";
-		}else if (tenTrieuDaiCu.equals("Bắc thuộc lần II")){
-			tenTrieuDai = "Thời kỳ Bắc thuộc lần thứ hai";
-		}else if (tenTrieuDaiCu.equals("Bắc thuộc lần III")){
-			tenTrieuDai = "Thời kỳ Bắc thuộc lần thứ ba";
-		}else if (tenTrieuDaiCu.equals("Bắc thuộc lần IV")){
-			tenTrieuDai = "Thời kỳ Bắc thuộc lần thứ tư";
+		String dynastyName;
+		if (oldDynastyName.equals("Bắc thuộc lần I")) {
+			dynastyName = "Thời kỳ Bắc thuộc lần thứ nhất";
+		}else if (oldDynastyName.equals("Bắc thuộc lần II")){
+			dynastyName = "Thời kỳ Bắc thuộc lần thứ hai";
+		}else if (oldDynastyName.equals("Bắc thuộc lần III")){
+			dynastyName = "Thời kỳ Bắc thuộc lần thứ ba";
+		}else if (oldDynastyName.equals("Bắc thuộc lần IV")){
+			dynastyName = "Thời kỳ Bắc thuộc lần thứ tư";
 		}else {
-			tenTrieuDai = tenTrieuDaiCu;
+			dynastyName = oldDynastyName;
 		}
-		String[] arrOfStr = tenTrieuDai.split(" ");
+		String[] arrOfStr = dynastyName.split(" ");
 		StringBuffer b = new StringBuffer();
 		b.append(baseUrl);
 		for (int i = 0; i < arrOfStr.length; i++) {
@@ -45,8 +45,8 @@ public class DynastyYear extends BasicDataCrawler{
 		return url;
 	}
 
-	public String getTenTrieuDai() {
-		return tenTrieuDai;
+	public String getdynastyName() {
+		return dynastyName;
 	}
 
 	public String getBeginYear() {
@@ -60,31 +60,31 @@ public class DynastyYear extends BasicDataCrawler{
 	public void scraping() {
 		// System.out.println(this.url);
 		String allYears;
-		if (this.tenTrieuDai.equals("Cộng hòa Xã hội Chủ nghĩa Việt Nam")) {
+		if (this.dynastyName.equals("Cộng hòa Xã hội Chủ nghĩa Việt Nam")) {
 			allYears = "1976–nay";
-		} else if (this.tenTrieuDai.equals("Thời tiền sử")) {
+		} else if (this.dynastyName.equals("Thời tiền sử")) {
 			allYears = "đầu–3100 TCN";
-		} else if (this.tenTrieuDai.equals("Hai Bà Trưng")) {
+		} else if (this.dynastyName.equals("Hai Bà Trưng")) {
 			Elements years = this.getDoc().select(
 					"#mw-content-text > div.mw-parser-output > table.infobox > tbody > tr:nth-child(4) > td > a");
 			beginYear = years.get(0).attr("title");
 			endYear = years.get(1).attr("title");
 			allYears = beginYear + "–" + endYear;
-		} else if (this.tenTrieuDai.equals("Nhà Trần")) {
+		} else if (this.dynastyName.equals("Nhà Trần")) {
 			Elements years = this.getDoc().select(
 					"#mw-content-text > div.mw-parser-output > div.mw-stack.stack-container.stack-right > div:nth-child(1) > table > tbody > tr:nth-child(3) > td");
 			allYears = years.text();
-		} else if (this.tenTrieuDai.equals("Nhà Hậu Lê")) {
+		} else if (this.dynastyName.equals("Nhà Hậu Lê")) {
 			allYears = "1427–1789";
-		} else if (this.tenTrieuDai.equals("Họ Khúc")) {
+		} else if (this.dynastyName.equals("Họ Khúc")) {
 			allYears = "923–930";
-		} else if (this.tenTrieuDai.equals("Hồng Bàng thị")) {
+		} else if (this.dynastyName.equals("Hồng Bàng thị")) {
 			allYears = "2879 TCN–258 TCN";
-		} else if (this.tenTrieuDai.equals("Tự chủ")) {
+		} else if (this.dynastyName.equals("Tự chủ")) {
 			allYears = "905–938";
-		} else if (this.tenTrieuDai.equals("Nhà Thục")) {
+		} else if (this.dynastyName.equals("Nhà Thục")) {
 			allYears = "257 TCN–179 TCN";
-		} else if (this.tenTrieuDai.equals("Bắc thuộc lần IV")) {
+		} else if (this.dynastyName.equals("Bắc thuộc lần IV")) {
 			allYears = "1407–1427";
 		} else {
 			Elements years = this.getDoc()
@@ -114,7 +114,7 @@ public class DynastyYear extends BasicDataCrawler{
 		for (String e : names.getDynasty_names()) {
 			DynastyYear y = new DynastyYear(e);
 			y.scraping();
-			Dynasty dynasty = new Dynasty(y.getBeginYear(), y.getEndYear(), y.getTenTrieuDai());
+			Dynasty dynasty = new Dynasty(y.getBeginYear(), y.getEndYear(), y.getdynastyName());
 			dynastys.add(dynasty);
 		}
 		for (Dynasty d : dynastys) {

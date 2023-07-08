@@ -2,53 +2,74 @@ package com.hust.cybersec.objects;
 
 import java.util.*;
 
-
 public class King extends HistoricalFigure {
-	private String paperURL;
-	private String reignBegin;
-	private String reignEnd;
-	private List<String> aliases = new ArrayList<>();
 
-	public King(String name) {
-		super(name);
-	}
+    private String paperURL;
+    private String reignBegin;
+    private String reignEnd;
+    private List<String> aliases = new ArrayList<>();
+    private LinkedList<Dynasty> relatedDynasty = new LinkedList<>();
+    private LinkedList<Relic>  relatedRelic = new LinkedList<>();
 
-	public King() {
-	}
+    public King(String name) {
+        super(name);
+    }
 
-	public String getPaperURL() {
-		return paperURL;
-	}
+    public King() {
+    }
 
-	public void setPaperURL(String paperURL) {
-		this.paperURL = paperURL;
-	}
+    public String getPaperURL() {
+        return paperURL;
+    }
 
-	public String getReignBegin() {
-		return reignBegin;
-	}
+    public void setPaperURL(String paperURL) {
+        this.paperURL = paperURL;
+    }
 
-	public void setReignBegin(String reignBegin) {
-		this.reignBegin = reignBegin;
-	}
+    public String getReignBegin() {
+        return reignBegin;
+    }
 
-	public String getReignEnd() {
-		return reignEnd;
-	}
+    public void setReignBegin(String reignBegin) {
+        this.reignBegin = reignBegin;
+    }
 
-	public void setReignEnd(String reignEnd) {
-		this.reignEnd = reignEnd;
-	}
+    public String getReignEnd() {
+        return reignEnd;
+    }
 
-	public List<String> getAliases() {
-		return aliases;
-	}
+    public void setReignEnd(String reignEnd) {
+        this.reignEnd = reignEnd;
+    }
 
-	public void setAliases(List<String> aliases) {
-		this.aliases = aliases;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+    public List<String> getAliases() {
+        return aliases;
+    }
+
+    public void setAliases(List<String> aliases) {
+        this.aliases = aliases;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public LinkedList<Dynasty> getRelatedDynasty() {
+        return relatedDynasty;
+    }
+
+    public void setRelatedDynasty(LinkedList<Dynasty> relatedDynasty) {
+        this.relatedDynasty = relatedDynasty;
+    }
+
+    public void setRelatedRelic(LinkedList<Relic> relatedRelic) {
+        this.relatedRelic = relatedRelic;
+    }
+       
+    public LinkedList<Relic> getRelatedRelic() {
+        return relatedRelic;
+    }
+    
+    
 
 }

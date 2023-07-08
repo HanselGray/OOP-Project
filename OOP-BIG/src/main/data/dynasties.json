@@ -1,0 +1,1353 @@
+[
+  {
+    "startYear": "đầu",
+    "endYear": "3100 TCN",
+    "name": "Thời tiền sử",
+    "kings": [],
+    "capital": "Không",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "179 TCN",
+    "endYear": "40",
+    "name": "Bắc thuộc lần I",
+    "kings": [],
+    "capital": "Không",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "204 TCN",
+    "endYear": "111 TCN",
+    "name": "Nhà Triệu",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Vũ đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Văn đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Minh đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Ai đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Dương đế"
+      }
+    ],
+    "capital": "Phiên Ngung",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Triệu Đà"
+    }
+  },
+  {
+    "startYear": "40",
+    "endYear": "43",
+    "name": "Hai Bà Trưng",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trưng Nữ Vương"
+      }
+    ],
+    "capital": "Mê Linh",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Trưng Trắc"
+    }
+  },
+  {
+    "startYear": "43",
+    "endYear": "544",
+    "name": "Bắc thuộc lần II",
+    "kings": [],
+    "capital": "Không",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "544",
+    "endYear": "602",
+    "name": "Nhà Tiền Lý",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Nam Đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Triệu Việt Vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Phật Tử"
+      }
+    ],
+    "capital": "Long Biên",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Lý Bí"
+    }
+  },
+  {
+    "startYear": "603",
+    "endYear": "905 hoặc",
+    "name": "Bắc thuộc lần III",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Mai Hắc Đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Mai Thiếu Đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Bạch Đầu Đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Bố Cái Đại Vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Phùng An"
+      }
+    ],
+    "capital": "Không",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "905",
+    "endYear": "938",
+    "name": "Tự chủ",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Khúc Tiên Chủ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Khúc Trung Chủ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Khúc Hậu Chủ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Dương Đình Nghệ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Kiều Công Tiễn"
+      }
+    ],
+    "capital": "Không",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "923",
+    "endYear": "930",
+    "name": "Họ Khúc",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Khúc Tiên Chủ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Khúc Trung Chủ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Khúc Hậu Chủ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Dương Đình Nghệ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Kiều Công Tiễn"
+      }
+    ],
+    "capital": "Đại La",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Khúc Thừa Dụ"
+    }
+  },
+  {
+    "startYear": "939",
+    "endYear": "965",
+    "name": "Nhà Ngô",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Ngô Quyền"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Dương Tam Kha"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Ngô Xương Ngập"
+      }
+    ],
+    "capital": "Cổ Loa",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Ngô Quyền"
+    }
+  },
+  {
+    "startYear": "968",
+    "endYear": "980",
+    "name": "Nhà Đinh",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Đinh Tiên Hoàng"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Đinh Phế Đế"
+      }
+    ],
+    "capital": "Hoa Lư",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Đinh Bộ Lĩnh"
+    }
+  },
+  {
+    "startYear": "980",
+    "endYear": "1009",
+    "name": "Nhà Tiền Lê",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Đại Hành"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Trung Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Ngọa Triều"
+      }
+    ],
+    "capital": "Hoa Lư",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Lê Hoàn"
+    }
+  },
+  {
+    "startYear": "1009",
+    "endYear": "1225",
+    "name": "Nhà Lý",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Thái Tổ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Thái Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Thánh Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Nhân Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Thần Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Anh Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Cao Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Thẩm"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Huệ Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Nguyên Vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lý Chiêu Hoàng"
+      }
+    ],
+    "capital": "Hoa Lư",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Lý Công Uẩn"
+    }
+  },
+  {
+    "startYear": "",
+    "endYear": "",
+    "name": "Nhà Trần",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Thái Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Thánh Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Nhân Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Anh Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Minh Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Hiến Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Dụ Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Dương Nhật Lễ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Nghệ Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Duệ Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Phế Đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Thuận Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Thiếu Đế"
+      }
+    ],
+    "capital": "Thăng Long",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Trần Thủ Độ"
+    }
+  },
+  {
+    "startYear": "1400",
+    "endYear": "1407",
+    "name": "Nhà Hồ",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hồ Quý Ly"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hồ Hán Thương"
+      }
+    ],
+    "capital": "Tây Đô",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Hồ Quý Ly"
+    }
+  },
+  {
+    "startYear": "1407",
+    "endYear": "1427",
+    "name": "Bắc thuộc lần IV",
+    "kings": [],
+    "capital": "Không",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "1407",
+    "endYear": "1414",
+    "name": "Nhà Hậu Trần",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Giản Định Đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trùng Quang Đế"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Cảo"
+      }
+    ],
+    "capital": "Mô Độ",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Trần Ngỗi"
+    }
+  },
+  {
+    "startYear": "1427",
+    "endYear": "1789",
+    "name": "Nhà Hậu Lê",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Trang Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Trung Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Anh Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Thế Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Kính Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Thần Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Chân Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Huyền Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Gia Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Hy Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Dụ Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Duy Phường"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Thuần Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Ý Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Hiển Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Mẫn Đế"
+      }
+    ],
+    "capital": "Đông Kinh",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Lê Lợi"
+    }
+  },
+  {
+    "startYear": "1428",
+    "endYear": "1527",
+    "name": "Nhà Lê sơ",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Thái Tổ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Thái Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Nhân Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Nghi Dân"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Thánh Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Hiến Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Túc Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Uy Mục"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Tương Dực"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Quang Trị"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Chiêu Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Bảng"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Do"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Cung Hoàng"
+      }
+    ],
+    "capital": "Đông Kinh",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Lê Lợi"
+    }
+  },
+  {
+    "startYear": "1527",
+    "endYear": "1677",
+    "name": "Nhà Mạc",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Mạc Thái Tổ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Mạc Mậu Hợp"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Mạc Toàn"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Mạc Kính Cung"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Mạc Kính Vũ"
+      }
+    ],
+    "capital": "Đông Kinh",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Mạc Đăng Dung"
+    }
+  },
+  {
+    "startYear": "1778",
+    "endYear": "1802",
+    "name": "Nhà Tây Sơn",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Nhạc"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Huệ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Quang Toản"
+      }
+    ],
+    "capital": "Qui Nhơn",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Nguyễn Nhạc"
+    }
+  },
+  {
+    "startYear": "1802",
+    "endYear": "1945",
+    "name": "Nhà Nguyễn",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Gia Long"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Minh Mạng"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Thiệu Trị"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Tự Đức"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Dục Đức"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hiệp Hoà"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Kiến Phúc"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hàm Nghi"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Đồng Khánh"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Thành Thái"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Duy Tân"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Khải Định"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Bảo Đại"
+      }
+    ],
+    "capital": "Huế",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Nguyễn Ánh"
+    }
+  },
+  {
+    "startYear": "1945",
+    "endYear": "1945",
+    "name": "Đế quốc Việt Nam",
+    "kings": [],
+    "capital": "Huế",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "1945",
+    "endYear": "1976",
+    "name": "Việt Nam Dân chủ Cộng hòa",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hồ Chí Minh"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Tôn Đức Thắng"
+      }
+    ],
+    "capital": "Hà Nội",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "1949",
+    "endYear": "1955",
+    "name": "Quốc gia Việt Nam",
+    "kings": [],
+    "capital": "Sài Gòn",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "1955",
+    "endYear": "1975",
+    "name": "Việt Nam Cộng hòa",
+    "kings": [],
+    "capital": "Sài Gòn",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "1969",
+    "endYear": "1976",
+    "name": "Cộng hòa Miền Nam Việt Nam",
+    "kings": [],
+    "capital": "Tây Ninh",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "1976",
+    "endYear": "nay",
+    "name": "Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Tôn Đức Thắng"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Hữu Thọ"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Đặng Xuân Khu"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Võ Chí Công"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Đức Anh"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Đức Lương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Minh Triết"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trương Tấn Sang"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trần Đại Quang"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Đặng Thị Ngọc Thịnh"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phú Trọng"
+      }
+    ],
+    "capital": "Hà Nội",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Unknown"
+    }
+  },
+  {
+    "startYear": "2879 TCN",
+    "endYear": "258 TCN",
+    "name": "Hồng Bàng thị",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Kinh Dương Vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lạc Long Quân"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Quốc Vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Hiền Vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Lân Vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Diệp vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Hi vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Huy vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Chiêu vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Vĩ vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Định Vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Uy vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Trinh vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Vũ vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Việt vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Anh vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Triêu vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Tạo vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Nghị vương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Hùng Duệ Vương"
+      }
+    ],
+    "capital": "Phong Châu",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Lộc Tục"
+    }
+  },
+  {
+    "startYear": "1533",
+    "endYear": "1789",
+    "name": "Nhà Lê trung hưng",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Trang Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Trung Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Anh Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Thế Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Kính Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Thần Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Chân Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Huyền Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Gia Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Hy Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Dụ Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Duy Phường"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Thuần Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Ý Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Hiển Tông"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Lê Mẫn Đế"
+      }
+    ],
+    "capital": "Đông Kinh",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Lê Duy Ninh"
+    }
+  },
+  {
+    "startYear": "1545",
+    "endYear": "1787",
+    "name": "Chúa Trịnh",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Kiểm"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Cối"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Tùng"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Tráng"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Tạc"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Căn"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Cương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Giang"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Doanh"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Sâm"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Cán"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Khải"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Trịnh Bồng"
+      }
+    ],
+    "capital": "Đông Kinh",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Trịnh Kiểm"
+    }
+  },
+  {
+    "startYear": "1558",
+    "endYear": "1777",
+    "name": "Chúa Nguyễn",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Hoàng"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phúc Nguyên"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phúc Lan"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phúc Tần"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phúc Thái"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phúc Chu"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phúc Chú"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phúc Khoát"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phúc Thuần"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phúc Dương"
+      },
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "Nguyễn Phúc Ánh"
+      }
+    ],
+    "capital": "Phú Xuân",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Nguyễn Kim"
+    }
+  },
+  {
+    "startYear": "257 TCN",
+    "endYear": "179 TCN",
+    "name": "Nhà Thục",
+    "kings": [
+      {
+        "aliases": [],
+        "id": 0,
+        "name": "An Dương Vương"
+      }
+    ],
+    "capital": "Cổ Loa",
+    "founder": {
+      "aliases": [],
+      "id": 0,
+      "name": "Thục Phán"
+    }
+  }
+]

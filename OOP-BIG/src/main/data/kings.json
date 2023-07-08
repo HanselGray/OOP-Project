@@ -1,0 +1,1949 @@
+[
+  {
+    "paperURL": "https://wikipedia.org/wiki/Kinh_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
+    "reignBegin": "2879 TCN",
+    "reignEnd": "2794 TCN",
+    "aliases": [
+      "Kinh Dương Vương",
+      "Lộc Tục"
+    ],
+    "id": 1,
+    "name": "Kinh Dương Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n",
+    "reignBegin": "2525 TCN",
+    "reignEnd": "2253 TCN",
+    "aliases": [
+      "Lạc Long Quân",
+      "Sùng Lãm"
+    ],
+    "id": 2,
+    "name": "Lạc Long Quân"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_I",
+    "reignBegin": "TK VII TCN",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Quốc Vương"
+    ],
+    "id": 3,
+    "name": "Hùng Vương thứ nhất"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_II",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Hiền Vương"
+    ],
+    "id": 4,
+    "name": "Hùng Vương thứ hai"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_III",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Lân Vương"
+    ],
+    "id": 5,
+    "name": "Hùng Vương thứ ba"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_IV",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Diệp Vương"
+    ],
+    "id": 6,
+    "name": "Hùng Vương thứ tư"
+  },
+  {
+    "paperURL": "https://wikipedia.org/w/index.php?title\u003dH%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_5\u0026action\u003dedit\u0026redlink\u003d1",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Hy Vương"
+    ],
+    "id": 7,
+    "name": "Hùng Vương thứ năm"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VI",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Huy Vương"
+    ],
+    "id": 8,
+    "name": "Hùng Vương thứ sáu"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Lang_Li%C3%AAu",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Chiêu Vương",
+      "Lang Liêu"
+    ],
+    "id": 9,
+    "name": "Hùng Vương thứ bảy"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VIII",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Vĩ Vương",
+      "Thừa Vân Lang"
+    ],
+    "id": 10,
+    "name": "Hùng Vương thứ tám"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_IX",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Định Vương",
+      "Quân Lang"
+    ],
+    "id": 11,
+    "name": "Hùng Vương thứ chín"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_X",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Uy Vương",
+      "Hùng Hải Lang"
+    ],
+    "id": 12,
+    "name": "Hùng Vương thứ mười"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XI",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Trinh Vương",
+      "Hưng Đức Lang"
+    ],
+    "id": 13,
+    "name": "Hùng Vương thứ 11"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XII",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Vũ Vương"
+    ],
+    "id": 14,
+    "name": "Hùng Vương thứ 12"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XIII",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Việt Vương",
+      "Tuấn Lang"
+    ],
+    "id": 15,
+    "name": "Hùng Vương thứ 13"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XIV",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Anh Vương",
+      "Chân Nhân Lang"
+    ],
+    "id": 16,
+    "name": "Hùng Vương thứ 14"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XV",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Triêu Vương",
+      "Cảnh Chiêu Lang"
+    ],
+    "id": 17,
+    "name": "Hùng Vương thứ 15"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVI",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Tạo Vương",
+      "Đức Quân Lang"
+    ],
+    "id": 18,
+    "name": "Hùng Vương thứ 16"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVII",
+    "reignBegin": "?",
+    "reignEnd": "?",
+    "aliases": [
+      "Hùng Nghị Vương"
+    ],
+    "id": 19,
+    "name": "Hùng Vương thứ 17"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVIII",
+    "reignBegin": "?",
+    "reignEnd": "258 TCN hoặc 208 TCN",
+    "aliases": [
+      "Hùng Duệ Vương"
+    ],
+    "id": 20,
+    "name": "Hùng Vương thứ 18"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "?",
+    "reignEnd": "6 năm",
+    "aliases": [
+      "Hùng Kính Vương",
+      "Huệ Lang"
+    ],
+    "id": 21,
+    "name": "Hùng Vương thứ 19"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tri%E1%BB%87u_V%C5%A9_V%C6%B0%C6%A1ng",
+    "reignBegin": "204",
+    "reignEnd": "137TCN",
+    "aliases": [
+      "Vũ Vương Vũ Đế",
+      "Triệu Đà"
+    ],
+    "id": 22,
+    "name": "Triệu Vũ Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tri%E1%BB%87u_V%C4%83n_V%C6%B0%C6%A1ng",
+    "reignBegin": "137",
+    "reignEnd": "125TCN",
+    "aliases": [
+      "Văn Vương Văn Đế",
+      "Triệu Hồ"
+    ],
+    "id": 23,
+    "name": "Triệu Văn Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tri%E1%BB%87u_Minh_V%C6%B0%C6%A1ng",
+    "reignBegin": "125",
+    "reignEnd": "113TCN",
+    "aliases": [
+      "Minh Vương",
+      "Triệu Anh Tề"
+    ],
+    "id": 24,
+    "name": "Triệu Minh Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tri%E1%BB%87u_Ai_V%C6%B0%C6%A1ng",
+    "reignBegin": "113",
+    "reignEnd": "112TCN",
+    "aliases": [
+      "Ai Vương",
+      "Triệu Hưng"
+    ],
+    "id": 25,
+    "name": "Triệu Ai Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tri%E1%BB%87u_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
+    "reignBegin": "112",
+    "reignEnd": "111TCN",
+    "aliases": [
+      "Dương Vương Thuật Dương Vương Vệ Dương vương Vệ Dương hầu",
+      "Triệu Kiến Đức"
+    ],
+    "id": 26,
+    "name": "Triệu Dương Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Hai_B%C3%A0_Tr%C6%B0ng",
+    "reignBegin": "40",
+    "reignEnd": "43",
+    "aliases": [
+      "Trinh Linh Chi Phu Nhân",
+      "Trưng Trắc"
+    ],
+    "id": 27,
+    "name": "Trưng Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Nam_%C4%90%E1%BA%BF",
+    "reignBegin": "544",
+    "reignEnd": "548",
+    "aliases": [
+      "Nam Đế, Nam Việt Đế",
+      "Thiên Đức (544–548)",
+      "Lý Bí (李賁)"
+    ],
+    "id": 28,
+    "name": "Lý Nam Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tri%E1%BB%87u_Vi%E1%BB%87t_V%C6%B0%C6%A1ng",
+    "reignBegin": "548",
+    "reignEnd": "571",
+    "aliases": [
+      "Nam Việt Quốc Vương, Dạ Trạch Vương Thần Vũ Hoàng Đế",
+      "Triệu Quang Phục (趙光復)"
+    ],
+    "id": 29,
+    "name": "Triệu Việt Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Thi%C3%AAn_B%E1%BA%A3o",
+    "reignBegin": "549",
+    "reignEnd": "555",
+    "aliases": [
+      "Lý Thiên Bảo"
+    ],
+    "id": 30,
+    "name": "Đào Lang Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF",
+    "reignBegin": "555",
+    "reignEnd": "602",
+    "aliases": [
+      "Nam Đế Anh Liệt Nhân Hiếu Khâm Minh Thánh Vũ Hoàng Đế",
+      "Lý Phật Tử (李佛子)"
+    ],
+    "id": 31,
+    "name": "Hậu Lý Nam Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_S%C6%B0_L%E1%BB%A3i",
+    "reignBegin": "602",
+    "reignEnd": "603",
+    "aliases": [
+      "Lý Sư Lợi"
+    ],
+    "id": 32,
+    "name": "Lý Sư Lợi"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Mai_H%E1%BA%AFc_%C4%90%E1%BA%BF",
+    "reignBegin": "713",
+    "reignEnd": "722",
+    "aliases": [
+      "Đại Đế, Hắc Đế",
+      "Mai Thúc Loan,"
+    ],
+    "id": 33,
+    "name": "Mai Hắc Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Mai_Thi%E1%BA%BFu_%C4%90%E1%BA%BF",
+    "reignBegin": "722",
+    "reignEnd": "723",
+    "aliases": [
+      "Mai Thúc Huy, Mai Bảo Sơn"
+    ],
+    "id": 34,
+    "name": "Mai Thiếu Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/B%E1%BA%A1ch_%C4%90%E1%BA%A7u_%C4%90%E1%BA%BF",
+    "reignBegin": "723",
+    "reignEnd": "723",
+    "aliases": [
+      "Mai Kỳ Sơn"
+    ],
+    "id": 35,
+    "name": "Bạch Đầu Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Ph%C3%B9ng_H%C6%B0ng",
+    "reignBegin": "766",
+    "reignEnd": "791",
+    "aliases": [
+      "Bố Cái Đại Vương",
+      "Phùng Hưng (馮興), Phùng Cự Lão"
+    ],
+    "id": 36,
+    "name": "Phùng Hưng"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Ph%C3%B9ng_An",
+    "reignBegin": "791",
+    "reignEnd": "791",
+    "aliases": [
+      "Phùng An"
+    ],
+    "id": 37,
+    "name": "Phùng An"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Kh%C3%BAc_Th%E1%BB%ABa_D%E1%BB%A5",
+    "reignBegin": "905",
+    "reignEnd": "907",
+    "aliases": [
+      "Tiên Chủ",
+      "Tiên Vương",
+      "Khúc Thừa Dụ (曲承裕)"
+    ],
+    "id": 38,
+    "name": "Khúc Tiên Chủ"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Kh%C3%BAc_H%E1%BA%A1o",
+    "reignBegin": "907",
+    "reignEnd": "917",
+    "aliases": [
+      "Trung Chủ",
+      "Trung Vương",
+      "Khúc Hạo,"
+    ],
+    "id": 39,
+    "name": "Khúc Trung Chủ"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Kh%C3%BAc_Th%E1%BB%ABa_M%E1%BB%B9",
+    "reignBegin": "917",
+    "reignEnd": "923",
+    "aliases": [
+      "Hậu Chủ",
+      "Hậu Vương",
+      "Khúc Thừa Mỹ (曲承美) Khúc Toàn Mỹ"
+    ],
+    "id": 40,
+    "name": "Khúc Hậu Chủ"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/D%C6%B0%C6%A1ng_%C4%90%C3%ACnh_Ngh%E1%BB%87",
+    "reignBegin": "931",
+    "reignEnd": "937",
+    "aliases": [
+      "Dương Đình Nghệ, (楊筵藝)"
+    ],
+    "id": 41,
+    "name": "Dương Chính Công"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Ki%E1%BB%81u_C%C3%B4ng_Ti%E1%BB%85n",
+    "reignBegin": "937",
+    "reignEnd": "938",
+    "aliases": [
+      "Kiều Công Tiễn,"
+    ],
+    "id": 42,
+    "name": "Kiều Công Tiễn"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Ti%E1%BB%81n_Ng%C3%B4_V%C6%B0%C6%A1ng",
+    "reignBegin": "939",
+    "reignEnd": "944",
+    "aliases": [
+      "Tiên Chủ",
+      "Ngô Quyền"
+    ],
+    "id": 43,
+    "name": "Tiền Ngô Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/D%C6%B0%C6%A1ng_B%C3%ACnh_V%C6%B0%C6%A1ng",
+    "reignBegin": "944",
+    "reignEnd": "950",
+    "aliases": [
+      "Trương Dương Công",
+      "Dương Tam Kha,"
+    ],
+    "id": 44,
+    "name": "Dương Bình Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Thi%C3%AAn_S%C3%A1ch_V%C6%B0%C6%A1ng",
+    "reignBegin": "951",
+    "reignEnd": "954",
+    "aliases": [
+      "Ngô Xương Ngập"
+    ],
+    "id": 45,
+    "name": "Thiên Sách Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nam_T%E1%BA%A5n_V%C6%B0%C6%A1ng",
+    "reignBegin": "950",
+    "reignEnd": "965",
+    "aliases": [
+      "Ngô Xương Tấn,"
+    ],
+    "id": 46,
+    "name": "Nam Tấn Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Ng%C3%B4_X%C6%B0%C6%A1ng_X%C3%AD",
+    "reignBegin": "965",
+    "reignEnd": "966",
+    "aliases": [
+      "Ngô Xương Xí"
+    ],
+    "id": 47,
+    "name": "Ngô Sứ Quân"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/%C4%90inh_Ti%C3%AAn_Ho%C3%A0ng",
+    "reignBegin": "968",
+    "reignEnd": "979",
+    "aliases": [
+      "Tiên Hoàng Đế Đại Thắng Minh Hoàng Đế",
+      "Thái Bình (970-979)",
+      "Đinh Bộ Lĩnh,"
+    ],
+    "id": 48,
+    "name": "Đinh Tiên Hoàng"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/%C4%90inh_Ph%E1%BA%BF_%C4%90%E1%BA%BF",
+    "reignBegin": "979",
+    "reignEnd": "980",
+    "aliases": [
+      "Phế Đế Thiếu Đế",
+      "Thái Bình (979-980)",
+      "Đinh Toàn,"
+    ],
+    "id": 49,
+    "name": "Đinh Phế Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_%C4%90%E1%BA%A1i_H%C3%A0nh",
+    "reignBegin": "980",
+    "reignEnd": "1005",
+    "aliases": [
+      "Đại Hành Hoàng Đế Minh Càn Ứng Vận Thần Vũ Thăng Bình Chí Nhân Quảng Hiếu Hoàng đế",
+      "Thiên Phúc (980–988) Hưng Thống (989–993) Ứng Thiên (994–1005)",
+      "Lê Hoàn"
+    ],
+    "id": 50,
+    "name": "Lê Đại Hành"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Trung_T%C3%B4ng_(Ti%E1%BB%81n_L%C3%AA)",
+    "reignBegin": "1005",
+    "reignEnd": "1005",
+    "aliases": [
+      "Trung Tông",
+      "Ứng Thiên (1005–1005)",
+      "Lê Long Việt"
+    ],
+    "id": 51,
+    "name": "Lê Trung Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Long_%C4%90%C4%A9nh",
+    "reignBegin": "1005",
+    "reignEnd": "1009",
+    "aliases": [
+      "Khai Thiên Ứng Vận Thánh Văn Thần Vũ Tắc Thiên Sùng Đạo Đại Thắng Minh Quang Hiếu Hoàng Đế Ngọa Triều Hoàng Đế",
+      "Ứng Thiên (1005–1007) Cảnh Thụy (1008–1009)",
+      "Lê Long Đĩnh,"
+    ],
+    "id": 52,
+    "name": "Lê Ngọa Triều"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Th%C3%A1i_T%E1%BB%95",
+    "reignBegin": "1009",
+    "reignEnd": "1028",
+    "aliases": [
+      "Thái Tổ",
+      "Thần Vũ Hoàng Đế",
+      "Thuận Thiên (1010–1028)",
+      "Lý Công Uẩn"
+    ],
+    "id": 53,
+    "name": "Lý Thái Tổ"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Th%C3%A1i_T%C3%B4ng",
+    "reignBegin": "1028",
+    "reignEnd": "1054",
+    "aliases": [
+      "Thái Tông",
+      "Từ Hiếu Hoàng đế",
+      "Thiên Thành (1028–1033),",
+      "Lý Phật Mã,"
+    ],
+    "id": 54,
+    "name": "Lý Thái Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Th%C3%A1nh_T%C3%B4ng",
+    "reignBegin": "1054",
+    "reignEnd": "1072",
+    "aliases": [
+      "Thánh Tông",
+      "Thánh Thần Hoàng đế",
+      "Long Thụy Thái Bình (1054–1058),",
+      "Lý Nhật Tôn"
+    ],
+    "id": 55,
+    "name": "Lý Thánh Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Nh%C3%A2n_T%C3%B4ng",
+    "reignBegin": "1072",
+    "reignEnd": "1127",
+    "aliases": [
+      "Nhân Tông",
+      "Hiếu Từ Thánh Thần Văn Vũ Hoàng Đế",
+      "Thái Ninh (1072–1076),",
+      "Lý Càn Đức"
+    ],
+    "id": 56,
+    "name": "Lý Nhân Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Th%E1%BA%A7n_T%C3%B4ng",
+    "reignBegin": "1127",
+    "reignEnd": "1138",
+    "aliases": [
+      "Thần Tông",
+      "Quảng Văn Sùng Hiếu Khâm Minh Văn Vũ Hoàng Đế",
+      "Thiên Thuận (1128–1132),",
+      "Lý Dương Hoán"
+    ],
+    "id": 57,
+    "name": "Lý Thần Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Anh_T%C3%B4ng",
+    "reignBegin": "1138",
+    "reignEnd": "1175",
+    "aliases": [
+      "Anh Tông",
+      "Chí Hiếu Hoàng Đế",
+      "Thiệu Minh (1138–1139),",
+      "Lý Thiên Tộ"
+    ],
+    "id": 58,
+    "name": "Lý Anh Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Cao_T%C3%B4ng",
+    "reignBegin": "1176",
+    "reignEnd": "1204",
+    "aliases": [
+      "Cao Tông",
+      "Quang Hiếu Hoàng Đế",
+      "Trinh Phù (1176–1185),",
+      "Lý Long Cán"
+    ],
+    "id": 59,
+    "name": "Lý Cao Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1209",
+    "reignEnd": "1209",
+    "aliases": [
+      "Lý Thẩm"
+    ],
+    "id": 60,
+    "name": "Lý Thẩm"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Hu%E1%BB%87_T%C3%B4ng",
+    "reignBegin": "1211",
+    "reignEnd": "1224",
+    "aliases": [
+      "Huệ Tông",
+      "Hoành Hiếu Hoàng đế",
+      "Kiến Gia (1211–1224)",
+      "Lý Sảm,"
+    ],
+    "id": 61,
+    "name": "Lý Huệ Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1214",
+    "reignEnd": "1216",
+    "aliases": [
+      "Nguyên Vương Văn Vương",
+      "Càn Ninh (1214–1216)"
+    ],
+    "id": 62,
+    "name": "Lý Nguyên Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%BD_Chi%C3%AAu_Ho%C3%A0ng",
+    "reignBegin": "1224",
+    "reignEnd": "1225",
+    "aliases": [
+      "Chiêu Hoàng",
+      "Thiên Chương Hữu Đạo (1224–1225)",
+      "Lý Phật Kim,"
+    ],
+    "id": 63,
+    "name": "Lý Chiêu Hoàng"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Th%C3%A1i_T%C3%B4ng",
+    "reignBegin": "1225",
+    "reignEnd": "1258",
+    "aliases": [
+      "Thái Tông Thiện Hoàng Văn Hoàng",
+      "Thống Thiên Ngự Cực Long Công Hậu Đức Hiền Công Hựu Thuận Thánh Văn Thần Vũ Hiếu Nguyên Hoàng Đế",
+      "Kiến Trung (1225–1232)",
+      "Trần Cảnh"
+    ],
+    "id": 64,
+    "name": "Trần Thái Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Th%C3%A1nh_T%C3%B4ng",
+    "reignBegin": "1258",
+    "reignEnd": "1279",
+    "aliases": [
+      "Thánh Tông Nhân Hoàng",
+      "Huyền Công Thịnh Đức Nhân Minh Văn Vũ Tuyên Hiếu Hoàng Đế",
+      "Thiệu Long (1258–1272)",
+      "Trần Hoảng"
+    ],
+    "id": 65,
+    "name": "Trần Thánh Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Nh%C3%A2n_T%C3%B4ng",
+    "reignBegin": "1278",
+    "reignEnd": "1293",
+    "aliases": [
+      "Nhân Tông Hiếu Hoàng",
+      "Pháp Thiên Sùng Đạo Ứng Thế Hóa Dân Long Từ Hiển Hiệu Thánh Văn Thần Vũ Nguyên Minh Duệ Hiếu Hoàng Đế",
+      "Thiệu Bảo (1278–1285)",
+      "Trần Khâm"
+    ],
+    "id": 66,
+    "name": "Trần Nhân Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Anh_T%C3%B4ng",
+    "reignBegin": "1293",
+    "reignEnd": "1314",
+    "aliases": [
+      "Anh Tông Anh Hoàng",
+      "Hiển Văn Duệ Vũ Khâm Minh Nhân Hiếu Hoàng Đế",
+      "Hưng Long (1293–1314)",
+      "Trần Thuyên"
+    ],
+    "id": 67,
+    "name": "Trần Anh Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Minh_T%C3%B4ng",
+    "reignBegin": "1314",
+    "reignEnd": "1329",
+    "aliases": [
+      "Minh Tông Ninh Hoàng",
+      "Chương Nghiêu Văn Triết Hoàng Đế",
+      "Đại Khánh (1314–1323)",
+      "Trần Mạnh"
+    ],
+    "id": 68,
+    "name": "Trần Minh Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Hi%E1%BA%BFn_T%C3%B4ng",
+    "reignBegin": "1329",
+    "reignEnd": "1341",
+    "aliases": [
+      "Hiến Tông Triết Hoàng",
+      "Thể Nguyên Ngự Cực Duệ Thánh Chí Hiếu Hoàng Đế",
+      "Khai Hựu (1329–1341)",
+      "Trần Vượng"
+    ],
+    "id": 69,
+    "name": "Trần Hiến Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_D%E1%BB%A5_T%C3%B4ng",
+    "reignBegin": "1341",
+    "reignEnd": "1369",
+    "aliases": [
+      "Dụ Tông Dụ Hoàng",
+      "Thống Thiên Thể Đạo Nhân Minh Quang Hiếu Hoàng đế",
+      "Thiệu Phong (1341–1357)",
+      "Trần Hạo"
+    ],
+    "id": 70,
+    "name": "Trần Dụ Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Nh%E1%BA%ADt_L%E1%BB%85",
+    "reignBegin": "1369",
+    "reignEnd": "1370",
+    "aliases": [
+      "Hôn Đức Công",
+      "Đại Định (1369–1370)",
+      "Trần Nhật Lễ"
+    ],
+    "id": 71,
+    "name": "Đại Định Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Ngh%E1%BB%87_T%C3%B4ng",
+    "reignBegin": "1370",
+    "reignEnd": "1372",
+    "aliases": [
+      "Nghệ Tông Nghệ Hoàng Nghĩa Hoàng",
+      "Quang Nhiên Anh Triết Hoàng Đế Thể Thiên Kiến Cực Thuần Hiếu Hoàng Đế",
+      "Thiệu Khánh (1370–1372)",
+      "Trần Phủ"
+    ],
+    "id": 72,
+    "name": "Trần Nghệ Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Du%E1%BB%87_T%C3%B4ng",
+    "reignBegin": "1372",
+    "reignEnd": "1377",
+    "aliases": [
+      "Duệ Tông Khâm Hoàng",
+      "Kế Thiên Ứng Vận Nhân Minh Khâm Hiếu Hoàng Đế",
+      "Long Khánh (1373–1377)",
+      "Trần Kính"
+    ],
+    "id": 73,
+    "name": "Trần Duệ Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Ph%E1%BA%BF_%C4%90%E1%BA%BF_(%C4%90%E1%BA%A1i_Vi%E1%BB%87t)",
+    "reignBegin": "1377",
+    "reignEnd": "1388",
+    "aliases": [
+      "Giản Hoàng",
+      "Phế Đế",
+      "Xương Phù (1377–1388)",
+      "Trần Hiện"
+    ],
+    "id": 74,
+    "name": "Trần Phế Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Thu%E1%BA%ADn_T%C3%B4ng",
+    "reignBegin": "1388",
+    "reignEnd": "1398",
+    "aliases": [
+      "Thuận Tông Nguyên Hoàng",
+      "Quang Thái (1388–1398)",
+      "Trần Ngung"
+    ],
+    "id": 75,
+    "name": "Trần Thuận Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Thi%E1%BA%BFu_%C4%90%E1%BA%BF",
+    "reignBegin": "1398",
+    "reignEnd": "1400",
+    "aliases": [
+      "Thiếu Đế",
+      "Kiến Tân (1398–1400)",
+      "Trần An"
+    ],
+    "id": 76,
+    "name": "Trần Thiếu Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%E1%BB%93_Qu%C3%BD_Ly",
+    "reignBegin": "1400",
+    "reignEnd": "1400",
+    "aliases": [
+      "Quốc Tổ",
+      "Chương Hoàng",
+      "Thánh Nguyên (1400)",
+      "Hồ Quý Ly Hồ Nhất Nguyên Lê Quý Ly Lê Nhất Nguyên"
+    ],
+    "id": 77,
+    "name": "Hồ Quý Ly"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%E1%BB%93_H%C3%A1n_Th%C6%B0%C6%A1ng",
+    "reignBegin": "1400",
+    "reignEnd": "1407",
+    "aliases": [
+      "Thiệu Thành (1401–1402) Khai Đại (1403–1407)",
+      "Hồ Hán Thương"
+    ],
+    "id": 78,
+    "name": "Hồ Hán Thương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BA%A7n_Nguy%E1%BB%87t_H%E1%BB%93",
+    "reignBegin": "1407",
+    "reignEnd": "1407",
+    "aliases": [
+      "Trần Nguyệt Hồ"
+    ],
+    "id": 79,
+    "name": "Trần Nguyệt Hồ"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Gi%E1%BA%A3n_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%BF",
+    "reignBegin": "1407",
+    "reignEnd": "1409",
+    "aliases": [
+      "Hưng Khánh (1407–1409)",
+      "Trần Ngỗi, Trần Quỹ"
+    ],
+    "id": 80,
+    "name": "Giản Định Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%C3%B9ng_Quang_%C4%90%E1%BA%BF",
+    "reignBegin": "1409",
+    "reignEnd": "1414",
+    "aliases": [
+      "Trùng Quang (1409–1414)",
+      "Trần Quý Khoáng, Trần Quý Khoách"
+    ],
+    "id": 81,
+    "name": "Trùng Quang Đế"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Th%C3%A1i_T%E1%BB%95",
+    "reignBegin": "1428",
+    "reignEnd": "1433",
+    "aliases": [
+      "Thái Tổ Lam Sơn động chủ",
+      "Thống Thiên Khải Vận Thánh Đức Thần Công Duệ Văn Anh Vũ Khoan Minh Dũng Trí Hoàng Nghĩa Chí Minh Đại Hiếu Cao Hoàng Đế",
+      "Thuận Thiên (1428–1433)",
+      "Lê Lợi"
+    ],
+    "id": 82,
+    "name": "Lê Thái Tổ"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Th%C3%A1i_T%C3%B4ng",
+    "reignBegin": "1433",
+    "reignEnd": "1442",
+    "aliases": [
+      "Thái Tông Quế Lâm động chủ",
+      "Kế Thiên Thể Đạo Hiển Đức Thánh Công Khâm Minh Văn Tư Anh Duệ Triết Chiêu Hiến Kiến Trung Văn Hoàng Đế",
+      "Thiệu Bình (1434–1439)",
+      "Lê Nguyên Long"
+    ],
+    "id": 83,
+    "name": "Lê Thái Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Nh%C3%A2n_T%C3%B4ng",
+    "reignBegin": "1442",
+    "reignEnd": "1459",
+    "aliases": [
+      "Nhân Tông",
+      "Khâm Văn Nhân Hiếu Tuyên Minh Thông Duệ Tuyên Hoàng Đế",
+      "Thái Hòa (1443–1453)",
+      "Lê Bang Cơ"
+    ],
+    "id": 84,
+    "name": "Lê Nhân Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Nghi_D%C3%A2n",
+    "reignBegin": "1459",
+    "reignEnd": "1460",
+    "aliases": [
+      "Lệ Đức Hầu",
+      "Thiên Hưng (1459–1460)",
+      "Lê Nghi Dân"
+    ],
+    "id": 85,
+    "name": "Lạng Sơn Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Th%C3%A1nh_T%C3%B4ng",
+    "reignBegin": "1460",
+    "reignEnd": "1497",
+    "aliases": [
+      "Thánh Tông Thiên Nam động chủ",
+      "Sùng Thiên Quảng Vận Cao Minh Quang Chính Chí Đức Đại Công Thánh Văn Thần Vũ Đạt Hiếu Thuần Hoàng Đế",
+      "Quang Thuận (1460–1469)",
+      "Lê Tư Thành"
+    ],
+    "id": 86,
+    "name": "Lê Thánh Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Hi%E1%BA%BFn_T%C3%B4ng",
+    "reignBegin": "1497",
+    "reignEnd": "1504",
+    "aliases": [
+      "Hiến Tông Thượng Dương động chủ",
+      "Thể Thiên Ngưng Đạo Mậu Đức Chí Chiêu Văn Thiệu Vũ Tuyên Triết Khâm Thành Chương Hiếu Duệ Hoàng Đế",
+      "Cảnh Thống (1497–1504)",
+      "Lê Tranh"
+    ],
+    "id": 87,
+    "name": "Lê Hiến Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_T%C3%BAc_T%C3%B4ng",
+    "reignBegin": "1504",
+    "reignEnd": "1504",
+    "aliases": [
+      "Túc Tông Tự Hoàng",
+      "Chiêu Nghĩa Hiển Nhân Ôn Cung Uyên Mặc Hiếu Doãn Cung Khâm Hoàng Đế",
+      "Thái Trinh (1504)",
+      "Lê Thuần"
+    ],
+    "id": 88,
+    "name": "Lê Túc Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Uy_M%E1%BB%A5c",
+    "reignBegin": "1504",
+    "reignEnd": "1509",
+    "aliases": [
+      "Quỳnh Đô động chủ",
+      "Uy Mục Đế",
+      "Đoan Khánh (1505–1509)",
+      "Lê Tuấn"
+    ],
+    "id": 89,
+    "name": "Lê Uy Mục"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_T%C6%B0%C6%A1ng_D%E1%BB%B1c",
+    "reignBegin": "1509",
+    "reignEnd": "1516",
+    "aliases": [
+      "Nhân Hải động chủ",
+      "Tương Dực Đế",
+      "Hồng Thuận (1510–1516)",
+      "Lê Oánh"
+    ],
+    "id": 90,
+    "name": "Lê Tương Dực"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1516",
+    "reignEnd": "1516",
+    "aliases": [
+      "Lê Quang Trị"
+    ],
+    "id": 91,
+    "name": "Lê Quang Trị"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Chi%C3%AAu_T%C3%B4ng",
+    "reignBegin": "1516",
+    "reignEnd": "1525",
+    "aliases": [
+      "Chiêu Tông",
+      "Thần Hoàng Đế",
+      "Quang Thiệu (1516-1525)",
+      "Lê Y"
+    ],
+    "id": 92,
+    "name": "Lê Chiêu Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1518",
+    "reignEnd": "1519",
+    "aliases": [
+      "Đại Đức (1518–1519)",
+      "Lê Bảng"
+    ],
+    "id": 93,
+    "name": "Lê Bảng"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Do",
+    "reignBegin": "1519",
+    "reignEnd": "1519",
+    "aliases": [
+      "Thiên Hiến (1519)",
+      "Lê Do"
+    ],
+    "id": 94,
+    "name": "Lê Do"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Cung_Ho%C3%A0ng",
+    "reignBegin": "1522",
+    "reignEnd": "1527",
+    "aliases": [
+      "Cung Hoàng Đế",
+      "Thống Nguyên (1522–1527)",
+      "Lê Xuân"
+    ],
+    "id": 95,
+    "name": "Lê Cung Hoàng"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/M%E1%BA%A1c_%C4%90%C4%83ng_Dung",
+    "reignBegin": "1527",
+    "reignEnd": "1530",
+    "aliases": [
+      "Thái Tổ",
+      "Nhân Minh Cao Hoàng Đế",
+      "Minh Đức (1527–1530)",
+      "Mạc Đăng Dung"
+    ],
+    "id": 96,
+    "name": "Mạc Thái Tổ"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/M%E1%BA%A1c_Th%C3%A1i_T%C3%B4ng",
+    "reignBegin": "1530",
+    "reignEnd": "1540",
+    "aliases": [
+      "Thái Tông",
+      "Khâm Triết Văn Hoàng Đế",
+      "Đại Chính (1530–1540)",
+      "Mạc Đăng Doanh"
+    ],
+    "id": 97,
+    "name": "Mạc Thái Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/M%E1%BA%A1c_Hi%E1%BA%BFn_T%C3%B4ng",
+    "reignBegin": "1540",
+    "reignEnd": "1546",
+    "aliases": [
+      "Hiến Tông",
+      "Hiển Hoàng Đế",
+      "Quảng Hòa (1540–1546)",
+      "Mạc Phúc Hải"
+    ],
+    "id": 98,
+    "name": "Mạc Hiến Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1546",
+    "reignEnd": "1547",
+    "aliases": [
+      "Mạc Chính Trung"
+    ],
+    "id": 99,
+    "name": "Mạc Chính Trung"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/M%E1%BA%A1c_Tuy%C3%AAn_T%C3%B4ng",
+    "reignBegin": "1546",
+    "reignEnd": "1561",
+    "aliases": [
+      "Tuyên Tông",
+      "Anh Nghị Hoàng Đế Duệ Hoàng Đế",
+      "Vĩnh Định (1547)",
+      "Mạc Phúc Nguyên"
+    ],
+    "id": 100,
+    "name": "Mạc Tuyên Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/M%E1%BA%A1c_M%E1%BA%ADu_H%E1%BB%A3p",
+    "reignBegin": "1561",
+    "reignEnd": "1592",
+    "aliases": [
+      "Mục Tông",
+      "An Thiên Huy Địa Trang Văn Cẩn Vũ Bình Định Huệ Cương Hiếu Tĩnh Hoàng Đế",
+      "Thuần Phúc (1562–1565)",
+      "Mạc Mậu Hợp"
+    ],
+    "id": 101,
+    "name": "Mạc Mục Tông Mạc Anh Tổ"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/M%E1%BA%A1c_To%C3%A0n",
+    "reignBegin": "1592",
+    "reignEnd": "1592",
+    "aliases": [
+      "Cảnh Tông",
+      "Khai Thiên Xung Địa An Văn Đoạt Vũ Thành Hoàng Đế",
+      "Vũ An (1592–1592)",
+      "Mạc Toàn"
+    ],
+    "id": 102,
+    "name": "Mạc Cảnh Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_Ch%E1%BB%89",
+    "reignBegin": "1592",
+    "reignEnd": "1593",
+    "aliases": [
+      "Mẫn Tông",
+      "Hoài Nghị Minh Huấn Trinh Hoàng Đế",
+      "Bảo Định (1592–1593)",
+      "Mạc Kính Chỉ"
+    ],
+    "id": 103,
+    "name": "Mạc Mẫn Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/M%E1%BA%A1c_%C4%90%E1%BA%A1i_T%C3%B4ng",
+    "reignBegin": "1592",
+    "reignEnd": "1625",
+    "aliases": [
+      "Đại Tông",
+      "Khởi Thiên Đĩnh Địa Khắc Văn Định Vũ Linh Hoàng Đế",
+      "Càn Thống (1593–1625)",
+      "Mạc Kính Cung"
+    ],
+    "id": 104,
+    "name": "Mạc Đại Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1623",
+    "reignEnd": "1638",
+    "aliases": [
+      "Quang Tổ",
+      "Hoà Thiên Phù Địa Độ Văn Khánh Vũ Huệ Nguyên Hoàng Đế",
+      "Long Thái (1623–1638)",
+      "Mạc Kính Khoan"
+    ],
+    "id": 105,
+    "name": "Mạc Quang Tổ"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1638",
+    "reignEnd": "1677",
+    "aliases": [
+      "Minh Tông",
+      "Trang Thiên Huệ Địa Cảnh Văn Di Vũ Khai Hoàng Đế",
+      "Thuận Đức (1638–1677)",
+      "Mạc Kính Vũ Mạc Kính Hoàn Mạc Kính Diệu"
+    ],
+    "id": 106,
+    "name": "Mạc Minh Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1677",
+    "reignEnd": "1681",
+    "aliases": [
+      "Quý Tông",
+      "Hoàn Thiên Thanh Địa Đoạt Văn Dương Vũ Huệ Đại Vương",
+      "Vĩnh Xương (1677–1681)",
+      "Mạc Kính Hẻ"
+    ],
+    "id": 107,
+    "name": "Mạc Quý Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1681",
+    "reignEnd": "1683",
+    "aliases": [
+      "Đức Tông",
+      "Thiên Địa Đại Bảo Văn Vũ Độ Đại Vương",
+      "Mạc Kính Quang"
+    ],
+    "id": 108,
+    "name": "Mạc Đức Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Trang_T%C3%B4ng",
+    "reignBegin": "1533",
+    "reignEnd": "1548",
+    "aliases": [
+      "Trang Tông",
+      "Dụ Hoàng Đế",
+      "Nguyên Hòa (1533–1548)",
+      "Lê Ninh"
+    ],
+    "id": 109,
+    "name": "Lê Trang Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Trung_T%C3%B4ng_(H%E1%BA%ADu_L%C3%AA)",
+    "reignBegin": "1548",
+    "reignEnd": "1556",
+    "aliases": [
+      "Trung Tông",
+      "Vũ Hoàng Đế",
+      "Thuận Bình (1548–1556)",
+      "Lê Huyên"
+    ],
+    "id": 110,
+    "name": "Lê Trung Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Anh_T%C3%B4ng",
+    "reignBegin": "1556",
+    "reignEnd": "1573",
+    "aliases": [
+      "Anh Tông",
+      "Tuấn Hoàng Đế",
+      "Thiên Hựu (1556-1557)",
+      "Lê Duy Bang"
+    ],
+    "id": 111,
+    "name": "Lê Anh Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Th%E1%BA%BF_T%C3%B4ng",
+    "reignBegin": "1573",
+    "reignEnd": "1599",
+    "aliases": [
+      "Thế Tông",
+      "Nghị Hoàng Đế",
+      "Gia Thái (1573–1577)",
+      "Lê Đàm"
+    ],
+    "id": 112,
+    "name": "Lê Thế Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_K%C3%ADnh_T%C3%B4ng",
+    "reignBegin": "1599",
+    "reignEnd": "1619",
+    "aliases": [
+      "Kính Tông",
+      "Huệ Hoàng Đế",
+      "Thận Đức (1600-1600)",
+      "Lê Duy Tân"
+    ],
+    "id": 113,
+    "name": "Lê Kính Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Th%E1%BA%A7n_T%C3%B4ng",
+    "reignBegin": "1619",
+    "reignEnd": "1643",
+    "aliases": [
+      "Thần Tông",
+      "Uyên Hoàng Đế",
+      "Vĩnh Tộ (1620––1628)",
+      "Lê Duy Kỳ"
+    ],
+    "id": 114,
+    "name": "Lê Thần Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Ch%C3%A2n_T%C3%B4ng",
+    "reignBegin": "1643",
+    "reignEnd": "1649",
+    "aliases": [
+      "Chân Tông",
+      "Thuận Hoàng Đế",
+      "Phúc Thái (1643–1649)",
+      "Lê Duy Hựu"
+    ],
+    "id": 115,
+    "name": "Lê Chân Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Th%E1%BA%A7n_T%C3%B4ng",
+    "reignBegin": "1649",
+    "reignEnd": "1662",
+    "aliases": [
+      "Thần Tông",
+      "Uyên Hoàng Đế",
+      "Khánh Đức (1649–1652)",
+      "Lê Duy Kỳ"
+    ],
+    "id": 116,
+    "name": "Lê Thần Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Huy%E1%BB%81n_T%C3%B4ng",
+    "reignBegin": "1663",
+    "reignEnd": "1671",
+    "aliases": [
+      "Huyền Tông",
+      "Mục Hoàng Đế",
+      "Cảnh Trị (1663–1671)",
+      "Lê Duy Vũ"
+    ],
+    "id": 117,
+    "name": "Lê Huyền Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Gia_T%C3%B4ng",
+    "reignBegin": "1671",
+    "reignEnd": "1675",
+    "aliases": [
+      "Gia Tông",
+      "Mỹ Hoàng Đế",
+      "Dương Đức (1672––1673)",
+      "Lê Duy Cối"
+    ],
+    "id": 118,
+    "name": "Lê Gia Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Hy_T%C3%B4ng",
+    "reignBegin": "1675",
+    "reignEnd": "1705",
+    "aliases": [
+      "Hy Tông",
+      "Chương Hoàng Đế",
+      "Vĩnh Trị (1676-1680)",
+      "Lê Duy Hợp"
+    ],
+    "id": 119,
+    "name": "Lê Hy Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_D%E1%BB%A5_T%C3%B4ng",
+    "reignBegin": "1705",
+    "reignEnd": "1729",
+    "aliases": [
+      "Dụ Tông",
+      "Hòa Hoàng Đế",
+      "Vĩnh Thịnh (1706-1719)",
+      "Lê Duy Đường"
+    ],
+    "id": 120,
+    "name": "Lê Dụ Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Duy_Ph%C6%B0%E1%BB%9Dng",
+    "reignBegin": "1729",
+    "reignEnd": "1732",
+    "aliases": [
+      "Hôn Đức Công",
+      "Vĩnh Khánh (1729-1732)",
+      "Lê Duy Phường"
+    ],
+    "id": 121,
+    "name": "Lê Duy Phường"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Thu%E1%BA%A7n_T%C3%B4ng",
+    "reignBegin": "1732",
+    "reignEnd": "1735",
+    "aliases": [
+      "Thuần Tông",
+      "Giản Hoàng Đế",
+      "Long Đức (1732-1735)",
+      "Lê Duy Tường"
+    ],
+    "id": 122,
+    "name": "Lê Thuần Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_%C3%9D_T%C3%B4ng",
+    "reignBegin": "1735",
+    "reignEnd": "1740",
+    "aliases": [
+      "Ý Tông",
+      "Huy Hoàng Đế",
+      "Vĩnh Hựu (1735-1740)",
+      "Lê Duy Thận"
+    ],
+    "id": 123,
+    "name": "Lê Ý Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Hi%E1%BB%83n_T%C3%B4ng",
+    "reignBegin": "1740",
+    "reignEnd": "1786",
+    "aliases": [
+      "Hiển Tông",
+      "Vĩnh Hoàng Đế",
+      "Cảnh Hưng (1740-1786)",
+      "Lê Duy Diêu"
+    ],
+    "id": 124,
+    "name": "Lê Hiển Tông"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/L%C3%AA_Chi%C3%AAu_Th%E1%BB%91ng",
+    "reignBegin": "1786",
+    "reignEnd": "1789",
+    "aliases": [
+      "Mẫn Hoàng Đế",
+      "Chiêu Thống (1786-1789)",
+      "Lê Duy Kỳ"
+    ],
+    "id": 125,
+    "name": "Lê Chiêu Thống"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_Ki%E1%BB%83m",
+    "reignBegin": "1545",
+    "reignEnd": "1570",
+    "aliases": [
+      "Thế Tổ",
+      "Minh Khang Thái Vương",
+      "Trịnh Kiểm"
+    ],
+    "id": 126,
+    "name": "Trịnh Kiểm"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%E1%BB%91i",
+    "reignBegin": "1570",
+    "reignEnd": "1570",
+    "aliases": [
+      "Tuấn Đức Hầu, Trung Quốc Công",
+      "Trịnh Cối"
+    ],
+    "id": 127,
+    "name": "Trịnh Cối"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_T%C3%B9ng",
+    "reignBegin": "1570",
+    "reignEnd": "1623",
+    "aliases": [
+      "Thành Tổ",
+      "Triết Vương",
+      "Trịnh Tùng"
+    ],
+    "id": 128,
+    "name": "Bình An Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_Tr%C3%A1ng",
+    "reignBegin": "1623",
+    "reignEnd": "1657",
+    "aliases": [
+      "Văn Tổ",
+      "Nghị Vương",
+      "Trịnh Tráng"
+    ],
+    "id": 129,
+    "name": "Thanh Đô Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_T%E1%BA%A1c",
+    "reignBegin": "1657",
+    "reignEnd": "1682",
+    "aliases": [
+      "Hoằng Tổ",
+      "Dương Vương",
+      "Trịnh Tạc"
+    ],
+    "id": 130,
+    "name": "Tây Định Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C4%83n",
+    "reignBegin": "1682",
+    "reignEnd": "1709",
+    "aliases": [
+      "Chiêu Tổ",
+      "Khang Vương",
+      "Trịnh Căn"
+    ],
+    "id": 131,
+    "name": "Định Nam Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C6%B0%C6%A1ng",
+    "reignBegin": "1709",
+    "reignEnd": "1729",
+    "aliases": [
+      "Hy Tổ",
+      "Nhân Vương",
+      "Trịnh Cương"
+    ],
+    "id": 132,
+    "name": "An Đô Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_Giang",
+    "reignBegin": "1729",
+    "reignEnd": "1740",
+    "aliases": [
+      "Dụ Tổ",
+      "Thuận Vương",
+      "Trịnh Giang"
+    ],
+    "id": 133,
+    "name": "Uy Nam Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_Doanh",
+    "reignBegin": "1740",
+    "reignEnd": "1767",
+    "aliases": [
+      "Nghị Tổ",
+      "Ân Vương",
+      "Trịnh Doanh"
+    ],
+    "id": 134,
+    "name": "Minh Đô Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_S%C3%A2m",
+    "reignBegin": "1767",
+    "reignEnd": "1782",
+    "aliases": [
+      "Thánh Tổ",
+      "Thịnh Vương",
+      "Trịnh Sâm"
+    ],
+    "id": 135,
+    "name": "Tĩnh Đô Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C3%A1n",
+    "reignBegin": "1782",
+    "reignEnd": "1782",
+    "aliases": [
+      "Xung Mẫn Vương",
+      "Trịnh Cán"
+    ],
+    "id": 136,
+    "name": "Điện Đô Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_Kh%E1%BA%A3i",
+    "reignBegin": "1782",
+    "reignEnd": "1786",
+    "aliases": [
+      "Anh Liệt Linh Vương",
+      "Trịnh Khải"
+    ],
+    "id": 137,
+    "name": "Đoan Nam Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Tr%E1%BB%8Bnh_B%E1%BB%93ng",
+    "reignBegin": "1786",
+    "reignEnd": "1787",
+    "aliases": [
+      "Huệ Định Công",
+      "Trịnh Bồng"
+    ],
+    "id": 138,
+    "name": "Án Đô Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1558",
+    "reignEnd": "1613",
+    "aliases": [
+      "Liệt Tổ, Thái Tổ",
+      "Triệu Cơ Tùy Thống Khâm Minh Cung Ý Cần Nghĩa Đạt Lý Hiển Ứng Chiêu Hựu Diệu Linh Gia Dụ Hoàng Đế",
+      "Nguyễn Hoàng"
+    ],
+    "id": 139,
+    "name": "Tiên Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Nguy%C3%AAn",
+    "reignBegin": "1613",
+    "reignEnd": "1635",
+    "aliases": [
+      "Tuyên Tổ, Hy Tông",
+      "Hiển Mô Quang Liệt Ôn Cung Minh Duệ Dực Thiện Tuy Du Hiếu Văn Hoàng Đế",
+      "Nguyễn Phúc Nguyên"
+    ],
+    "id": 140,
+    "name": "Sãi Vương Phật Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Lan",
+    "reignBegin": "1635",
+    "reignEnd": "1648",
+    "aliases": [
+      "Thần Tổ, Thần Tông",
+      "Thừa Cơ Toàn Thống Quân Minh Hùng Nghị Uy Đoán Anh Vũ Hiếu Chiêu Hoàng Đế",
+      "Nguyễn Phúc Lan"
+    ],
+    "id": 141,
+    "name": "Thượng Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_T%E1%BA%A7n",
+    "reignBegin": "1648",
+    "reignEnd": "1687",
+    "aliases": [
+      "Nghị Tổ, Thái Tông",
+      "Tuyên Uy Kiến Vũ Anh Minh Trang Chính Thánh Đức Thần Công Hiếu Triết Hoàng Đế",
+      "Nguyễn Phúc Tần Nguyễn Phúc Cần"
+    ],
+    "id": 142,
+    "name": "Hiền Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Th%C3%A1i",
+    "reignBegin": "1687",
+    "reignEnd": "1691",
+    "aliases": [
+      "Anh Tông",
+      "Thiệu Hư Toản Nghiệp Khoan Hồng Bác Hậu Ôn Huệ Từ Tường Hiếu Nghĩa Hoàng Đế",
+      "Nguyễn Phúc Thái Nguyễn Phúc Trăn Nguyễn Phúc Ngàn"
+    ],
+    "id": 143,
+    "name": "Nghĩa Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Chu",
+    "reignBegin": "1691",
+    "reignEnd": "1725",
+    "aliases": [
+      "Hiển Tông",
+      "Anh Mô Hùng Lược Thánh Minh Tuyên Đạt Khoan Từ Nhân Thứ Hiếu Minh Hoàng Đế",
+      "Nguyễn Phúc Chu Nguyễn Phúc Tùng"
+    ],
+    "id": 144,
+    "name": "Minh Vương Quốc Chúa"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Ch%C3%BA",
+    "reignBegin": "1725",
+    "reignEnd": "1738",
+    "aliases": [
+      "Túc Tông",
+      "Tuyên Quang Thiệu Liệt Tuấn Triết Tĩnh Uyên Kinh Văn Vĩ Vũ Hiếu Ninh Hoàng Đế",
+      "Nguyễn Phúc Chú Nguyễn Phúc Trú"
+    ],
+    "id": 145,
+    "name": "Ninh Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Kho%C3%A1t",
+    "reignBegin": "1738",
+    "reignEnd": "1765",
+    "aliases": [
+      "Thế Tông",
+      "Kiền Cương Uy Đoán Thần Nghị Thánh Du Nhân Từ Duệ Trí Hiếu Vũ Hoàng Đế",
+      "Nguyễn Phúc Khoát Nguyễn Phúc Hiểu"
+    ],
+    "id": 146,
+    "name": "Vũ Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Thu%E1%BA%A7n",
+    "reignBegin": "1765",
+    "reignEnd": "1776",
+    "aliases": [
+      "Duệ Tông",
+      "Thông Minh Khoan Hậu Anh Mẫn Huệ Hòa Hiếu Định Hoàng Đế",
+      "Nguyễn Phúc Thuần Nguyễn Phúc Hân"
+    ],
+    "id": 147,
+    "name": "Định Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org",
+    "reignBegin": "1776",
+    "reignEnd": "1777",
+    "aliases": [
+      "Cung Mẫn Anh Đoán Huyền Mặc Vĩ Văn Mục Vương",
+      "Nguyễn Phúc Dương"
+    ],
+    "id": 148,
+    "name": "Tân Chính Vương"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Nh%E1%BA%A1c",
+    "reignBegin": "1778",
+    "reignEnd": "1788",
+    "aliases": [
+      "Minh Đức Hoàng Đế",
+      "Thái Đức (1778-1788)",
+      "Hồ Nhạc"
+    ],
+    "id": 149,
+    "name": "Thái Đức"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Hu%E1%BB%87",
+    "reignBegin": "1788",
+    "reignEnd": "1792",
+    "aliases": [
+      "Thái Tổ",
+      "Vũ Hoàng Đế",
+      "Quang Trung (1788-1792)",
+      "Nguyễn Huệ"
+    ],
+    "id": 150,
+    "name": "Quang Trung"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Nguy%E1%BB%85n_Quang_To%E1%BA%A3n",
+    "reignBegin": "1792",
+    "reignEnd": "1802",
+    "aliases": [
+      "Cảnh Thịnh (1792-1801)",
+      "Nguyễn Quang Toản"
+    ],
+    "id": 151,
+    "name": "Nguyễn Quang Toản"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Gia_Long",
+    "reignBegin": "1802",
+    "reignEnd": "1820",
+    "aliases": [
+      "Thế Tổ",
+      "Khai Thiên Hoằng Đạo Lập Kỷ Thùy Thống Thần Văn Thánh Vũ Tuấn Đức Long Công Chí Nhân Đại Hiếu Cao Hoàng Đế",
+      "Gia Long (1802–1820)",
+      "Nguyễn Phúc Ánh"
+    ],
+    "id": 152,
+    "name": "Gia Long"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Minh_M%E1%BA%A1ng",
+    "reignBegin": "1820",
+    "reignEnd": "1841",
+    "aliases": [
+      "Thánh Tổ",
+      "Thể Thiên Xương Vận Chí Hiếu Thuần Đức Văn Vũ Minh Đoán Sáng Thuật Đại Thành Hậu Trạch Phong Công Nhân Hoàng Đế",
+      "Minh Mạng (1820–1841)",
+      "Nguyễn Phúc Đảm"
+    ],
+    "id": 153,
+    "name": "Minh Mạng"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Thi%E1%BB%87u_Tr%E1%BB%8B",
+    "reignBegin": "1841",
+    "reignEnd": "1847",
+    "aliases": [
+      "Hiến Tổ",
+      "Thiệu Thiên Long Vận Chí Thiện Thuần Hiếu Khoan Minh Duệ Đoán Văn Trị Vũ Công Thánh Triết Chương Hoàng Đế",
+      "Thiệu Trị (1841–1847)",
+      "Nguyễn Phúc Miên Tông"
+    ],
+    "id": 154,
+    "name": "Thiệu Trị"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/T%E1%BB%B1_%C4%90%E1%BB%A9c",
+    "reignBegin": "1847",
+    "reignEnd": "1883",
+    "aliases": [
+      "Dực Tông",
+      "Thể Thiên Hanh Vận Chí Thành Đạt Hiếu Thể Kiện Đôn Nhân Khiêm Cung Minh Lược Duệ Văn Anh Hoàng Đế",
+      "Tự Đức (1847–1883)",
+      "Nguyễn Phúc Hồng Nhậm"
+    ],
+    "id": 155,
+    "name": "Tự Đức"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/D%E1%BB%A5c_%C4%90%E1%BB%A9c",
+    "reignBegin": "1883",
+    "reignEnd": "1883",
+    "aliases": [
+      "Cung Tông",
+      "Huệ Hoàng Đế",
+      "Nguyễn Phúc Ưng Chân"
+    ],
+    "id": 156,
+    "name": "Dục Đức"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Hi%E1%BB%87p_H%C3%B2a",
+    "reignBegin": "1883",
+    "reignEnd": "1883",
+    "aliases": [
+      "Phế Đế",
+      "Hiệp Hòa (1883)",
+      "Nguyễn Phúc Hồng Dật"
+    ],
+    "id": 157,
+    "name": "Hiệp Hòa"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Ki%E1%BA%BFn_Ph%C3%BAc",
+    "reignBegin": "1883",
+    "reignEnd": "1884",
+    "aliases": [
+      "Giản Tông",
+      "Thiệu Đức Chí Hiếu Uyên Duệ Nghị Hoàng Đế",
+      "Kiến Phúc (1883-1884)",
+      "Nguyễn Phúc Ưng Đăng"
+    ],
+    "id": 158,
+    "name": "Kiến Phúc"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/H%C3%A0m_Nghi",
+    "reignBegin": "1884",
+    "reignEnd": "1885",
+    "aliases": [
+      "Xuất Đế",
+      "Hàm Nghi (1884–1885)",
+      "Nguyễn Phúc Ưng Lịch"
+    ],
+    "id": 159,
+    "name": "Hàm Nghi"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/%C4%90%E1%BB%93ng_Kh%C3%A1nh",
+    "reignBegin": "1885",
+    "reignEnd": "1889",
+    "aliases": [
+      "Cảnh Tông",
+      "Hoằng Liệt Thống Thiết Mẫn Huệ Thuần Hoàng Đế",
+      "Đồng Khánh (1885–1889)",
+      "Nguyễn Phúc Ưng Kỷ"
+    ],
+    "id": 160,
+    "name": "Đồng Khánh"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Th%C3%A0nh_Th%C3%A1i",
+    "reignBegin": "1889",
+    "reignEnd": "1907",
+    "aliases": [
+      "Phế Đế",
+      "Thành Thái (1889–1907)",
+      "Nguyễn Phúc Bửu Lân"
+    ],
+    "id": 161,
+    "name": "Thành Thái"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Duy_T%C3%A2n",
+    "reignBegin": "1907",
+    "reignEnd": "1916",
+    "aliases": [
+      "Phế Đế",
+      "Duy Tân (1907–1916)",
+      "Nguyễn Phúc Vĩnh San"
+    ],
+    "id": 162,
+    "name": "Duy Tân"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh",
+    "reignBegin": "1916",
+    "reignEnd": "1925",
+    "aliases": [
+      "Hoằng Tông",
+      "Tự Thiên Gia Vận Thánh Minh Thần Trí Nhân Hiếu Thành Kính Di Mô Thừa Liệt Tuyên Hoàng Đế",
+      "Khải Định (1916-1925)",
+      "Nguyễn Phúc Bửu Đảo"
+    ],
+    "id": 163,
+    "name": "Khải Định"
+  },
+  {
+    "paperURL": "https://wikipedia.org/wiki/B%E1%BA%A3o_%C4%90%E1%BA%A1i",
+    "reignBegin": "1925",
+    "reignEnd": "1945",
+    "aliases": [
+      "Bảo Đại (1925–1945)",
+      "Nguyễn Phúc Vĩnh Thụy"
+    ],
+    "id": 164,
+    "name": "Bảo Đại"
+  }
+]

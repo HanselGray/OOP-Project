@@ -28,17 +28,18 @@ public class ScrapeEvent implements IWriteJson, ICombineData {
 
     @Override
     public void combine() {
-        BigEventWiki sukien = new BigEventWiki();
-        sukien.scraping();
-        Battle trandanh = new Battle();
-        trandanh.scraping();
-        list.addAll(sukien.getList());
-        list.addAll(trandanh.getList());
+        BigEventWiki events = new BigEventWiki();
+        events.scraping();
+        list.addAll(events.getList());
+        
+        Battle battle = new Battle();
+        battle.scraping();
+        list.addAll(battle.getBattleList());
     }
 
     @Override
     public void writeJSon() throws JsonIOException, IOException {
-        String JsonURL = "src\\data\\event.json";
+        String JsonURL = new File(System.getProperty("user.dir")).getParent() + "/OOP-BIG/src/main/data/events.json";
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try {
             FileWriter writer = new FileWriter(new File(JsonURL));

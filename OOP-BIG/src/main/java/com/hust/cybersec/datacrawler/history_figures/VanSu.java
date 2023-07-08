@@ -33,17 +33,17 @@ public class VanSu extends BasicDataCrawler {
             if (rowData.size() != 1) {
                 String headline = rowData.get(0).text();
                 if (headline.contains("Tên khác")) { // get Ten Khac
-                    figure.setTenKhac(rowData.get(1).text());
+                    figure.setOtherAliases(rowData.get(1).text());
                 } else if (headline.contains("Năm sinh")) { // get Nam Sinh
                     String year = rowData.get(1).text();
                     int index = year.indexOf("-");
                     String namSinh = year.substring(0, index);
                     String namMat = year.substring(index + 1);
-                    figure.setNamSinh(namSinh);
-                    figure.setNamMat(namMat);
+                    figure.setDob(namSinh);
+                    figure.setDod(namMat);
                 } else if (headline.contains("Tỉnh thành")) { // get Tinh thanh
                     String queQuan = rowData.get(1).text();
-                    figure.setQueQuan(queQuan);
+                    figure.setHometown(queQuan);
                 } else if (headline.contains("Thời kì")) { // get Thoi ki
                     Elements br = rowData.get(1).getElementsByTag("br");
                     if (br.size() <= 1) { // trong 1 thoi ki
@@ -55,12 +55,12 @@ public class VanSu extends BasicDataCrawler {
                             dynastyData = dynastyData.trim();
 
                             Dynasty dynasty = new Dynasty(dynastyData);
-                            figure.getTrieuDai().add(dynasty);
+                            figure.getDynasty().add(dynasty);
                         } else {
                             String dynastyData = data.substring(index + 2);
                             dynastyData = dynastyData.trim();
                             Dynasty dynasty = new Dynasty(dynastyData);
-                            figure.getTrieuDai().add(dynasty);
+                            figure.getDynasty().add(dynasty);
                         }
                     } else { // nhieu thoi ki
                         String data = rowData.get(1).html();
@@ -73,12 +73,12 @@ public class VanSu extends BasicDataCrawler {
                                 String getDynasty = d.substring(index + 1, openIndex);
                                 getDynasty = getDynasty.trim();
                                 Dynasty dynasty = new Dynasty(getDynasty);
-                                figure.getTrieuDai().add(dynasty);
+                                figure.getDynasty().add(dynasty);
                             } else {
                                 String getDynasty = d.substring(index + 1);
                                 getDynasty = getDynasty.trim();
                                 Dynasty dynasty = new Dynasty(getDynasty);
-                                figure.getTrieuDai().add(dynasty);
+                                figure.getDynasty().add(dynasty);
                             }
                         }
                     }
@@ -89,7 +89,7 @@ public class VanSu extends BasicDataCrawler {
                 for (Element p : paragraphs) {
                     ghiChu = ghiChu.append(p.text());
                 }
-                figure.setGhiChu(ghiChu.toString());
+                figure.setNotes(ghiChu.toString());
             }
         }
     }
@@ -97,49 +97,38 @@ public class VanSu extends BasicDataCrawler {
     public String replaceTrieuDai(String original) {
         String trieuDai = "";
         switch (original) {
-            case "Bắc thuộc lần 1": {
+            case "Bắc thuộc lần 1" ->  {
                 trieuDai = trieuDai.concat("Nhà Triệu");
-                break;
             }
-            case "Trưng Nữ Vương": {
+            case "Trưng Nữ Vương" ->  {
                 trieuDai = trieuDai.concat("Hai Bà Trưng");
-                break;
             }
-            case "Nhà Tiền Lý, Triệu": {
+            case "Nhà Tiền Lý, Triệu" ->  {
                 trieuDai = trieuDai.concat("Nhà Tiền Lý");
-                break;
             }
-            case "Hậu Trần": {
+            case "Hậu Trần" ->  {
                 trieuDai = trieuDai.concat("Nhà Hậu Trần");
-                break;
             }
-            case "Trịnh - Nguyễn": {
+            case "Trịnh - Nguyễn" ->  {
                 trieuDai = trieuDai.concat("Nhà Hậu Lê");
-                break;
             }
-            case "Triều Lê Sơ": {
+            case "Triều Lê Sơ" ->  {
                 trieuDai = trieuDai.concat("Nhà Lê sơ");
-                break;
             }
-            case "Nam - Bắc Triều": {
+            case "Nam - Bắc Triều" ->  {
                 trieuDai = trieuDai.concat("Nhà Mạc");
-                break;
             }
-            case "Nhà Nguyễn độc lập": {
+            case "Nhà Nguyễn độc lập" ->  {
                 trieuDai = trieuDai.concat("Nhà Nguyễn");
-                break;
             }
-            case "Pháp đô hộ": {
+            case "Pháp đô hộ" ->  {
                 trieuDai = trieuDai.concat("Đế quốc Việt Nam");
-                break;
             }
-            case "Nước Việt Nam mới": {
+            case "Nước Việt Nam mới" ->  {
                 trieuDai = trieuDai.concat("Việt Nam Dân chủ Cộng hòa");
-                break;
             }
-            default: {
+            default ->  {
                 trieuDai = trieuDai.concat("Hồng Bàng thị");
-                break;
             }
         }
         return trieuDai;

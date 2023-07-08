@@ -1,0 +1,1 @@
+String filePath = new File(System.getProperty("user.dir")).getParent() + "path to something";

@@ -17,7 +17,7 @@ public class RelicScrapeFull implements ICombineData, IWriteJson {
     private LinkedList<Relic> relics;
 
     public RelicScrapeFull() {
-        relics = new LinkedList<Relic>();
+        relics = new LinkedList<>();
     }
 
     @Override
@@ -29,14 +29,14 @@ public class RelicScrapeFull implements ICombineData, IWriteJson {
         ScrapeFromVHHNCombine r_h = new ScrapeFromVHHNCombine();
         r_h.combine();
         relics.addAll(r_h.getRelics());
-        System.out.println(r_h.getLienKetDynasty());
-        System.out.println(r_h.getLienKetFigure());
-        System.out.println(r_h.getLienKetKing());
+//        System.out.println(r_h.getLienKetDynasty());
+//        System.out.println(r_h.getLienKetFigure());
+//        System.out.println(r_h.getLienKetKing());
     }
 
     @Override
     public void writeJSon() throws JsonIOException, IOException {
-        String filePath = "C:\\Users\\ASUS\\eclipse-workspace\\quan_crawl\\src\\data\\relic.json";
+        String filePath = new File(System.getProperty("user.dir")).getParent() + "/OOP-BIG/src/main/data/relics.json";
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try {
             FileWriter writer = new FileWriter(new File(filePath));

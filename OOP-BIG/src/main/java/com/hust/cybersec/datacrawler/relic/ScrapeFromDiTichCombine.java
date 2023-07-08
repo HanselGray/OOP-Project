@@ -19,24 +19,9 @@ import com.hust.cybersec.objects.Relic;
 public class ScrapeFromDiTichCombine implements ICombineData, IWriteJson {
 
     private LinkedList<Relic> relics;
-    private int lienKetKing = 0;
-    private int lienKetDynasty = 0;
-    private int lienKetFigure = 0;
 
     public ScrapeFromDiTichCombine() throws IOException {
         relics = new LinkedList<Relic>();
-    }
-
-    public int getLienKetKing() {
-        return lienKetKing;
-    }
-
-    public int getLienKetDynasty() {
-        return lienKetDynasty;
-    }
-
-    public int getLienKetFigure() {
-        return lienKetFigure;
     }
 
     @Override
@@ -80,18 +65,10 @@ public class ScrapeFromDiTichCombine implements ICombineData, IWriteJson {
                 System.out.println(r.getPerson());
                 String tenNguoiTho = r.getPerson();
 
-                linkRelic.setLienKetDynasty(0);
-                linkRelic.setLienKetFigure(0);
-                linkRelic.setLienKetKing(0);
-
                 linkRelic.genLink(tenNguoiTho);
                 LinkedList<Figure> figures = linkRelic.getFigures();
                 LinkedList<King> kings = linkRelic.getKings();
                 LinkedList<Dynasty> dynastys = linkRelic.getDynastys();
-
-                lienKetDynasty += linkRelic.getLienKetDynasty();
-                lienKetKing += linkRelic.getLienKetKing();
-                lienKetFigure += linkRelic.getLienKetFigure();
 
                 Relic r1 = new Relic(r.getName(), r.getAddress(), r.getType(), r.getRank(), tenNguoiTho, figures, kings,
                         dynastys);
@@ -99,8 +76,6 @@ public class ScrapeFromDiTichCombine implements ICombineData, IWriteJson {
             }
 
         }
-        System.out.println(lienKetDynasty);
-        System.out.println(lienKetFigure);
-        System.out.println(lienKetKing);
+
     }
 }

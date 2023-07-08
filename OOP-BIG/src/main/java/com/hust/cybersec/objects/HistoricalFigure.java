@@ -2,45 +2,45 @@ package com.hust.cybersec.objects;
 
 public abstract class HistoricalFigure {
 	protected int id;
-	protected String namSinh;
-	protected String namMat;
+	protected String dob;
+	protected String dod;
 	protected String name;
 
-	protected HistoricalFigure(String ten, String namSinh, String namMat) {
-		this.namMat = namMat;
-		this.namSinh = namSinh;
-		this.name = ten;
+	protected HistoricalFigure(String name, String dob, String dod) {
+		this.dod = dod;
+		this.dob = dob;
+		this.name = name;
 	}
 
 	public HistoricalFigure() {
 	}
 
-	public HistoricalFigure(String ten) {
-		this.name = ten;
+	public HistoricalFigure(String name) {
+		this.name = name;
 	}
 
-	public String getNamSinh() {
-		return (namSinh == null || namSinh.strip().equals("...") || namSinh.strip().equals("…")) ? "Chưa rõ" : namSinh;
+	public String getDob() {
+		return (dob == null || dob.strip().equals("...") || dob.strip().equals("…")) ? "Chưa rõ" : dob;
 	}
 
-	public void setNamSinh(String namSinh) {
-		this.namSinh = namSinh;
+	public void setDob(String dob) {
+		this.dob = dob;
 	}
 
-	public String getNamMat() {
-		return (namMat == null || namMat.strip().equals("...") || namMat.strip().equals("…")) ? "Chưa rõ" : namMat;
+	public String getDod() {
+		return (dod == null || dod.strip().equals("...") || dod.strip().equals("…")) ? "Chưa rõ" : dod;
 	}
 
-	public void setNamMat(String namMat) {
-		this.namMat = namMat;
+	public void setDod(String dod) {
+		this.dod = dod;
 	}
 
 	public String getName() {
 		return name;
 	}
 
-	public void setName(String ten) {
-		this.name = ten;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public int getId() {

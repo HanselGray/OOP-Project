@@ -1,51 +1,61 @@
 package com.hust.cybersec.objects;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Event {
-	private String ten;
-	private String thoi_gian;
-	private String dia_diem;
-	private Dynasty nien_dai;
-	private Figure nhan_vat_lien_quan;
 
-	public String getTen() {
-		return ten;
-	}
+    private String name;
+    private String time;
+    private String places;
+    private List<String> factions = new ArrayList<>();
+    private String result;
 
-	public void setTen(String ten) {
-		this.ten = ten;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public String getThoi_gian() {
-		return thoi_gian;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setThoi_gian(String thoi_gian) {
-		this.thoi_gian = thoi_gian;
-	}
+    public String getTime() {
+        return time;
+    }
 
-	public String getDia_diem() {
-		return (dia_diem.equals("")) ? "Đang cập nhật" : dia_diem;
-	}
+    public void setTime(String time) {
+        this.time = time;
+    }
 
-	public void setDia_diem(String dia_diem) {
-		this.dia_diem = dia_diem;
-	}
+    public String getPlaces() {
+        return (places.equals("")) ? "Đang cập nhật" : places;
+    }
 
-	public Dynasty getNien_dai() {
-		return nien_dai;
-	}
+    public void setPlaces(String places) {
+        this.places = places;
+    }
 
-	public void setNien_dai(Dynasty nien_dai) {
-		this.nien_dai = nien_dai;
-	}
+    public List<String> getFactions() {
+        return factions;
+    }
 
-	public HistoricalFigure getNhan_vat_lien_quan() {
-		return nhan_vat_lien_quan;
-	}
+    public void setFactions(List<String> factions) {
+        this.factions = factions;
+    }
 
-	public void setNhan_vat_lien_quan(String ten) {
-		Figure fig = new Figure(ten) {
-		};
-		this.nhan_vat_lien_quan = fig;
-	}
+    public String getResult() {
+        return result;
+    }
+
+    public void setResult(String result) {
+        this.result = result;
+    }
+
+    @Override
+    public String toString() {
+        return (this.getName()+"\n"+this.getPlaces()+"\n"+this.getTime()+"\n"+this.getResult());       
+    }
+    
+    
+
 }

@@ -13,10 +13,10 @@ import com.hust.cybersec.datacrawler.basic_data_crawler.BasicDataCrawler;
 import com.hust.cybersec.objects.Event;
 
 public class BigEventWiki extends BasicDataCrawler  {
-	private ArrayList<Event> SuKienWiki = new ArrayList<Event>();
+	private ArrayList<Event> WikiEvents = new ArrayList<Event>();
 
 	public ArrayList<Event> getList() {
-		return SuKienWiki;
+		return WikiEvents;
 	}
 
 	BigEventWiki() {
@@ -24,18 +24,18 @@ public class BigEventWiki extends BasicDataCrawler  {
 		connect();
 	}
 
-	private String ChuaChuSo(String DuLieuTho) {
-		char[] chars = DuLieuTho.toCharArray();
+	private String containDigits(String rawData) {
+		char[] chars = rawData.toCharArray();
 		for (char c : chars) {
 			if (Character.isDigit(c))
-				return DuLieuTho;
+				return rawData;
 		}
 		return "";
 	}
 
-	private String CaoThoiGian(String DuLieuTho) {
-		DuLieuTho = DuLieuTho.replaceAll("[^0-9]", "#");
-		String[] arr = DuLieuTho.split("#");
+	private String crawlTimeStamp(String rawData) {
+		rawData = rawData.replaceAll("[^0-9]", "#");
+		String[] arr = rawData.split("#");
 
 		boolean LaMotNam = false;
 		int SoNamTrongDuLieu = 0;
@@ -55,117 +55,70 @@ public class BigEventWiki extends BasicDataCrawler  {
 		return ThoiGianTraVe.toString();
 	}
 
-	// private String LayNam(String thoi_gian) {
-	// thoi_gian = thoi_gian.replaceAll("[^0-9]", "#");
-	// String[] arr = thoi_gian.split("#");
-	// for (String s : arr) {
-	// if (s.matches("[0-9]{3}$") || s.matches("[0-9]{4}$")) {
-	// return s;
-	// }
-	// }
-	// return "";
-	// }
-
-	private String CaoDiaDiem(String DuLieuTho, String KyTuCanXoa) {
+	
+	private String crawlPlaces(String rawData, String tobeDelete) {
 		// StringBuilder s = new StringBuilder();
-		final String[] tukhoa = new String[] { "Trận ", "Chiến dịch ", "Biến cố ", "Chiến tranh ", "Văn hóa " };
-		boolean CanChinhSua = false;
-		DuLieuTho = DuLieuTho.replace(KyTuCanXoa, "");
+		final String[] keywords = new String[] { "Trận ", "Chiến dịch ", "Biến cố ", "Chiến tranh ", "Văn hóa " };
+		boolean needModification = false;
+		rawData = rawData.replace(tobeDelete, "");
 
-		for (int i = 0; i < tukhoa.length; i++) {
-			if (DuLieuTho.contains(tukhoa[i])) {
-				CanChinhSua = true;
-				DuLieuTho = DuLieuTho.replace(tukhoa[i], "");
-				DuLieuTho = DuLieuTho.replaceAll("[-()]", "");
+		for (int i = 0; i < keywords.length; i++) {
+			if (rawData.contains(keywords[i])) {
+				needModification = true;
+				rawData = rawData.replace(keywords[i], "");
+				rawData = rawData.replaceAll("[-()]", "");
 			}
 		}
-		if (CanChinhSua)
-			return DuLieuTho;
+		if (needModification)
+			return rawData;
 		return "";
 	}
 
-	private String CaoNhanVat(String DuLieuTho, String KyTuCanXoa) {
-		if (DuLieuTho.contains("Dẹp Loạn")) {
-			DuLieuTho = DuLieuTho.replace("Dẹp Loạn ", "");
-			DuLieuTho = DuLieuTho.replace(KyTuCanXoa, "");
-			return DuLieuTho;
+	private String crawlFigure(String rawData, String tobeDelete) {
+		if (rawData.contains("Dẹp Loạn")) {
+			rawData = rawData.replace("Dẹp Loạn ", "");
+			rawData = rawData.replace(tobeDelete, "");
+			return rawData;
 		}
 		return "";
 	}
 
-	/*
-	 * private Dynasty CaoTrieuDai(String thoi_gian) {
-	 * int moc = 0, startY = 0, endY = 0;
-	 * String JsonURL =
-	 * "C:\\Users\\lemin\\OneDrive\\Documents\\New Java projects\\BTL_OOP\\BTL_OOP\\src\\objects\\dynasty\\dynasty.json"
-	 * ;
-	 * Gson gson = new Gson();
-	 * ArrayList<Dynasty> trieu_dai = new ArrayList<Dynasty>();
-	 * try {
-	 * FileReader reader = new FileReader(JsonURL);
-	 * Type type = new TypeToken<ArrayList<Dynasty>>() {}.getType();
-	 * trieu_dai = gson.fromJson(reader, type);
-	 * }
-	 * catch(FileNotFoundException e) {
-	 * e.printStackTrace();
-	 * }
-	 * for(Dynasty d: trieu_dai) {
-	 * try {
-	 * moc = Integer.parseInt(LayNam(thoi_gian));
-	 * startY = Integer.parseInt(d.getStartYear());
-	 * endY = Integer.parseInt(d.getEndYear());
-	 * }
-	 * catch(NumberFormatException e) {
-	 * e.printStackTrace();
-	 * }
-	 * if(moc >= startY && moc <= endY) {
-	 * return d;
-	 * }
-	 * }
-	 * return new Dynasty();
-	 * }
-	 */
 	public void scraping() {
-		String TamNhoGiaTriThoiGian = "";
-		Element noi_dung_chinh = this.doc.getElementById("bodyContent");
-		// Elements thoi_ki = noi_dung_chinh.select("h3");
-		Elements su_kien = noi_dung_chinh.select("p, dd");
+		String TimeStamp = "";
+		Element main_content = this.doc.getElementById("bodyContent");
+		// Elements thoi_ki = main_content.select("h3");
+		Elements su_kien = main_content.select("p, dd");
 		for (Element e : su_kien) {
 			// mot so su kien ghi ro rang ngay thang nam o tag con thap hon
-			String ten = e.select("a").text();// day
-			if (ten.length() == 0) {
-				TamNhoGiaTriThoiGian = e.select("b").text();
-				TamNhoGiaTriThoiGian = ChuaChuSo(TamNhoGiaTriThoiGian);
+			String name = e.select("a").text();// day
+			if (name.length() == 0) {
+				TimeStamp = e.select("b").text();
+				TimeStamp = containDigits(TimeStamp);
 				continue;
 			}
-			String thoi_gian = e.select("b").text();
-			if (ChuaChuSo(thoi_gian) == "")
+			String time = e.select("b").text();
+			if (containDigits(time) == "")
 				continue;
-			if (CaoThoiGian(thoi_gian) == "")
-				thoi_gian = thoi_gian.concat(" " + TamNhoGiaTriThoiGian);
+			if (crawlTimeStamp(time) == "")
+				time = time.concat(" " + TimeStamp);
 			Event s = new Event();
-			s.setTen(ten);
-			s.setThoi_gian(thoi_gian);
-			s.setDia_diem(CaoDiaDiem(ten, thoi_gian));
-			s.setNhan_vat_lien_quan(CaoNhanVat(ten, thoi_gian));
-			s.getNhan_vat_lien_quan();
-			// s.setNien_dai(CaoTrieuDai(thoi_gian));
-			SuKienWiki.add(s);
-			System.out.println(thoi_gian + ": " + ten);
+			s.setName(name);
+			s.setTime(time);
+			s.setPlaces(crawlPlaces(name, time));			
+			// s.setNien_dai(CaoTrieuDai(time));
+			WikiEvents.add(s);
+			System.out.println(time + ": " + name);
 		}
 	}
 
 	public static void main(String args[]) {
-		BigEventWiki sukien = new BigEventWiki();
-		sukien.scraping();
-		// can chinh sua khi len remote
-		String JsonURL = "src\\objects\\event\\SuKienLon.json";
+		BigEventWiki events = new BigEventWiki();
+		events.scraping();		
+		String filePath = new File(System.getProperty("user.dir")).getParent() + "/OOP-BIG/src/main/data/events.json";
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		try {
-			FileWriter writer = new FileWriter(new File(JsonURL));
-			ArrayList<Event> DanhSachSuKien = new ArrayList<Event>();
-			DanhSachSuKien.addAll(sukien.getList());
-			gson.toJson(DanhSachSuKien, writer);
+			FileWriter writer = new FileWriter(new File(filePath));			
+			gson.toJson(events.getList(), writer);
 			writer.close();
 		} catch (IOException e) {
 			e.printStackTrace();
