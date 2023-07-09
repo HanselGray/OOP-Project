@@ -7,6 +7,8 @@
     "capital": "Không",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -19,6 +21,8 @@
     "capital": "Không",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -30,26 +34,36 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Vũ đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Văn đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Minh đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Ai đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Dương đế"
       }
@@ -57,6 +71,8 @@
     "capital": "Phiên Ngung",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Triệu Đà"
     }
@@ -68,6 +84,8 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trưng Nữ Vương"
       }
@@ -75,6 +93,8 @@
     "capital": "Mê Linh",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Trưng Trắc"
     }
@@ -87,6 +107,8 @@
     "capital": "Không",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -98,16 +120,22 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Nam Đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Triệu Việt Vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Phật Tử"
       }
@@ -115,6 +143,8 @@
     "capital": "Long Biên",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Lý Bí"
     }
@@ -126,26 +156,36 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Mai Hắc Đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Mai Thiếu Đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Bạch Đầu Đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Bố Cái Đại Vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Phùng An"
       }
@@ -153,6 +193,8 @@
     "capital": "Không",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -164,26 +206,36 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Khúc Tiên Chủ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Khúc Trung Chủ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Khúc Hậu Chủ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Dương Đình Nghệ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Kiều Công Tiễn"
       }
@@ -191,6 +243,8 @@
     "capital": "Không",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -202,26 +256,36 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Khúc Tiên Chủ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Khúc Trung Chủ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Khúc Hậu Chủ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Dương Đình Nghệ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Kiều Công Tiễn"
       }
@@ -229,6 +293,8 @@
     "capital": "Đại La",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Khúc Thừa Dụ"
     }
@@ -240,16 +306,22 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Ngô Quyền"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Dương Tam Kha"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Ngô Xương Ngập"
       }
@@ -257,6 +329,8 @@
     "capital": "Cổ Loa",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Ngô Quyền"
     }
@@ -268,11 +342,15 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Đinh Tiên Hoàng"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Đinh Phế Đế"
       }
@@ -280,6 +358,8 @@
     "capital": "Hoa Lư",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Đinh Bộ Lĩnh"
     }
@@ -291,16 +371,22 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Đại Hành"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Trung Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Ngọa Triều"
       }
@@ -308,6 +394,8 @@
     "capital": "Hoa Lư",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Lê Hoàn"
     }
@@ -319,56 +407,78 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Thái Tổ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Thái Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Thánh Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Nhân Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Thần Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Anh Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Cao Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Thẩm"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Huệ Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Nguyên Vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lý Chiêu Hoàng"
       }
@@ -376,6 +486,8 @@
     "capital": "Hoa Lư",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Lý Công Uẩn"
     }
@@ -387,66 +499,92 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Thái Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Thánh Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Nhân Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Anh Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Minh Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Hiến Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Dụ Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Dương Nhật Lễ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Nghệ Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Duệ Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Phế Đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Thuận Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Thiếu Đế"
       }
@@ -454,6 +592,8 @@
     "capital": "Thăng Long",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Trần Thủ Độ"
     }
@@ -465,11 +605,15 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hồ Quý Ly"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hồ Hán Thương"
       }
@@ -477,6 +621,8 @@
     "capital": "Tây Đô",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Hồ Quý Ly"
     }
@@ -489,6 +635,8 @@
     "capital": "Không",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -500,16 +648,22 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Giản Định Đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trùng Quang Đế"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Cảo"
       }
@@ -517,6 +671,8 @@
     "capital": "Mô Độ",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Trần Ngỗi"
     }
@@ -528,81 +684,113 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Trang Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Trung Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Anh Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Thế Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Kính Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Thần Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Chân Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Huyền Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Gia Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Hy Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Dụ Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Duy Phường"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Thuần Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Ý Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Hiển Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Mẫn Đế"
       }
@@ -610,6 +798,8 @@
     "capital": "Đông Kinh",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Lê Lợi"
     }
@@ -621,71 +811,99 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Thái Tổ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Thái Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Nhân Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Nghi Dân"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Thánh Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Hiến Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Túc Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Uy Mục"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Tương Dực"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Quang Trị"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Chiêu Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Bảng"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Do"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Cung Hoàng"
       }
@@ -693,6 +911,8 @@
     "capital": "Đông Kinh",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Lê Lợi"
     }
@@ -704,26 +924,36 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Mạc Thái Tổ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Mạc Mậu Hợp"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Mạc Toàn"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Mạc Kính Cung"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Mạc Kính Vũ"
       }
@@ -731,6 +961,8 @@
     "capital": "Đông Kinh",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Mạc Đăng Dung"
     }
@@ -742,16 +974,22 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Nhạc"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Huệ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Quang Toản"
       }
@@ -759,6 +997,8 @@
     "capital": "Qui Nhơn",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Nguyễn Nhạc"
     }
@@ -770,66 +1010,92 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Gia Long"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Minh Mạng"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Thiệu Trị"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Tự Đức"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Dục Đức"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hiệp Hoà"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Kiến Phúc"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hàm Nghi"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Đồng Khánh"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Thành Thái"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Duy Tân"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Khải Định"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Bảo Đại"
       }
@@ -837,6 +1103,8 @@
     "capital": "Huế",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Nguyễn Ánh"
     }
@@ -849,6 +1117,8 @@
     "capital": "Huế",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -860,11 +1130,15 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hồ Chí Minh"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Tôn Đức Thắng"
       }
@@ -872,6 +1146,8 @@
     "capital": "Hà Nội",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -884,6 +1160,8 @@
     "capital": "Sài Gòn",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -896,6 +1174,8 @@
     "capital": "Sài Gòn",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -908,6 +1188,8 @@
     "capital": "Tây Ninh",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -919,56 +1201,78 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Tôn Đức Thắng"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Hữu Thọ"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Đặng Xuân Khu"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Võ Chí Công"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Đức Anh"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Đức Lương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Minh Triết"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trương Tấn Sang"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trần Đại Quang"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Đặng Thị Ngọc Thịnh"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phú Trọng"
       }
@@ -976,6 +1280,8 @@
     "capital": "Hà Nội",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Unknown"
     }
@@ -987,101 +1293,141 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Kinh Dương Vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lạc Long Quân"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Quốc Vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Hiền Vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Lân Vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Diệp vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Hi vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Huy vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Chiêu vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Vĩ vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Định Vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Uy vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Trinh vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Vũ vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Việt vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Anh vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Triêu vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Tạo vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Nghị vương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Hùng Duệ Vương"
       }
@@ -1089,6 +1435,8 @@
     "capital": "Phong Châu",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Lộc Tục"
     }
@@ -1100,81 +1448,113 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Trang Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Trung Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Anh Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Thế Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Kính Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Thần Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Chân Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Huyền Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Gia Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Hy Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Dụ Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Duy Phường"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Thuần Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Ý Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Hiển Tông"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Lê Mẫn Đế"
       }
@@ -1182,6 +1562,8 @@
     "capital": "Đông Kinh",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Lê Duy Ninh"
     }
@@ -1193,66 +1575,92 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Kiểm"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Cối"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Tùng"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Tráng"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Tạc"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Căn"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Cương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Giang"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Doanh"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Sâm"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Cán"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Khải"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Trịnh Bồng"
       }
@@ -1260,6 +1668,8 @@
     "capital": "Đông Kinh",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Trịnh Kiểm"
     }
@@ -1271,56 +1681,78 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Hoàng"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phúc Nguyên"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phúc Lan"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phúc Tần"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phúc Thái"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phúc Chu"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phúc Chú"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phúc Khoát"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phúc Thuần"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phúc Dương"
       },
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "Nguyễn Phúc Ánh"
       }
@@ -1328,6 +1760,8 @@
     "capital": "Phú Xuân",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Nguyễn Kim"
     }
@@ -1339,6 +1773,8 @@
     "kings": [
       {
         "aliases": [],
+        "relatedDynasty": [],
+        "relatedRelic": [],
         "id": 0,
         "name": "An Dương Vương"
       }
@@ -1346,6 +1782,8 @@
     "capital": "Cổ Loa",
     "founder": {
       "aliases": [],
+      "relatedDynasty": [],
+      "relatedRelic": [],
       "id": 0,
       "name": "Thục Phán"
     }

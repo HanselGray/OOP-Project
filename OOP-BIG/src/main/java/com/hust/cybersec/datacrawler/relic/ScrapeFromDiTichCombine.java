@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -66,9 +67,9 @@ public class ScrapeFromDiTichCombine implements DataCombine, WriteToJSON {
                 String tenNguoiTho = r.getPerson();
 
                 linkRelic.genLink(tenNguoiTho);
-                ArrayList<Figure> figures = linkRelic.getFigures();
-                ArrayList<King> kings = linkRelic.getKings();
-                ArrayList<Dynasty> dynastys = linkRelic.getDynastys();
+                List<Figure> figures = linkRelic.getFigures();
+                List<King> kings = linkRelic.getKings();
+                List<Dynasty> dynastys = linkRelic.getDynastys();
 
                 Relic r1 = new Relic(r.getName(), r.getAddress(), r.getType(), r.getRank(), tenNguoiTho, figures, kings,
                         dynastys);

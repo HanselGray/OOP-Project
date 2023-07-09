@@ -1,7 +1,7 @@
 package com.hust.cybersec.datalinker;
 
 import java.io.IOException;
-import java.util.List;
+import java.util.*;
 import com.hust.cybersec.application.datareader.ReadData;
 import com.hust.cybersec.objects.Dynasty;
 import com.hust.cybersec.objects.Figure;

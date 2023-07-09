@@ -7,6 +7,8 @@
       "Kinh Dương Vương",
       "Lộc Tục"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 1,
     "name": "Kinh Dương Vương"
   },
@@ -18,6 +20,8 @@
       "Lạc Long Quân",
       "Sùng Lãm"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 2,
     "name": "Lạc Long Quân"
   },
@@ -28,6 +32,8 @@
     "aliases": [
       "Hùng Quốc Vương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 3,
     "name": "Hùng Vương thứ nhất"
   },
@@ -38,6 +44,8 @@
     "aliases": [
       "Hùng Hiền Vương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 4,
     "name": "Hùng Vương thứ hai"
   },
@@ -48,6 +56,8 @@
     "aliases": [
       "Hùng Lân Vương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 5,
     "name": "Hùng Vương thứ ba"
   },
@@ -58,6 +68,8 @@
     "aliases": [
       "Hùng Diệp Vương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 6,
     "name": "Hùng Vương thứ tư"
   },
@@ -68,6 +80,8 @@
     "aliases": [
       "Hùng Hy Vương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 7,
     "name": "Hùng Vương thứ năm"
   },
@@ -78,6 +92,8 @@
     "aliases": [
       "Hùng Huy Vương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 8,
     "name": "Hùng Vương thứ sáu"
   },
@@ -89,6 +105,8 @@
       "Hùng Chiêu Vương",
       "Lang Liêu"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 9,
     "name": "Hùng Vương thứ bảy"
   },
@@ -100,6 +118,8 @@
       "Hùng Vĩ Vương",
       "Thừa Vân Lang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 10,
     "name": "Hùng Vương thứ tám"
   },
@@ -111,6 +131,8 @@
       "Hùng Định Vương",
       "Quân Lang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 11,
     "name": "Hùng Vương thứ chín"
   },
@@ -122,6 +144,8 @@
       "Hùng Uy Vương",
       "Hùng Hải Lang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 12,
     "name": "Hùng Vương thứ mười"
   },
@@ -133,6 +157,8 @@
       "Hùng Trinh Vương",
       "Hưng Đức Lang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 13,
     "name": "Hùng Vương thứ 11"
   },
@@ -143,6 +169,8 @@
     "aliases": [
       "Hùng Vũ Vương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 14,
     "name": "Hùng Vương thứ 12"
   },
@@ -154,6 +182,8 @@
       "Hùng Việt Vương",
       "Tuấn Lang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 15,
     "name": "Hùng Vương thứ 13"
   },
@@ -165,6 +195,8 @@
       "Hùng Anh Vương",
       "Chân Nhân Lang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 16,
     "name": "Hùng Vương thứ 14"
   },
@@ -176,6 +208,8 @@
       "Hùng Triêu Vương",
       "Cảnh Chiêu Lang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 17,
     "name": "Hùng Vương thứ 15"
   },
@@ -187,6 +221,8 @@
       "Hùng Tạo Vương",
       "Đức Quân Lang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 18,
     "name": "Hùng Vương thứ 16"
   },
@@ -197,6 +233,8 @@
     "aliases": [
       "Hùng Nghị Vương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 19,
     "name": "Hùng Vương thứ 17"
   },
@@ -207,6 +245,8 @@
     "aliases": [
       "Hùng Duệ Vương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 20,
     "name": "Hùng Vương thứ 18"
   },
@@ -218,6 +258,8 @@
       "Hùng Kính Vương",
       "Huệ Lang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 21,
     "name": "Hùng Vương thứ 19"
   },
@@ -229,6 +271,8 @@
       "Vũ Vương Vũ Đế",
       "Triệu Đà"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 22,
     "name": "Triệu Vũ Vương"
   },
@@ -240,6 +284,8 @@
       "Văn Vương Văn Đế",
       "Triệu Hồ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 23,
     "name": "Triệu Văn Vương"
   },
@@ -251,6 +297,8 @@
       "Minh Vương",
       "Triệu Anh Tề"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 24,
     "name": "Triệu Minh Vương"
   },
@@ -262,6 +310,8 @@
       "Ai Vương",
       "Triệu Hưng"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 25,
     "name": "Triệu Ai Vương"
   },
@@ -273,6 +323,8 @@
       "Dương Vương Thuật Dương Vương Vệ Dương vương Vệ Dương hầu",
       "Triệu Kiến Đức"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 26,
     "name": "Triệu Dương Vương"
   },
@@ -284,6 +336,8 @@
       "Trinh Linh Chi Phu Nhân",
       "Trưng Trắc"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 27,
     "name": "Trưng Vương"
   },
@@ -296,6 +350,8 @@
       "Thiên Đức (544–548)",
       "Lý Bí (李賁)"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 28,
     "name": "Lý Nam Đế"
   },
@@ -307,6 +363,8 @@
       "Nam Việt Quốc Vương, Dạ Trạch Vương Thần Vũ Hoàng Đế",
       "Triệu Quang Phục (趙光復)"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 29,
     "name": "Triệu Việt Vương"
   },
@@ -317,6 +375,8 @@
     "aliases": [
       "Lý Thiên Bảo"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 30,
     "name": "Đào Lang Vương"
   },
@@ -328,6 +388,8 @@
       "Nam Đế Anh Liệt Nhân Hiếu Khâm Minh Thánh Vũ Hoàng Đế",
       "Lý Phật Tử (李佛子)"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 31,
     "name": "Hậu Lý Nam Đế"
   },
@@ -338,6 +400,8 @@
     "aliases": [
       "Lý Sư Lợi"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 32,
     "name": "Lý Sư Lợi"
   },
@@ -349,6 +413,8 @@
       "Đại Đế, Hắc Đế",
       "Mai Thúc Loan,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 33,
     "name": "Mai Hắc Đế"
   },
@@ -359,6 +425,8 @@
     "aliases": [
       "Mai Thúc Huy, Mai Bảo Sơn"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 34,
     "name": "Mai Thiếu Đế"
   },
@@ -369,6 +437,8 @@
     "aliases": [
       "Mai Kỳ Sơn"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 35,
     "name": "Bạch Đầu Đế"
   },
@@ -380,6 +450,8 @@
       "Bố Cái Đại Vương",
       "Phùng Hưng (馮興), Phùng Cự Lão"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 36,
     "name": "Phùng Hưng"
   },
@@ -390,6 +462,8 @@
     "aliases": [
       "Phùng An"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 37,
     "name": "Phùng An"
   },
@@ -402,6 +476,8 @@
       "Tiên Vương",
       "Khúc Thừa Dụ (曲承裕)"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 38,
     "name": "Khúc Tiên Chủ"
   },
@@ -414,6 +490,8 @@
       "Trung Vương",
       "Khúc Hạo,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 39,
     "name": "Khúc Trung Chủ"
   },
@@ -426,6 +504,8 @@
       "Hậu Vương",
       "Khúc Thừa Mỹ (曲承美) Khúc Toàn Mỹ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 40,
     "name": "Khúc Hậu Chủ"
   },
@@ -436,6 +516,8 @@
     "aliases": [
       "Dương Đình Nghệ, (楊筵藝)"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 41,
     "name": "Dương Chính Công"
   },
@@ -446,6 +528,8 @@
     "aliases": [
       "Kiều Công Tiễn,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 42,
     "name": "Kiều Công Tiễn"
   },
@@ -457,6 +541,8 @@
       "Tiên Chủ",
       "Ngô Quyền"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 43,
     "name": "Tiền Ngô Vương"
   },
@@ -468,6 +554,8 @@
       "Trương Dương Công",
       "Dương Tam Kha,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 44,
     "name": "Dương Bình Vương"
   },
@@ -478,6 +566,8 @@
     "aliases": [
       "Ngô Xương Ngập"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 45,
     "name": "Thiên Sách Vương"
   },
@@ -488,6 +578,8 @@
     "aliases": [
       "Ngô Xương Tấn,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 46,
     "name": "Nam Tấn Vương"
   },
@@ -498,6 +590,8 @@
     "aliases": [
       "Ngô Xương Xí"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 47,
     "name": "Ngô Sứ Quân"
   },
@@ -510,6 +604,8 @@
       "Thái Bình (970-979)",
       "Đinh Bộ Lĩnh,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 48,
     "name": "Đinh Tiên Hoàng"
   },
@@ -522,6 +618,8 @@
       "Thái Bình (979-980)",
       "Đinh Toàn,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 49,
     "name": "Đinh Phế Đế"
   },
@@ -534,6 +632,8 @@
       "Thiên Phúc (980–988) Hưng Thống (989–993) Ứng Thiên (994–1005)",
       "Lê Hoàn"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 50,
     "name": "Lê Đại Hành"
   },
@@ -546,6 +646,8 @@
       "Ứng Thiên (1005–1005)",
       "Lê Long Việt"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 51,
     "name": "Lê Trung Tông"
   },
@@ -558,6 +660,8 @@
       "Ứng Thiên (1005–1007) Cảnh Thụy (1008–1009)",
       "Lê Long Đĩnh,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 52,
     "name": "Lê Ngọa Triều"
   },
@@ -571,6 +675,8 @@
       "Thuận Thiên (1010–1028)",
       "Lý Công Uẩn"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 53,
     "name": "Lý Thái Tổ"
   },
@@ -584,6 +690,8 @@
       "Thiên Thành (1028–1033),",
       "Lý Phật Mã,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 54,
     "name": "Lý Thái Tông"
   },
@@ -597,6 +705,8 @@
       "Long Thụy Thái Bình (1054–1058),",
       "Lý Nhật Tôn"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 55,
     "name": "Lý Thánh Tông"
   },
@@ -610,6 +720,8 @@
       "Thái Ninh (1072–1076),",
       "Lý Càn Đức"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 56,
     "name": "Lý Nhân Tông"
   },
@@ -623,6 +735,8 @@
       "Thiên Thuận (1128–1132),",
       "Lý Dương Hoán"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 57,
     "name": "Lý Thần Tông"
   },
@@ -636,6 +750,8 @@
       "Thiệu Minh (1138–1139),",
       "Lý Thiên Tộ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 58,
     "name": "Lý Anh Tông"
   },
@@ -649,6 +765,8 @@
       "Trinh Phù (1176–1185),",
       "Lý Long Cán"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 59,
     "name": "Lý Cao Tông"
   },
@@ -659,6 +777,8 @@
     "aliases": [
       "Lý Thẩm"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 60,
     "name": "Lý Thẩm"
   },
@@ -672,6 +792,8 @@
       "Kiến Gia (1211–1224)",
       "Lý Sảm,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 61,
     "name": "Lý Huệ Tông"
   },
@@ -683,6 +805,8 @@
       "Nguyên Vương Văn Vương",
       "Càn Ninh (1214–1216)"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 62,
     "name": "Lý Nguyên Vương"
   },
@@ -695,6 +819,8 @@
       "Thiên Chương Hữu Đạo (1224–1225)",
       "Lý Phật Kim,"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 63,
     "name": "Lý Chiêu Hoàng"
   },
@@ -708,6 +834,8 @@
       "Kiến Trung (1225–1232)",
       "Trần Cảnh"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 64,
     "name": "Trần Thái Tông"
   },
@@ -721,6 +849,8 @@
       "Thiệu Long (1258–1272)",
       "Trần Hoảng"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 65,
     "name": "Trần Thánh Tông"
   },
@@ -734,6 +864,8 @@
       "Thiệu Bảo (1278–1285)",
       "Trần Khâm"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 66,
     "name": "Trần Nhân Tông"
   },
@@ -747,6 +879,8 @@
       "Hưng Long (1293–1314)",
       "Trần Thuyên"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 67,
     "name": "Trần Anh Tông"
   },
@@ -760,6 +894,8 @@
       "Đại Khánh (1314–1323)",
       "Trần Mạnh"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 68,
     "name": "Trần Minh Tông"
   },
@@ -773,6 +909,8 @@
       "Khai Hựu (1329–1341)",
       "Trần Vượng"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 69,
     "name": "Trần Hiến Tông"
   },
@@ -786,6 +924,8 @@
       "Thiệu Phong (1341–1357)",
       "Trần Hạo"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 70,
     "name": "Trần Dụ Tông"
   },
@@ -798,6 +938,8 @@
       "Đại Định (1369–1370)",
       "Trần Nhật Lễ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 71,
     "name": "Đại Định Đế"
   },
@@ -811,6 +953,8 @@
       "Thiệu Khánh (1370–1372)",
       "Trần Phủ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 72,
     "name": "Trần Nghệ Tông"
   },
@@ -824,6 +968,8 @@
       "Long Khánh (1373–1377)",
       "Trần Kính"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 73,
     "name": "Trần Duệ Tông"
   },
@@ -837,6 +983,8 @@
       "Xương Phù (1377–1388)",
       "Trần Hiện"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 74,
     "name": "Trần Phế Đế"
   },
@@ -849,6 +997,8 @@
       "Quang Thái (1388–1398)",
       "Trần Ngung"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 75,
     "name": "Trần Thuận Tông"
   },
@@ -861,6 +1011,8 @@
       "Kiến Tân (1398–1400)",
       "Trần An"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 76,
     "name": "Trần Thiếu Đế"
   },
@@ -874,6 +1026,8 @@
       "Thánh Nguyên (1400)",
       "Hồ Quý Ly Hồ Nhất Nguyên Lê Quý Ly Lê Nhất Nguyên"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 77,
     "name": "Hồ Quý Ly"
   },
@@ -885,6 +1039,8 @@
       "Thiệu Thành (1401–1402) Khai Đại (1403–1407)",
       "Hồ Hán Thương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 78,
     "name": "Hồ Hán Thương"
   },
@@ -895,6 +1051,8 @@
     "aliases": [
       "Trần Nguyệt Hồ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 79,
     "name": "Trần Nguyệt Hồ"
   },
@@ -906,6 +1064,8 @@
       "Hưng Khánh (1407–1409)",
       "Trần Ngỗi, Trần Quỹ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 80,
     "name": "Giản Định Đế"
   },
@@ -917,6 +1077,8 @@
       "Trùng Quang (1409–1414)",
       "Trần Quý Khoáng, Trần Quý Khoách"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 81,
     "name": "Trùng Quang Đế"
   },
@@ -930,6 +1092,8 @@
       "Thuận Thiên (1428–1433)",
       "Lê Lợi"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 82,
     "name": "Lê Thái Tổ"
   },
@@ -943,6 +1107,8 @@
       "Thiệu Bình (1434–1439)",
       "Lê Nguyên Long"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 83,
     "name": "Lê Thái Tông"
   },
@@ -956,6 +1122,8 @@
       "Thái Hòa (1443–1453)",
       "Lê Bang Cơ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 84,
     "name": "Lê Nhân Tông"
   },
@@ -968,6 +1136,8 @@
       "Thiên Hưng (1459–1460)",
       "Lê Nghi Dân"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 85,
     "name": "Lạng Sơn Vương"
   },
@@ -981,6 +1151,8 @@
       "Quang Thuận (1460–1469)",
       "Lê Tư Thành"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 86,
     "name": "Lê Thánh Tông"
   },
@@ -994,6 +1166,8 @@
       "Cảnh Thống (1497–1504)",
       "Lê Tranh"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 87,
     "name": "Lê Hiến Tông"
   },
@@ -1007,6 +1181,8 @@
       "Thái Trinh (1504)",
       "Lê Thuần"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 88,
     "name": "Lê Túc Tông"
   },
@@ -1020,6 +1196,8 @@
       "Đoan Khánh (1505–1509)",
       "Lê Tuấn"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 89,
     "name": "Lê Uy Mục"
   },
@@ -1033,6 +1211,8 @@
       "Hồng Thuận (1510–1516)",
       "Lê Oánh"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 90,
     "name": "Lê Tương Dực"
   },
@@ -1043,6 +1223,8 @@
     "aliases": [
       "Lê Quang Trị"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 91,
     "name": "Lê Quang Trị"
   },
@@ -1056,6 +1238,8 @@
       "Quang Thiệu (1516-1525)",
       "Lê Y"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 92,
     "name": "Lê Chiêu Tông"
   },
@@ -1067,6 +1251,8 @@
       "Đại Đức (1518–1519)",
       "Lê Bảng"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 93,
     "name": "Lê Bảng"
   },
@@ -1078,6 +1264,8 @@
       "Thiên Hiến (1519)",
       "Lê Do"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 94,
     "name": "Lê Do"
   },
@@ -1090,6 +1278,8 @@
       "Thống Nguyên (1522–1527)",
       "Lê Xuân"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 95,
     "name": "Lê Cung Hoàng"
   },
@@ -1103,6 +1293,8 @@
       "Minh Đức (1527–1530)",
       "Mạc Đăng Dung"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 96,
     "name": "Mạc Thái Tổ"
   },
@@ -1116,6 +1308,8 @@
       "Đại Chính (1530–1540)",
       "Mạc Đăng Doanh"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 97,
     "name": "Mạc Thái Tông"
   },
@@ -1129,6 +1323,8 @@
       "Quảng Hòa (1540–1546)",
       "Mạc Phúc Hải"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 98,
     "name": "Mạc Hiến Tông"
   },
@@ -1139,6 +1335,8 @@
     "aliases": [
       "Mạc Chính Trung"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 99,
     "name": "Mạc Chính Trung"
   },
@@ -1152,6 +1350,8 @@
       "Vĩnh Định (1547)",
       "Mạc Phúc Nguyên"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 100,
     "name": "Mạc Tuyên Tông"
   },
@@ -1165,6 +1365,8 @@
       "Thuần Phúc (1562–1565)",
       "Mạc Mậu Hợp"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 101,
     "name": "Mạc Mục Tông Mạc Anh Tổ"
   },
@@ -1178,6 +1380,8 @@
       "Vũ An (1592–1592)",
       "Mạc Toàn"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 102,
     "name": "Mạc Cảnh Tông"
   },
@@ -1191,6 +1395,8 @@
       "Bảo Định (1592–1593)",
       "Mạc Kính Chỉ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 103,
     "name": "Mạc Mẫn Tông"
   },
@@ -1204,6 +1410,8 @@
       "Càn Thống (1593–1625)",
       "Mạc Kính Cung"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 104,
     "name": "Mạc Đại Tông"
   },
@@ -1217,6 +1425,8 @@
       "Long Thái (1623–1638)",
       "Mạc Kính Khoan"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 105,
     "name": "Mạc Quang Tổ"
   },
@@ -1230,6 +1440,8 @@
       "Thuận Đức (1638–1677)",
       "Mạc Kính Vũ Mạc Kính Hoàn Mạc Kính Diệu"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 106,
     "name": "Mạc Minh Tông"
   },
@@ -1243,6 +1455,8 @@
       "Vĩnh Xương (1677–1681)",
       "Mạc Kính Hẻ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 107,
     "name": "Mạc Quý Tông"
   },
@@ -1255,6 +1469,8 @@
       "Thiên Địa Đại Bảo Văn Vũ Độ Đại Vương",
       "Mạc Kính Quang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 108,
     "name": "Mạc Đức Tông"
   },
@@ -1268,6 +1484,8 @@
       "Nguyên Hòa (1533–1548)",
       "Lê Ninh"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 109,
     "name": "Lê Trang Tông"
   },
@@ -1281,6 +1499,8 @@
       "Thuận Bình (1548–1556)",
       "Lê Huyên"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 110,
     "name": "Lê Trung Tông"
   },
@@ -1294,6 +1514,8 @@
       "Thiên Hựu (1556-1557)",
       "Lê Duy Bang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 111,
     "name": "Lê Anh Tông"
   },
@@ -1307,6 +1529,8 @@
       "Gia Thái (1573–1577)",
       "Lê Đàm"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 112,
     "name": "Lê Thế Tông"
   },
@@ -1320,6 +1544,8 @@
       "Thận Đức (1600-1600)",
       "Lê Duy Tân"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 113,
     "name": "Lê Kính Tông"
   },
@@ -1333,6 +1559,8 @@
       "Vĩnh Tộ (1620––1628)",
       "Lê Duy Kỳ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 114,
     "name": "Lê Thần Tông"
   },
@@ -1346,6 +1574,8 @@
       "Phúc Thái (1643–1649)",
       "Lê Duy Hựu"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 115,
     "name": "Lê Chân Tông"
   },
@@ -1359,6 +1589,8 @@
       "Khánh Đức (1649–1652)",
       "Lê Duy Kỳ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 116,
     "name": "Lê Thần Tông"
   },
@@ -1372,6 +1604,8 @@
       "Cảnh Trị (1663–1671)",
       "Lê Duy Vũ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 117,
     "name": "Lê Huyền Tông"
   },
@@ -1385,6 +1619,8 @@
       "Dương Đức (1672––1673)",
       "Lê Duy Cối"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 118,
     "name": "Lê Gia Tông"
   },
@@ -1398,6 +1634,8 @@
       "Vĩnh Trị (1676-1680)",
       "Lê Duy Hợp"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 119,
     "name": "Lê Hy Tông"
   },
@@ -1411,6 +1649,8 @@
       "Vĩnh Thịnh (1706-1719)",
       "Lê Duy Đường"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 120,
     "name": "Lê Dụ Tông"
   },
@@ -1423,6 +1663,8 @@
       "Vĩnh Khánh (1729-1732)",
       "Lê Duy Phường"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 121,
     "name": "Lê Duy Phường"
   },
@@ -1436,6 +1678,8 @@
       "Long Đức (1732-1735)",
       "Lê Duy Tường"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 122,
     "name": "Lê Thuần Tông"
   },
@@ -1449,6 +1693,8 @@
       "Vĩnh Hựu (1735-1740)",
       "Lê Duy Thận"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 123,
     "name": "Lê Ý Tông"
   },
@@ -1462,6 +1708,8 @@
       "Cảnh Hưng (1740-1786)",
       "Lê Duy Diêu"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 124,
     "name": "Lê Hiển Tông"
   },
@@ -1474,6 +1722,8 @@
       "Chiêu Thống (1786-1789)",
       "Lê Duy Kỳ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 125,
     "name": "Lê Chiêu Thống"
   },
@@ -1486,6 +1736,8 @@
       "Minh Khang Thái Vương",
       "Trịnh Kiểm"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 126,
     "name": "Trịnh Kiểm"
   },
@@ -1497,6 +1749,8 @@
       "Tuấn Đức Hầu, Trung Quốc Công",
       "Trịnh Cối"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 127,
     "name": "Trịnh Cối"
   },
@@ -1509,6 +1763,8 @@
       "Triết Vương",
       "Trịnh Tùng"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 128,
     "name": "Bình An Vương"
   },
@@ -1521,6 +1777,8 @@
       "Nghị Vương",
       "Trịnh Tráng"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 129,
     "name": "Thanh Đô Vương"
   },
@@ -1533,6 +1791,8 @@
       "Dương Vương",
       "Trịnh Tạc"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 130,
     "name": "Tây Định Vương"
   },
@@ -1545,6 +1805,8 @@
       "Khang Vương",
       "Trịnh Căn"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 131,
     "name": "Định Nam Vương"
   },
@@ -1557,6 +1819,8 @@
       "Nhân Vương",
       "Trịnh Cương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 132,
     "name": "An Đô Vương"
   },
@@ -1569,6 +1833,8 @@
       "Thuận Vương",
       "Trịnh Giang"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 133,
     "name": "Uy Nam Vương"
   },
@@ -1581,6 +1847,8 @@
       "Ân Vương",
       "Trịnh Doanh"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 134,
     "name": "Minh Đô Vương"
   },
@@ -1593,6 +1861,8 @@
       "Thịnh Vương",
       "Trịnh Sâm"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 135,
     "name": "Tĩnh Đô Vương"
   },
@@ -1604,6 +1874,8 @@
       "Xung Mẫn Vương",
       "Trịnh Cán"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 136,
     "name": "Điện Đô Vương"
   },
@@ -1615,6 +1887,8 @@
       "Anh Liệt Linh Vương",
       "Trịnh Khải"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 137,
     "name": "Đoan Nam Vương"
   },
@@ -1626,6 +1900,8 @@
       "Huệ Định Công",
       "Trịnh Bồng"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 138,
     "name": "Án Đô Vương"
   },
@@ -1638,6 +1914,8 @@
       "Triệu Cơ Tùy Thống Khâm Minh Cung Ý Cần Nghĩa Đạt Lý Hiển Ứng Chiêu Hựu Diệu Linh Gia Dụ Hoàng Đế",
       "Nguyễn Hoàng"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 139,
     "name": "Tiên Vương"
   },
@@ -1650,6 +1928,8 @@
       "Hiển Mô Quang Liệt Ôn Cung Minh Duệ Dực Thiện Tuy Du Hiếu Văn Hoàng Đế",
       "Nguyễn Phúc Nguyên"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 140,
     "name": "Sãi Vương Phật Vương"
   },
@@ -1662,6 +1942,8 @@
       "Thừa Cơ Toàn Thống Quân Minh Hùng Nghị Uy Đoán Anh Vũ Hiếu Chiêu Hoàng Đế",
       "Nguyễn Phúc Lan"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 141,
     "name": "Thượng Vương"
   },
@@ -1674,6 +1956,8 @@
       "Tuyên Uy Kiến Vũ Anh Minh Trang Chính Thánh Đức Thần Công Hiếu Triết Hoàng Đế",
       "Nguyễn Phúc Tần Nguyễn Phúc Cần"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 142,
     "name": "Hiền Vương"
   },
@@ -1686,6 +1970,8 @@
       "Thiệu Hư Toản Nghiệp Khoan Hồng Bác Hậu Ôn Huệ Từ Tường Hiếu Nghĩa Hoàng Đế",
       "Nguyễn Phúc Thái Nguyễn Phúc Trăn Nguyễn Phúc Ngàn"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 143,
     "name": "Nghĩa Vương"
   },
@@ -1698,6 +1984,8 @@
       "Anh Mô Hùng Lược Thánh Minh Tuyên Đạt Khoan Từ Nhân Thứ Hiếu Minh Hoàng Đế",
       "Nguyễn Phúc Chu Nguyễn Phúc Tùng"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 144,
     "name": "Minh Vương Quốc Chúa"
   },
@@ -1710,6 +1998,8 @@
       "Tuyên Quang Thiệu Liệt Tuấn Triết Tĩnh Uyên Kinh Văn Vĩ Vũ Hiếu Ninh Hoàng Đế",
       "Nguyễn Phúc Chú Nguyễn Phúc Trú"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 145,
     "name": "Ninh Vương"
   },
@@ -1722,6 +2012,8 @@
       "Kiền Cương Uy Đoán Thần Nghị Thánh Du Nhân Từ Duệ Trí Hiếu Vũ Hoàng Đế",
       "Nguyễn Phúc Khoát Nguyễn Phúc Hiểu"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 146,
     "name": "Vũ Vương"
   },
@@ -1734,6 +2026,8 @@
       "Thông Minh Khoan Hậu Anh Mẫn Huệ Hòa Hiếu Định Hoàng Đế",
       "Nguyễn Phúc Thuần Nguyễn Phúc Hân"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 147,
     "name": "Định Vương"
   },
@@ -1745,6 +2039,8 @@
       "Cung Mẫn Anh Đoán Huyền Mặc Vĩ Văn Mục Vương",
       "Nguyễn Phúc Dương"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 148,
     "name": "Tân Chính Vương"
   },
@@ -1757,6 +2053,8 @@
       "Thái Đức (1778-1788)",
       "Hồ Nhạc"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 149,
     "name": "Thái Đức"
   },
@@ -1770,6 +2068,8 @@
       "Quang Trung (1788-1792)",
       "Nguyễn Huệ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 150,
     "name": "Quang Trung"
   },
@@ -1781,6 +2081,8 @@
       "Cảnh Thịnh (1792-1801)",
       "Nguyễn Quang Toản"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 151,
     "name": "Nguyễn Quang Toản"
   },
@@ -1794,6 +2096,8 @@
       "Gia Long (1802–1820)",
       "Nguyễn Phúc Ánh"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 152,
     "name": "Gia Long"
   },
@@ -1807,6 +2111,8 @@
       "Minh Mạng (1820–1841)",
       "Nguyễn Phúc Đảm"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 153,
     "name": "Minh Mạng"
   },
@@ -1820,6 +2126,8 @@
       "Thiệu Trị (1841–1847)",
       "Nguyễn Phúc Miên Tông"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 154,
     "name": "Thiệu Trị"
   },
@@ -1833,6 +2141,8 @@
       "Tự Đức (1847–1883)",
       "Nguyễn Phúc Hồng Nhậm"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 155,
     "name": "Tự Đức"
   },
@@ -1845,6 +2155,8 @@
       "Huệ Hoàng Đế",
       "Nguyễn Phúc Ưng Chân"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 156,
     "name": "Dục Đức"
   },
@@ -1857,6 +2169,8 @@
       "Hiệp Hòa (1883)",
       "Nguyễn Phúc Hồng Dật"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 157,
     "name": "Hiệp Hòa"
   },
@@ -1870,6 +2184,8 @@
       "Kiến Phúc (1883-1884)",
       "Nguyễn Phúc Ưng Đăng"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 158,
     "name": "Kiến Phúc"
   },
@@ -1882,6 +2198,8 @@
       "Hàm Nghi (1884–1885)",
       "Nguyễn Phúc Ưng Lịch"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 159,
     "name": "Hàm Nghi"
   },
@@ -1895,6 +2213,8 @@
       "Đồng Khánh (1885–1889)",
       "Nguyễn Phúc Ưng Kỷ"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 160,
     "name": "Đồng Khánh"
   },
@@ -1907,6 +2227,8 @@
       "Thành Thái (1889–1907)",
       "Nguyễn Phúc Bửu Lân"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 161,
     "name": "Thành Thái"
   },
@@ -1919,6 +2241,8 @@
       "Duy Tân (1907–1916)",
       "Nguyễn Phúc Vĩnh San"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 162,
     "name": "Duy Tân"
   },
@@ -1932,6 +2256,8 @@
       "Khải Định (1916-1925)",
       "Nguyễn Phúc Bửu Đảo"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 163,
     "name": "Khải Định"
   },
@@ -1943,6 +2269,8 @@
       "Bảo Đại (1925–1945)",
       "Nguyễn Phúc Vĩnh Thụy"
     ],
+    "relatedDynasty": [],
+    "relatedRelic": [],
     "id": 164,
     "name": "Bảo Đại"
   }

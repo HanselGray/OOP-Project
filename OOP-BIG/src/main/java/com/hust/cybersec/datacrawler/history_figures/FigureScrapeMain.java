@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.LinkedList;
 import com.hust.cybersec.datacrawler.interfaces.DataCombine;
 import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
@@ -101,7 +102,7 @@ public class FigureScrapeMain implements WriteToJSON, DataCombine {
 
         System.out.println("num of mem: " + list.size());
         for (Figure figure : list) {
-            ArrayList<Dynasty> dynastyList = figure.getDynasty();
+            List<Dynasty> dynastyList = figure.getDynasty();
             for (Dynasty dynasty : dynastyList) {
                 String name = dynasty.getName();
                 dynasty.setName(replacedynasty(name));

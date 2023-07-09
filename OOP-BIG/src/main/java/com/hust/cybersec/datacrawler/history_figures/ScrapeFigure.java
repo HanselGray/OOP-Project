@@ -12,6 +12,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class ScrapeFigure implements IWriteJson, ICombineData {
 	private LinkedList<Figure> list = new LinkedList<>();
@@ -74,7 +75,7 @@ public class ScrapeFigure implements IWriteJson, ICombineData {
 
 	@Override
 	public void writeJSon() throws JsonIOException, IOException {
-		String filePath = new File(System.getProperty("user.dir")).getParent() + "/OOP-Project/OOP-BIG/src/main/data/figures.json";
+		String filePath = new File(System.getProperty("user.dir")).getParent() + "/OOP-BIG/src/main/data/figures.json";
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		try {
 			FileWriter writer = new FileWriter(new File(filePath));
@@ -100,7 +101,7 @@ public class ScrapeFigure implements IWriteJson, ICombineData {
 
 		System.out.println("num of mem: " + list.size());
 		for (Figure figure : list) {
-			ArrayList<Dynasty> dynastyList = figure.getTrieuDai();
+			List<Dynasty> dynastyList = figure.getDynasty();
 			for (Dynasty dynasty : dynastyList) {
 				String name = dynasty.getName();
 				dynasty.setName(replaceTrieuDai(name));

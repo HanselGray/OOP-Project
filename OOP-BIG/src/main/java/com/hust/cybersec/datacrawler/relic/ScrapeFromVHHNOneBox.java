@@ -8,6 +8,7 @@ import com.hust.cybersec.objects.King;
 import com.hust.cybersec.objects.Relic;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 public class ScrapeFromVHHNOneBox extends BasicDataCrawler {
 
@@ -53,9 +54,9 @@ public class ScrapeFromVHHNOneBox extends BasicDataCrawler {
 
         linkRelic.genLink(desc);
 
-        ArrayList<Figure> figures = linkRelic.getFigures();
-        ArrayList<King> kings = linkRelic.getKings();
-        ArrayList<Dynasty> dynastys = linkRelic.getDynastys();
+        List<Figure> figures = linkRelic.getFigures();
+        List<King> kings = linkRelic.getKings();
+        List<Dynasty> dynastys = linkRelic.getDynastys();
 
         relic = new Relic(name, location, type,
                 "Unknown", desc, figures, kings, dynastys);
