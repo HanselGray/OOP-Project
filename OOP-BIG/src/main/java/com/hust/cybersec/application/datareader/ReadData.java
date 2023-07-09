@@ -8,6 +8,11 @@ import java.util.List;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.hust.cybersec.objects.Event;
+import com.hust.cybersec.objects.Festival;
+
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+
 import java.io.File;
 
 
@@ -37,10 +42,11 @@ public class ReadData<T> {
     
     // demo reader     
     public static void main(String[] args) throws IOException {
-        ReadData<Event> reader = new ReadData<>();
-        List<Event> list = reader.FromJsonToArray("/OOP-BIG/src/main/data/events.json", Event.class);
-        for(Event e : list){
-            System.out.println(e);
-        }
+//        ReadData<Festival> reader = new ReadData<>();
+//        List<Festival> list = reader.FromJsonToArray("/OOP-BIG/src/main/data/festivals.json", Festival.class);
+//        ObservableList<Festival> listObservablesFestival = FXCollections.observableList(list);
+//        for(Festival e : listObservablesFestival){
+//            System.out.println(e);
+//        }
     }
 }

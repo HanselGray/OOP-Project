@@ -22,7 +22,7 @@ public class Festival {
 	}
 
 	public String getTime() {
-		return time;
+		return (time == null || time.strip().equals("") || time.strip().equals("…")) ? "N/A" : time;
 	}
 
 	public void setTime(String time) {
@@ -30,7 +30,7 @@ public class Festival {
 	}
 
 	public String getPlace() {
-		return place;
+		return (place == null || place.strip().equals("") || place.strip().equals("…")) ? "N/A" : place;
 	}
 
 	public void setPlace(String place) {

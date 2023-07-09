@@ -20,15 +20,15 @@ public class Event {
     }
 
     public String getTime() {
-        return time;
+		return (time == null || time.strip().equals("") || time.strip().equals("…")) ? "N/A" : time;
     }
 
     public void setTime(String time) {
-        this.time = time;
+    	this.time = time;
     }
 
     public String getPlaces() {
-        return (places.equals("")) ? "Đang cập nhật" : places;
+		return (places == null || places.strip().equals("") || places.strip().equals("…")) ? "N/A" : places;
     }
 
     public void setPlaces(String places) {
@@ -44,7 +44,7 @@ public class Event {
     }
 
     public String getResult() {
-        return result;
+		return (result == null || result.strip().equals("") || result.strip().equals("…")) ? "N/A" : result;
     }
 
     public void setResult(String result) {

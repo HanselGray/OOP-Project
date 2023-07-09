@@ -1,5 +1,1061 @@
 [
   {
+    "name": "Văn hóa Soi Nhụ",
+    "time": "25.000 TCN–7.000 TCN",
+    "places": "Soi Nhụ",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Ngườm",
+    "time": "23.000 TCN",
+    "places": "Ngườm",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Tràng An",
+    "time": "23.000 TCN–1.000 TCN",
+    "places": "Tràng An",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Sơn Vi",
+    "time": "20.000 TCN–12.000 TCN",
+    "places": "Sơn Vi",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Hòa Bình",
+    "time": "12.000 TCN–10.000 TCN",
+    "places": "Hòa Bình",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Bắc Sơn",
+    "time": "10.000 TCN - 8.000 TCN",
+    "places": "Bắc Sơn",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Quỳnh Văn",
+    "time": "8.000 TCN - 6.000 TCN",
+    "places": "Quỳnh Văn",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Cái Bèo",
+    "time": "7.000 TCN - 5.000 TCN",
+    "places": "Cái Bèo",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Đa Bút",
+    "time": "6.000 TCN - 5.000 TCN",
+    "places": "Đa Bút",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Hạ Long",
+    "time": "3.000 TCN–1.500 TCN",
+    "places": "Hạ Long",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Phùng Nguyên",
+    "time": "2.000 TCN–1.500 TCN",
+    "places": "Phùng Nguyên",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Tiền Sa Huỳnh",
+    "time": "2.000 TCN–1.000 TCN",
+    "places": "Tiền Sa Huỳnh",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Đồng Đậu",
+    "time": "1.500 TCN–1.000 TCN",
+    "places": "Đồng Đậu",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Gò Mun",
+    "time": "1.000 TCN - 600 TCN",
+    "places": "Gò Mun",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Sa Huỳnh",
+    "time": "1.000 TCN - 200 ",
+    "places": "Sa Huỳnh",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Đồng Nai",
+    "time": "1.000 TCN - 0",
+    "places": "Đồng Nai",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Đông Sơn",
+    "time": "700 TCN–100",
+    "places": "Đông Sơn",
+    "factions": []
+  },
+  {
+    "name": "Văn hóa Óc Eo",
+    "time": "1 - 630",
+    "places": "Óc Eo",
+    "factions": []
+  },
+  {
+    "name": "An Dương Vương Văn Lang Âu Lạc",
+    "time": "207 TCN",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Tần-Việt",
+    "time": "218 TCN - 207 TCN",
+    "places": "TầnViệt",
+    "factions": []
+  },
+  {
+    "name": "Triệu Đà Âu Lạc Nam Việt",
+    "time": "179 TCN",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Hán-Nam Việt",
+    "time": "111 TCN",
+    "places": "HánNam Việt",
+    "factions": []
+  },
+  {
+    "name": "nhà Hán Nam Việt",
+    "time": "111 TCN",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "khởi nghĩa Hai Bà Trưng Trưng Trắc Lĩnh Nam Mê Linh",
+    "time": "40 ",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Lĩnh Nam - Đông Hán",
+    "time": "42 - 43 ",
+    "places": "Lĩnh Nam  Đông Hán",
+    "factions": []
+  },
+  {
+    "name": "Đông Hán Lĩnh Nam",
+    "time": "43 ",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Khởi nghĩa Chu Đạt",
+    "time": "156–160",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Khởi nghĩa Lương Long",
+    "time": "178–181",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Khu Liên Nhật Nam Lâm Ấp",
+    "time": "192",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Tôn Quyền Đông Ngô nhà Hán",
+    "time": "23 tháng 6 229",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Khởi nghĩa Bà Triệu",
+    "time": "246 - 248",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Tấn – Ngô",
+    "time": "280",
+    "places": "Tấn – Ngô",
+    "factions": []
+  },
+  {
+    "name": "Lưu Dụ Tấn Cung Đế Lưu Tống",
+    "time": "420",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Đàn Hòa Chi Lâm Ấp",
+    "time": "436",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lý Trường Nhân",
+    "time": "468 - 485",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Tiêu Đạo Thành Lưu Chuẩn Nam Tề",
+    "time": "479",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Tiêu Diễn Tiêu Bảo Dung nhà Lương",
+    "time": "502",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "khởi nghĩa Lý Bí",
+    "time": "541",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lý Bí Vạn Xuân",
+    "time": "544",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Tùy–Vạn Xuân",
+    "time": "602",
+    "places": "Tùy–Vạn Xuân",
+    "factions": []
+  },
+  {
+    "name": "Lý Uyên nhà Đường",
+    "time": "tháng 3 618",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lý Uyên Dương Hựu",
+    "time": "tháng 5 618",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lý Tự Tiên",
+    "time": "687",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Mai Hắc Đế",
+    "time": "713 - 723",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Phùng Hưng",
+    "time": "776-791",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Khúc Thừa Dụ",
+    "time": "905",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Trận Bạch Đằng Ngô Quyền Nam Hán sông Bạch Đằng",
+    "time": "938",
+    "places": "Bạch Đằng Ngô Quyền Nam Hán sông Bạch Đằng",
+    "factions": []
+  },
+  {
+    "name": "Ngô Quyền Cổ Loa",
+    "time": "939",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Loạn 12 sứ quân",
+    "time": "944 - 968",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Đinh Bộ Lĩnh Đại Cồ Việt Hoa Lư",
+    "time": "968",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Đinh Bộ Lĩnh Thái Bình hưng bảo",
+    "time": "970",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Đinh Bộ Lĩnh",
+    "time": "979",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lê Hoàn nhà Tiền Lê",
+    "time": "980",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Tống - Việt",
+    "time": "tháng 1 - tháng 4 981",
+    "places": "Tống  Việt",
+    "factions": []
+  },
+  {
+    "name": "Lý Công Uẩn nhà Lý",
+    "time": "21 tháng 11 1009",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lý Công Uẩn Thăng Long",
+    "time": "1010",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lý Thánh Tông Đại Cồ Việt Đại Việt",
+    "time": "1054",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Việt-Chiêm Đại Việt Chiêm Thành",
+    "time": "1069",
+    "places": "ViệtChiêm Đại Việt Chiêm Thành",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Tống-Việt",
+    "time": "1075–1077",
+    "places": "TốngViệt",
+    "factions": []
+  },
+  {
+    "name": "Trận Như Nguyệt Tống",
+    "time": "18 tháng 1 – 28 tháng 2 1077",
+    "places": "Như Nguyệt Tống",
+    "factions": []
+  },
+  {
+    "name": "Lý Chiêu Hoàng Trần Cảnh nhà Trần",
+    "time": "10 tháng 1 1226",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Nguyên Mông–Đại Việt lần 1",
+    "time": "1258",
+    "places": "Nguyên Mông–Đại Việt lần 1",
+    "factions": []
+  },
+  {
+    "name": "Hội nghị Bình Than",
+    "time": "1282",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Hội nghị Diên Hồng",
+    "time": "1284",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Nguyên Mông-Đại Việt lần 2",
+    "time": "1285",
+    "places": "Nguyên MôngĐại Việt lần 2",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Nguyên Mông–Đại Việt lần 3",
+    "time": "1287–1288",
+    "places": "Nguyên Mông–Đại Việt lần 3",
+    "factions": []
+  },
+  {
+    "name": "Thông Bảo hội sao Hồ Quý Ly",
+    "time": "1396",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Hồ Quý Ly Trần Thuận Tông Tây Đô",
+    "time": "1397",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Hồ Quý Ly nhà Hồ Đại Ngu",
+    "time": "22 tháng 3 1400",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Việt-Chiêm",
+    "time": "1400–1407",
+    "places": "ViệtChiêm",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Đại Ngu–Đại Minh",
+    "time": "1406–1407",
+    "places": "Đại Ngu–Đại Minh",
+    "factions": []
+  },
+  {
+    "name": "nhà Minh Đại Ngu Giao Chỉ Đông Quan",
+    "time": "1407",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Trần Ngỗi nhà Hậu Trần",
+    "time": "2 tháng 10 1400",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "nhà Hậu Trần nhà Minh",
+    "time": "1413",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "khởi nghĩa Lam Sơn",
+    "time": "1418–1427",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lê Lợi Đại Việt Đông Kinh",
+    "time": "29 tháng 4 1428",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Vụ án Lệ Chi viên",
+    "time": "1442",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chính biến Thiên Hưng Lê Thánh Tông",
+    "time": "1459–1460",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Việt–Chiêm Chiêm Thành Đại Việt",
+    "time": "1471",
+    "places": "Việt–Chiêm Chiêm Thành Đại Việt",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Đại Việt–Lan Xang",
+    "time": "1478–1480",
+    "places": "Đại Việt–Lan Xang",
+    "factions": []
+  },
+  {
+    "name": "Luật Hồng Đức",
+    "time": "1483",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Trần Tuân",
+    "time": "1511–1512",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Trần Cảo",
+    "time": "1516–1521",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Khủng hoảng cuối nhà Lê sơ",
+    "time": "1516-1526",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Mạc Đăng Dung Lê Cung Hoàng nhà Mạc",
+    "time": "1527",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nguyễn Kim Lê Ninh nhà Lê Vạn Lại",
+    "time": "1533",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Lê–Mạc",
+    "time": "1533–1677",
+    "places": "Lê–Mạc",
+    "factions": []
+  },
+  {
+    "name": "Lê trung hưng nhà Mạc",
+    "time": "1592",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lê Thế Tông Đông Kinh",
+    "time": "1597",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nguyễn Hoàng Thuận Hóa",
+    "time": "1558",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Trịnh – Nguyễn phân tranh",
+    "time": "1627–1672",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lê trung hưng nhà Mạc",
+    "time": "1683",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "khởi nghĩa Tây Sơn",
+    "time": "1771",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Bình Nam",
+    "time": "1774–1775",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nguyễn Ánh",
+    "time": "1777",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nguyễn Nhạc nhà Tây Sơn Quy Nhơn",
+    "time": "1778",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Rạch Gầm – Xoài Mút",
+    "time": "19 tháng 1 – 20 tháng 1 1785",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nguyễn Nhạc",
+    "time": "1788",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nguyễn Huệ Phú Xuân",
+    "time": "22 tháng 12 1785",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Trận Ngọc Hồi – Đống Đa nhà Thanh Hậu Lê",
+    "time": "1789",
+    "places": "Ngọc Hồi – Đống Đa nhà Thanh Hậu Lê",
+    "factions": []
+  },
+  {
+    "name": "Nguyễn Huệ Nguyễn Quang Toản",
+    "time": "16 tháng 9 1792",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nguyễn Ánh Tây Sơn Gia Long nhà Nguyễn Phú Xuân",
+    "time": "1802",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nổi dậy Đá Vách",
+    "time": "1803–1855",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nguyễn Ánh Việt Nam",
+    "time": "1804",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Khởi nghĩa Phan Bá Vành",
+    "time": "1821–1827",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Việt–Xiêm",
+    "time": "1833–1834",
+    "places": "Việt–Xiêm",
+    "factions": []
+  },
+  {
+    "name": "Việt Nam Chân Lạp Trấn Tây Thành",
+    "time": "1836",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Minh Mạng",
+    "time": "15 tháng 2 1839",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Trấn Tây Thành Xiêm Ang Duong Chân Lạp",
+    "time": "1841",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh Pháp-Đại Nam",
+    "time": "1858–1884",
+    "places": "PhápĐại Nam",
+    "factions": []
+  },
+  {
+    "name": "Bạo loạn ven biển",
+    "time": "1861–1865",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chính biến chày vôi",
+    "time": "1866",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "nhà Nguyễn Nam Kỳ lục tỉnh Pháp",
+    "time": "1867",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Hòa ước Giáp Thân Chiến tranh Pháp–Đại Nam nhà Nguyễn bảo hộ Pháp",
+    "time": "6 tháng 6 1884",
+    "places": "Hòa ước Giáp Thân Pháp–Đại Nam nhà Nguyễn bảo hộ Pháp",
+    "factions": []
+  },
+  {
+    "name": "phong trào Cần Vương",
+    "time": "1885–1895",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "thực dân Pháp Liên bang Đông Dương Bắc Kỳ Trung Kỳ Nam Kỳ Campuchia Sài Gòn",
+    "time": "17 tháng 10 1887",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Lào Liên bang Đông Dương",
+    "time": "3 tháng 10 1893",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Quảng Châu Loan Liên bang Đông Dương",
+    "time": "12 tháng 4 1898",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Liên bang Đông Dương Hà Nội",
+    "time": "1902",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "phong trào Duy Tân",
+    "time": "1906–1908",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "phong trào chống sưu thuế Trung Kỳ",
+    "time": "1908",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "châu Âu Pháp Chiến tranh thế giới thứ nhất",
+    "time": "1914–1918",
+    "places": "châu Âu Pháp thế giới thứ nhất",
+    "factions": []
+  },
+  {
+    "name": "khởi nghĩa Thái Nguyên",
+    "time": "1917",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nguyễn Ái Quốc Yêu sách của nhân dân An Nam Hội nghị Hòa bình Versailles",
+    "time": "18 tháng 6 1919",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Đảng Cộng sản Việt Nam",
+    "time": "3 tháng 2 1930",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Xô Viết Nghệ Tĩnh",
+    "time": "1930–1931",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Pháp chiến tranh thế giới thứ hai",
+    "time": "1939",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Nhật Bản Đông Dương",
+    "time": "30 tháng 8 1940",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "chính phủ Pháp quân đội Nhật",
+    "time": "25 tháng 9 1940",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Việt Nam Tuyên truyền Giải phóng quân",
+    "time": "22 tháng 12 1944",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "thực dân Pháp",
+    "time": "tháng 3 1945",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Đế quốc Việt Nam Đế quốc Nhật Bản",
+    "time": "11 tháng 3 1945",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "cách mạng tháng Tám",
+    "time": "14 tháng 8 - 30 tháng 8 1945",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Đế quốc Việt Nam",
+    "time": "23 tháng 8 1945",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Bảo Đại thoái vị",
+    "time": "30 tháng 8 1945",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Hồ Chí Minh Việt Nam Dân chủ Cộng hòa",
+    "time": "2 tháng 9 1945",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Bình dân học vụ",
+    "time": "8 tháng 9 1945",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Sài Gòn chiến tranh xâm lược Việt Nam lần 2",
+    "time": "23 tháng 9 1945",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Trần Văn Giàu Nam Bộ kháng chiến",
+    "time": "23 tháng 9 1945",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Tổng tuyển cử Quốc hội đầu tiên",
+    "time": "6 tháng 1 1946",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Pháp Cộng hòa Tự trị Nam Kỳ Liên hiệp Pháp Sài Gòn",
+    "time": "26 tháng 3 1946",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Tạm ước Việt - Pháp",
+    "time": "14 tháng 9 1946",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Hồ Chí Minh Toàn quốc kháng chiến",
+    "time": "19 tháng 12 1946",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến dịch Việt Bắc Thu - Đông 1947",
+    "time": "7 tháng 10 - 22 tháng 12 1947",
+    "places": "Việt Bắc Thu  Đông 1947",
+    "factions": []
+  },
+  {
+    "name": "Pháp Quốc gia Việt Nam Bảo Đại Sài Gòn",
+    "time": "14 tháng 6 1949",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Mỹ Việt Nam",
+    "time": "8 tháng 5 1950",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến dịch Biên giới",
+    "time": "16 tháng 9–17 tháng 10 1950",
+    "places": "Biên giới",
+    "factions": []
+  },
+  {
+    "name": "Chiến dịch Điện Biên Phủ",
+    "time": "13 tháng 3 - 7 tháng 5 1954",
+    "places": "Điện Biên Phủ",
+    "factions": []
+  },
+  {
+    "name": "Hiệp định Genève",
+    "time": "20 tháng 7 1954",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Giải phóng Thủ đô",
+    "time": "10 tháng 10 1954",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Ngô Đình Diệm Bảo Đại Tổng thống Việt Nam Cộng hòa",
+    "time": "1955",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Đồng khởi",
+    "time": "1959–1960",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+    "time": "20 tháng 12 1960",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Quân Giải phóng miền Nam Việt Nam",
+    "time": "15 tháng 12 1961",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh đặc biệt",
+    "time": "1961–1965",
+    "places": "đặc biệt",
+    "factions": []
+  },
+  {
+    "name": "Ngô Đình Diệm",
+    "time": "1963",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Mỹ miền Nam Việt Nam",
+    "time": "8 tháng 3 1965",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến tranh cục bộ",
+    "time": "1965–1968",
+    "places": "cục bộ",
+    "factions": []
+  },
+  {
+    "name": "Việt Nam hóa chiến tranh",
+    "time": "1968–1973",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Cộng hòa Miền Nam Việt Nam Tây Ninh",
+    "time": "8 tháng 6 1969",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Hồ Chí Minh",
+    "time": "2 tháng 9 1969",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến dịch Điện Biên Phủ trên không",
+    "time": "18 tháng 12 - 30 tháng 12 1972",
+    "places": "Điện Biên Phủ trên không",
+    "factions": []
+  },
+  {
+    "name": "Hiệp định Paris Việt Nam",
+    "time": "27 tháng 1 1973",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Chiến dịch Hồ Chí Minh",
+    "time": "26 tháng 4 - 2 tháng 5 1975",
+    "places": "Hồ Chí Minh",
+    "factions": []
+  },
+  {
+    "name": "Việt Nam Cộng hòa Cộng hòa Miền Nam Việt Nam",
+    "time": "30 tháng 4 1975",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Cộng hòa xã hội chủ nghĩa Việt Nam",
+    "time": "2 tháng 7 1976",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Liên Hợp Quốc",
+    "time": "20 tháng 9 1977",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "chiến tranh biên giới Tây Nam",
+    "time": "1975–1979",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "chiến tranh biên giới phía Bắc",
+    "time": "1979",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Đổi Mới",
+    "time": "1986",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "bình thường hóa quan hệ với Trung Quốc",
+    "time": "7 tháng 11 1991",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "bình thường hóa quan hệ với Mỹ",
+    "time": "11 tháng 7 1995",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "ASEAN",
+    "time": "28 tháng 7 1995",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "APEC",
+    "time": "14 tháng 11 1998",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "WTO",
+    "time": "11 tháng 1 2007",
+    "places": "",
+    "factions": []
+  },
+  {
+    "name": "Đại dịch COVID-19",
+    "time": "2020–2022",
+    "places": "",
+    "factions": []
+  },
+  {
     "name": "Kháng chiến chống quân xâm lược nhà Lương (545-550)",
     "time": "545– 550",
     "places": "nước Vạn Xuân",

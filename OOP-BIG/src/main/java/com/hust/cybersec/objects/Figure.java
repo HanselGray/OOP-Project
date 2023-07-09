@@ -20,7 +20,7 @@ public abstract class Figure {
 	}
 
 	public String getDob() {
-		return (dob == null || dob.strip().equals("...") || dob.strip().equals("…")) ? "Chưa rõ" : dob;
+		return (dob == null || dob.strip().equals("...") || dob.strip().equals("…")) ? "Unknown" : dob;
 	}
 
 	public void setDob(String dob) {
@@ -28,7 +28,7 @@ public abstract class Figure {
 	}
 
 	public String getDod() {
-		return (dod == null || dod.strip().equals("...") || dod.strip().equals("…")) ? "Chưa rõ" : dod;
+		return (dod == null || dod.strip().equals("...") || dod.strip().equals("…")) ? "Unknown" : dod;
 	}
 
 	public void setDod(String dod) {
