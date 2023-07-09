@@ -5,11 +5,11 @@ import java.io.IOException;
 import java.util.LinkedList;
 import com.hust.cybersec.datacrawler.interfaces.DataCombine;
 
-public class ScrapeFromVHHNCombine implements DataCombine {
+public class CrawlFromVHHNCombine implements DataCombine {
 
     private LinkedList<Relic> relics;
 
-    public ScrapeFromVHHNCombine() throws IOException {
+    public CrawlFromVHHNCombine() throws IOException {
         relics = new LinkedList<>();
     }
 
@@ -18,7 +18,7 @@ public class ScrapeFromVHHNCombine implements DataCombine {
     }
 
     public static void main(String[] args) throws IOException {
-        ScrapeFromVHHNCombine r = new ScrapeFromVHHNCombine();
+        CrawlFromVHHNCombine r = new CrawlFromVHHNCombine();
         r.combine();
     }
 
@@ -26,7 +26,7 @@ public class ScrapeFromVHHNCombine implements DataCombine {
     public void combine() throws IOException {
         int cnt = 0;
         for (int i = 1; i <= 44; i++) {
-            ScrapeFromVHHNOnePage r_one = new ScrapeFromVHHNOnePage(i);
+            CrawlFromVHHNOnePage r_one = new CrawlFromVHHNOnePage(i);
             r_one.scraping();
             cnt += r_one.getRelics().size();
 

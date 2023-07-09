@@ -12,12 +12,12 @@ import com.hust.cybersec.objects.Event;
 import com.hust.cybersec.datacrawler.interfaces.DataCombine;
 import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class ScrapeEvent implements WriteToJSON, DataCombine {
+public class EventCrawler implements WriteToJSON, DataCombine {
 
     private LinkedList<Event> list = new LinkedList<>();
 
     public static void main(String[] args) {
-        ScrapeEvent event = new ScrapeEvent();
+        EventCrawler event = new EventCrawler();
         event.combine();
         try {
             event.writeJSon();

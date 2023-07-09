@@ -8,7 +8,7 @@ import org.jsoup.nodes.Element;
 
 import org.jsoup.select.Elements;
 
-public class DaNangFestival extends ScrapeMainFestival {
+public class DaNangFestival extends FestivalAbstract {
 	
 
 	public DaNangFestival() {

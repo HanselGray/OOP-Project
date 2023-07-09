@@ -9,7 +9,7 @@ import com.hust.cybersec.objects.Relic;
 import java.io.IOException;
 import java.util.List;
 
-public class ScrapeFromVHHNOneBox extends BasicDataCrawler {
+public class CrawlFromVHHNOneBox extends BasicDataCrawler {
 
     private Relic relic;
     private LinkData linkRelic;
@@ -18,7 +18,7 @@ public class ScrapeFromVHHNOneBox extends BasicDataCrawler {
         return relic;
     }
 
-    public ScrapeFromVHHNOneBox(String url) throws IOException {
+    public CrawlFromVHHNOneBox(String url) throws IOException {
         this.url = url;
         connect();
         linkRelic = new LinkData();

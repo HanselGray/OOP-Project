@@ -17,11 +17,11 @@ import com.hust.cybersec.objects.Relic;
 import com.hust.cybersec.datacrawler.interfaces.DataCombine;
 import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class ScrapeFromDiTichCombine implements DataCombine, WriteToJSON {
+public class CrawlFromDiTichCombine implements DataCombine, WriteToJSON {
 
     private ArrayList<Relic> relics;
 
-    public ScrapeFromDiTichCombine() throws IOException {
+    public CrawlFromDiTichCombine() throws IOException {
         relics = new ArrayList<Relic>();
     }
 
@@ -40,7 +40,7 @@ public class ScrapeFromDiTichCombine implements DataCombine, WriteToJSON {
     }
 
     public static void main(String[] args) throws JsonIOException, IOException {
-        ScrapeFromDiTichCombine rd = new ScrapeFromDiTichCombine();
+        CrawlFromDiTichCombine rd = new CrawlFromDiTichCombine();
         rd.combine();
         rd.writeJSon();
     }
@@ -57,7 +57,7 @@ public class ScrapeFromDiTichCombine implements DataCombine, WriteToJSON {
         for (int i = 1865; i <= 6139; i++) {
 
             String url = baseUrl + Integer.toString(i);
-            ScrapeFromDiTichOnePage r = new ScrapeFromDiTichOnePage(url);
+            CrawlFromDiTichOnePage r = new CrawlFromDiTichOnePage(url);
             r.scraping();
             if (r.getName().strip() != "") {
                 System.out.println(i);

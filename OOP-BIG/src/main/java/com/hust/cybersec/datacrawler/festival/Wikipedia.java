@@ -11,7 +11,7 @@ import com.google.gson.GsonBuilder;
 import com.hust.cybersec.objects.Festival;
 import com.hust.cybersec.objects.HistoricalFigure;
 
-public class Wikipedia extends ScrapeMainFestival {
+public class Wikipedia extends FestivalAbstract {
 
     public Wikipedia() {
         this.url = "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam";

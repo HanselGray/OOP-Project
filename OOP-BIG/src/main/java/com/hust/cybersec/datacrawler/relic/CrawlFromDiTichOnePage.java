@@ -5,14 +5,14 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 
-public class ScrapeFromDiTichOnePage extends BasicDataCrawler {
+public class CrawlFromDiTichOnePage extends BasicDataCrawler {
 	private String type;
 	private String rank;
 	private String person;
 	private String name;
 	private String address;
 	
-	public ScrapeFromDiTichOnePage(String url) {
+	public CrawlFromDiTichOnePage(String url) {
 		this.url = url;
 		connect();
 	}
@@ -85,7 +85,7 @@ public class ScrapeFromDiTichOnePage extends BasicDataCrawler {
 		for (int i = 1865;i<=6139;i++) {
 			System.out.println(i);
 			String url = baseUrl + Integer.toString(i);
-			ScrapeFromDiTichOnePage r = new ScrapeFromDiTichOnePage(url);
+			CrawlFromDiTichOnePage r = new CrawlFromDiTichOnePage(url);
 			r.scraping();
 		}
 		

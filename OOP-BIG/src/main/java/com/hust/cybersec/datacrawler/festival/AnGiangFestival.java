@@ -16,7 +16,7 @@ import com.google.gson.GsonBuilder;
 import com.hust.cybersec.objects.Festival;
 import com.hust.cybersec.objects.HistoricalFigure;
 
-public class AnGiangFestival extends ScrapeMainFestival {
+public class AnGiangFestival extends FestivalAbstract {
 
 	public AnGiangFestival() {
 		String url = "https://angiangtourist.vn/thoi-gian-va-dia-diem-to-chuc-cac-le-hoi-lon-o-an-giang/#";

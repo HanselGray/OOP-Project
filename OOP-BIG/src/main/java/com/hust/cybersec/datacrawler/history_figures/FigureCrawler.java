@@ -12,12 +12,12 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ScrapeFigure implements DataCombine, WriteToJSON {
+public class FigureCrawler implements DataCombine, WriteToJSON {
 	private LinkedList<HistoricalFigure> list = new LinkedList<>();
 
 	public static void main(String[] args) {
 		// ArrayList<String> links = new ArrayList<String>();
-		ScrapeFigure figure = new ScrapeFigure();
+		FigureCrawler figure = new FigureCrawler();
 		figure.combine();
 		try {
 			figure.writeJSon();

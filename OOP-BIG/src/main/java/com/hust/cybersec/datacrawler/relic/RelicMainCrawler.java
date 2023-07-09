@@ -12,21 +12,21 @@ import com.hust.cybersec.objects.Relic;
 import com.hust.cybersec.datacrawler.interfaces.DataCombine;
 import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class RelicScrapeFull implements DataCombine, WriteToJSON {
+public class RelicMainCrawler implements DataCombine, WriteToJSON {
 
     private LinkedList<Relic> relics;
 
-    public RelicScrapeFull() {
+    public RelicMainCrawler() {
         relics = new LinkedList<>();
     }
 
     @Override
     public void combine() throws IOException {
-        ScrapeFromDiTichCombine r_d = new ScrapeFromDiTichCombine();
+        CrawlFromDiTichCombine r_d = new CrawlFromDiTichCombine();
         r_d.combine();
         relics.addAll(r_d.getRelics());
 
-        ScrapeFromVHHNCombine r_h = new ScrapeFromVHHNCombine();
+        CrawlFromVHHNCombine r_h = new CrawlFromVHHNCombine();
         r_h.combine();
         relics.addAll(r_h.getRelics());
 //        System.out.println(r_h.getLienKetDynasty());
@@ -49,7 +49,7 @@ public class RelicScrapeFull implements DataCombine, WriteToJSON {
     }
 
     public static void main(String[] args) throws IOException {
-        RelicScrapeFull r_f = new RelicScrapeFull();
+        RelicMainCrawler r_f = new RelicMainCrawler();
         r_f.combine();
         r_f.writeJSon();
     }

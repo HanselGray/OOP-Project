@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class ScrapeFromVHHNOnePage extends BasicDataCrawler {
+public class CrawlFromVHHNOnePage extends BasicDataCrawler {
 
     private LinkedList<Relic> relics;
 
@@ -16,7 +16,7 @@ public class ScrapeFromVHHNOnePage extends BasicDataCrawler {
         return relics;
     }
 
-    public ScrapeFromVHHNOnePage(int i) {
+    public CrawlFromVHHNOnePage(int i) {
         relics = new LinkedList<Relic>();
         String baseUrl = "http://ditichlichsu-vanhoahanoi.com/category/2dtlsvh/page/";
         this.url = baseUrl + Integer.toString(i) + "/";
@@ -29,14 +29,14 @@ public class ScrapeFromVHHNOnePage extends BasicDataCrawler {
         for (Element e : aData) {
             String boxUrl = e.attr("href");
             System.out.println(boxUrl);
-            ScrapeFromVHHNOneBox h = new ScrapeFromVHHNOneBox(boxUrl);
+            CrawlFromVHHNOneBox h = new CrawlFromVHHNOneBox(boxUrl);
             h.scraping();
             relics.add(h.getRelic());
         }
     }
 
     public static void main(String[] args) throws IOException {
-        ScrapeFromVHHNOnePage r = new ScrapeFromVHHNOnePage(1);
+        CrawlFromVHHNOnePage r = new CrawlFromVHHNOnePage(1);
         r.scraping();
     }
 }

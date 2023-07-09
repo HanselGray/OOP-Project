@@ -13,13 +13,13 @@ import java.util.LinkedList;
 import com.hust.cybersec.datacrawler.interfaces.DataCombine;
 import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class FigureScrapeMain implements WriteToJSON, DataCombine {
+public class FigureMainCrawler implements WriteToJSON, DataCombine {
 
     private LinkedList<HistoricalFigure> list = new LinkedList<>();
 
     public static void main(String[] args) {
         // ArrayList<String> links = new ArrayList<String>();
-        FigureScrapeMain figure = new FigureScrapeMain();
+        FigureMainCrawler figure = new FigureMainCrawler();
         figure.combine();
         try {
             figure.writeJSon();

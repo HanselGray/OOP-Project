@@ -3,30 +3,29 @@ package com.hust.cybersec.datacrawler.main;
 import java.io.IOException;
 
 import com.google.gson.JsonIOException;
-import com.hust.cybersec.datacrawler.dynasty.DynastyScrapeMain;
-import com.hust.cybersec.datacrawler.event.ScrapeEvent;
-import com.hust.cybersec.datacrawler.festival.FindFestival;
-import com.hust.cybersec.datacrawler.history_figures.FigureScrapeMain;
-import com.hust.cybersec.datacrawler.history_figures.KingScrapeMain;
-import com.hust.cybersec.datacrawler.history_figures.ScrapeFigure;
-import com.hust.cybersec.datacrawler.relic.RelicScrapeFull;
+import com.hust.cybersec.datacrawler.dynasty.DynastyMainCrawler;
+import com.hust.cybersec.datacrawler.event.EventCrawler;
+import com.hust.cybersec.datacrawler.festival.FestivalMainCrawler;
+import com.hust.cybersec.datacrawler.history_figures.KingMainCrawler;
+import com.hust.cybersec.datacrawler.history_figures.FigureCrawler;
+import com.hust.cybersec.datacrawler.relic.RelicMainCrawler;
 import com.hust.cybersec.datacrawler.interfaces.DataCombine;
 
 public class CrawlerMain implements DataCombine {
-	private DynastyScrapeMain dynasty; 
-	private RelicScrapeFull relic;
-	private KingScrapeMain king;
-	private ScrapeFigure figure;
-	private ScrapeEvent event;
-	private FindFestival festival;
+	private DynastyMainCrawler dynasty;
+	private RelicMainCrawler relic;
+	private KingMainCrawler king;
+	private FigureCrawler figure;
+	private EventCrawler event;
+	private FestivalMainCrawler festival;
 	
 	public CrawlerMain() throws JsonIOException, IOException {
-		king = new KingScrapeMain();
-		relic = new RelicScrapeFull();
-		figure = new ScrapeFigure();
-		event = new ScrapeEvent();
-		dynasty = new DynastyScrapeMain();
-		festival = new FindFestival();
+		king = new KingMainCrawler();
+		relic = new RelicMainCrawler();
+		figure = new FigureCrawler();
+		event = new EventCrawler();
+		dynasty = new DynastyMainCrawler();
+		festival = new FestivalMainCrawler();
 	}
 
 	@Override

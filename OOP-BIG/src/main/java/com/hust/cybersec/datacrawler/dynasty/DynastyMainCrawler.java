@@ -13,7 +13,7 @@ import com.hust.cybersec.objects.King;
 import com.hust.cybersec.datacrawler.interfaces.DataCombine;
 import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class DynastyScrapeMain implements DataCombine, WriteToJSON {
+public class DynastyMainCrawler implements DataCombine, WriteToJSON {
 
     private DynastyName crawlNames;
     private DynastyFounder crawlFounder;
@@ -21,7 +21,7 @@ public class DynastyScrapeMain implements DataCombine, WriteToJSON {
     private LinkedList<Dynasty> dynastys;
     private DynastyRemainedKings remainedKings;
 
-    public DynastyScrapeMain() {
+    public DynastyMainCrawler() {
         dynastys = new LinkedList<Dynasty>();
     }
 
@@ -40,7 +40,7 @@ public class DynastyScrapeMain implements DataCombine, WriteToJSON {
     }
 
     public static void main(String[] args) throws JsonIOException, IOException {
-        DynastyScrapeMain f = new DynastyScrapeMain();
+        DynastyMainCrawler f = new DynastyMainCrawler();
         f.combine();
         f.writeJSon();
     }

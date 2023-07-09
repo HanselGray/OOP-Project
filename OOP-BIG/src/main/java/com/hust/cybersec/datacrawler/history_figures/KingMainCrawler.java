@@ -15,11 +15,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
-public class KingScrapeMain extends BasicDataCrawler implements WriteToJSON {
+public class KingMainCrawler extends BasicDataCrawler implements WriteToJSON {
 
     private ArrayList<King> kings = new ArrayList<King>();
 
-    public KingScrapeMain() {
+    public KingMainCrawler() {
         this.url = "https://vi.wikipedia.org/wiki/Vua_Vi%E1%BB%87t_Nam";
         connect();
     }
@@ -109,7 +109,7 @@ public class KingScrapeMain extends BasicDataCrawler implements WriteToJSON {
     }
 
     public static void main(String[] args) throws JsonIOException, IOException {
-        KingScrapeMain obj = new KingScrapeMain();
+        KingMainCrawler obj = new KingMainCrawler();
 //		ArrayList<King> kings = new ArrayList<King>();
         obj.scraping();
         obj.writeJSon();
