@@ -1,40 +1,40 @@
 package com.hust.cybersec.objects;
 
 public class Festival {
-	private String tenLeHoi;
-	private String thoigian;
-	private String diaDiem;
+	private String name;
+	private String time;
+	private String place;
 	private Figure figure;
-	private String noiDung;
+	private String description;
 
-	public Festival(String tenLehoi, String thoiGian, String diaDiem) {
-		this.tenLeHoi = tenLehoi;
-		this.thoigian = thoiGian;
-		this.diaDiem = diaDiem;
+	public Festival(String name, String time, String place) {
+		this.name = name;
+		this.time = time;
+		this.place = place;
 	}
 
-	public String getTenLeHoi() {
-		return tenLeHoi;
+	public String getName() {
+		return name;
 	}
 
-	public void setTenLeHoi(String tenLeHoi) {
-		this.tenLeHoi = tenLeHoi;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public String getThoigian() {
-		return thoigian;
+	public String getTime() {
+		return time;
 	}
 
-	public void setThoigian(String thoigian) {
-		this.thoigian = thoigian;
+	public void setTime(String time) {
+		this.time = time;
 	}
 
-	public String getDiaDiem() {
-		return diaDiem;
+	public String getPlace() {
+		return place;
 	}
 
-	public void setDiaDiem(String diaDiem) {
-		this.diaDiem = diaDiem;
+	public void setPlace(String place) {
+		this.place = place;
 	}
 
 	public Figure getFigure() {
@@ -45,12 +45,12 @@ public class Festival {
 		this.figure = figure;
 	}
 
-	public String getNoiDung() {
-		return noiDung;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setNoiDung(String noiDung) {
-		this.noiDung = noiDung;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 }

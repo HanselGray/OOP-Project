@@ -8,7 +8,7 @@ import org.jsoup.nodes.Element;
 
 import org.jsoup.select.Elements;
 
-public class DaNangFestival extends BasicFindFestival {
+public class DaNangFestival extends ScrapeMainFestival {
 	
 
 	public DaNangFestival() {
@@ -79,7 +79,7 @@ public class DaNangFestival extends BasicFindFestival {
 			}
 			System.out.printf("%s %s %s\n", thoiGian, diaDiem, noiDung);
 			Festival festival = new Festival(tenLeHoi, thoiGian, diaDiem);
-			festival.setNoiDung(noiDung);
+			festival.setDescription(noiDung);
 			Figure figure = new Figure(nhanVat);
 			festival.setFigure(figure);
 			list.add(festival);

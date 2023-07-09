@@ -16,7 +16,7 @@ import com.google.gson.GsonBuilder;
 import com.hust.cybersec.objects.Festival;
 import com.hust.cybersec.objects.Figure;
 
-public class AnGiangFestival extends BasicFindFestival {
+public class AnGiangFestival extends ScrapeMainFestival {
 
 	public AnGiangFestival() {
 		String url = "https://angiangtourist.vn/thoi-gian-va-dia-diem-to-chuc-cac-le-hoi-lon-o-an-giang/#";
@@ -34,59 +34,59 @@ public class AnGiangFestival extends BasicFindFestival {
 			// Festival festival = new Festival();
 			if (header != null) {
 				String content = p.html();
-				String tenLeHoi = header.text();
-				System.out.println(tenLeHoi);
+				String fesName = header.text();
+				System.out.println(fesName);
 				// System.out.println(content);
 				int start = content.indexOf("<br>") + 4;
 				String mainData = content.substring(start);
 				String[] data = mainData.split("<br>");
 				// System.out.println(data.length);
-				String thoiGian = "";
-				String diaDiem = "";
-				String nhanVat = "";
-				String noiDung = "";
+				String time = "";
+				String place = "";
+				String relatedFigure = "";
+				String description = "";
 				for (String d : data) {
 					String[] dataParts = d.split(": ");
-					String tieuDe = "";
-					String noiDungChinh = "";
-					tieuDe = tieuDe.concat(dataParts[0]);
-					noiDungChinh = noiDungChinh.concat(dataParts[1]);
-					System.out.println(tieuDe);
-					System.out.println(noiDungChinh);
-					switch (tieuDe) {
+					String title = "";
+					String mainDescrip = "";
+					title = title.concat(dataParts[0]);
+					mainDescrip = mainDescrip.concat(dataParts[1]);
+					System.out.println(title);
+					System.out.println(mainDescrip);
+					switch (title) {
 						case " Thời gian": {
-							thoiGian = thoiGian.concat(noiDungChinh);
-							thoiGian = thoiGian.trim();
+							time = time.concat(mainDescrip);
+							time = time.trim();
 							break;
 						}
 						case " Địa điểm": {
-							diaDiem = diaDiem.concat(noiDungChinh);
-							diaDiem = diaDiem.trim();
+							place = place.concat(mainDescrip);
+							place = place.trim();
 							break;
 						}
 						case " Đối tượng suy tôn": {
-							if (noiDungChinh.contains("Trực")) {
-								int index = noiDungChinh.indexOf(",");
-								noiDungChinh = noiDungChinh.substring(0, index);
-							} else if (noiDungChinh.contains("Cảnh")) {
-								int index = noiDungChinh.indexOf("(");
-								noiDungChinh = noiDungChinh.substring(0, index);
+							if (mainDescrip.contains("Trực")) {
+								int index = mainDescrip.indexOf(",");
+								mainDescrip = mainDescrip.substring(0, index);
+							} else if (mainDescrip.contains("Cảnh")) {
+								int index = mainDescrip.indexOf("(");
+								mainDescrip = mainDescrip.substring(0, index);
 							}
-							nhanVat = nhanVat.concat(noiDungChinh);
-							nhanVat = nhanVat.trim();
+							relatedFigure = relatedFigure.concat(mainDescrip);
+							relatedFigure = relatedFigure.trim();
 							break;
 						}
 						case " Đặc điểm": {
-							noiDung = noiDung.concat(noiDungChinh);
-							noiDung = noiDung.trim();
+							description = description.concat(mainDescrip);
+							description = description.trim();
 							break;
 						}
 					}
 
 				}
-				Festival festival = new Festival(tenLeHoi, thoiGian, diaDiem);
-				festival.setNoiDung(noiDung);
-				Figure figure = new Figure(nhanVat);
+				Festival festival = new Festival(fesName, time, place);
+				festival.setDescription(description);
+				Figure figure = new Figure(relatedFigure);
 				festival.setFigure(figure);
 				list.add(festival);
 			}
@@ -96,7 +96,7 @@ public class AnGiangFestival extends BasicFindFestival {
 	public static void main(String[] args) {
 		AnGiangFestival anGiang = new AnGiangFestival();
 		anGiang.scraping();
-		String filePath = "D:\\webCrawler\\webcrawler\\src\\webcrawler\\jsonFiles\\festival.json";
+		String filePath = new File(System.getProperty("user.dir")).getParent() + "/OOP-BIG/src/main/data/festivals.json";
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		ArrayList<Festival> festivals = anGiang.getList();
 		try {
