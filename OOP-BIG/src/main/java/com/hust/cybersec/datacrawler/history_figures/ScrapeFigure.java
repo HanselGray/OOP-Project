@@ -6,16 +6,15 @@ import com.google.gson.JsonIOException;
 import com.hust.cybersec.datacrawler.interfaces.ICombineData;
 import com.hust.cybersec.datacrawler.interfaces.IWriteJson;
 import com.hust.cybersec.objects.Dynasty;
-import com.hust.cybersec.objects.Figure;
+import com.hust.cybersec.objects.HistoricalFigure;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 public class ScrapeFigure implements IWriteJson, ICombineData {
-	private LinkedList<Figure> list = new LinkedList<>();
+	private LinkedList<HistoricalFigure> list = new LinkedList<>();
 
 	public static void main(String[] args) {
 		// ArrayList<String> links = new ArrayList<String>();
@@ -100,8 +99,8 @@ public class ScrapeFigure implements IWriteJson, ICombineData {
 		}
 
 		System.out.println("num of mem: " + list.size());
-		for (Figure figure : list) {
-			List<Dynasty> dynastyList = figure.getDynasty();
+		for (HistoricalFigure historicalFigure : list) {
+			List<Dynasty> dynastyList = historicalFigure.getDynasty();
 			for (Dynasty dynasty : dynastyList) {
 				String name = dynasty.getName();
 				dynasty.setName(replaceTrieuDai(name));

@@ -9,7 +9,7 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.hust.cybersec.objects.Festival;
-import com.hust.cybersec.objects.Figure;
+import com.hust.cybersec.objects.HistoricalFigure;
 
 public class Wikipedia extends ScrapeMainFestival {
 
@@ -84,8 +84,8 @@ public class Wikipedia extends ScrapeMainFestival {
                     // System.out.println("Thoi gian: "+thoiGian);
                     // System.out.println("Dia Diem: "+que);
                     Festival festival = new Festival(tenLeHoi, thoiGian, diaDiem);
-                    Figure figure = new Figure("");
-                    festival.setFigure(figure);
+                    HistoricalFigure historicalFigure = new HistoricalFigure("");
+                    festival.setFigure(historicalFigure);
                     festival.setDescription("");
                     list.add(festival);
                 } // end for 2

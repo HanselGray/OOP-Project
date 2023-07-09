@@ -11,7 +11,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
 import com.hust.cybersec.datalinker.LinkData;
 import com.hust.cybersec.objects.Dynasty;
-import com.hust.cybersec.objects.Figure;
+import com.hust.cybersec.objects.HistoricalFigure;
 import com.hust.cybersec.objects.King;
 import com.hust.cybersec.objects.Relic;
 import com.hust.cybersec.datacrawler.interfaces.DataCombine;
@@ -67,11 +67,11 @@ public class ScrapeFromDiTichCombine implements DataCombine, WriteToJSON {
                 String tenNguoiTho = r.getPerson();
 
                 linkRelic.genLink(tenNguoiTho);
-                List<Figure> figures = linkRelic.getFigures();
+                List<HistoricalFigure> historicalFigures = linkRelic.getFigures();
                 List<King> kings = linkRelic.getKings();
                 List<Dynasty> dynastys = linkRelic.getDynastys();
 
-                Relic r1 = new Relic(r.getName(), r.getAddress(), r.getType(), r.getRank(), tenNguoiTho, figures, kings,
+                Relic r1 = new Relic(r.getName(), r.getAddress(), r.getType(), r.getRank(), tenNguoiTho, historicalFigures, kings,
                         dynastys);
                 relics.add(r1);
             }

@@ -8,7 +8,7 @@ public class Relic{
 	private String type;
 	private String rank;
 	private String desc;
-	private List<Figure> figures;
+	private List<HistoricalFigure> historicalFigures;
 	private List<King> kings;
 	private List<Dynasty> dynastys;
 	private String name;
@@ -21,12 +21,12 @@ public class Relic{
 		this.name = name;
 	}
 	
-	public List<Figure> getFigures() {
-		return figures;
+	public List<HistoricalFigure> getFigures() {
+		return historicalFigures;
 	}
 
-	public void setFigures(List<Figure> figures) {
-		this.figures = figures;
+	public void setFigures(List<HistoricalFigure> historicalFigures) {
+		this.historicalFigures = historicalFigures;
 	}
 
 	public List<King> getKings() {
@@ -77,7 +77,7 @@ public class Relic{
 		this.rank = rank;
 	}
 
-	public Relic(String name, String location, String type, String rank, String desc, List<Figure> figures,
+	public Relic(String name, String location, String type, String rank, String desc, List<HistoricalFigure> historicalFigures,
 			List<King> kings, List<Dynasty> dynastys) {
 		super();
 		this.name = name;
@@ -85,7 +85,7 @@ public class Relic{
 		this.type = type;
 		this.rank = rank;
 		this.desc = desc;
-		this.figures = figures;
+		this.historicalFigures = historicalFigures;
 		this.kings = kings;
 		this.dynastys = dynastys;
 	}

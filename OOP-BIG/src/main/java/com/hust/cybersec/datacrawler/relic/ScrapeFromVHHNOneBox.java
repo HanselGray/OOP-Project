@@ -3,11 +3,10 @@ package com.hust.cybersec.datacrawler.relic;
 import com.hust.cybersec.datacrawler.basic_data_crawler.BasicDataCrawler;
 import com.hust.cybersec.datalinker.LinkData;
 import com.hust.cybersec.objects.Dynasty;
-import com.hust.cybersec.objects.Figure;
+import com.hust.cybersec.objects.HistoricalFigure;
 import com.hust.cybersec.objects.King;
 import com.hust.cybersec.objects.Relic;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class ScrapeFromVHHNOneBox extends BasicDataCrawler {
@@ -54,12 +53,12 @@ public class ScrapeFromVHHNOneBox extends BasicDataCrawler {
 
         linkRelic.genLink(desc);
 
-        List<Figure> figures = linkRelic.getFigures();
+        List<HistoricalFigure> historicalFigures = linkRelic.getFigures();
         List<King> kings = linkRelic.getKings();
         List<Dynasty> dynastys = linkRelic.getDynastys();
 
         relic = new Relic(name, location, type,
-                "Unknown", desc, figures, kings, dynastys);
+                "Unknown", desc, historicalFigures, kings, dynastys);
         System.out.println(name);
         System.out.println(location);
         System.out.println(type);

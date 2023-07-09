@@ -2,22 +2,22 @@ package com.hust.cybersec.datacrawler.history_figures;
 
 import com.hust.cybersec.datacrawler.basic_data_crawler.BasicDataCrawler;
 import com.hust.cybersec.objects.Dynasty;
-import com.hust.cybersec.objects.Figure;
+import com.hust.cybersec.objects.HistoricalFigure;
 
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class VanSu extends BasicDataCrawler {
 
-    private Figure figure;
+    private HistoricalFigure historicalFigure;
 
     public VanSu(String url) {
         this.url = url;
         connect();
     }
 
-    public Figure getFigure() {
-        return figure;
+    public HistoricalFigure getFigure() {
+        return historicalFigure;
     }
 
     public void scraping() {
@@ -27,23 +27,23 @@ public class VanSu extends BasicDataCrawler {
         Element table = this.doc.select("table").first();
         Element tableBody = table.select("tbody").first();
         Elements rows = tableBody.getElementsByTag("tr");
-        figure = new Figure(name);
+        historicalFigure = new HistoricalFigure(name);
         for (Element row : rows) {
             Elements rowData = row.select("td");
             if (rowData.size() != 1) {
                 String headline = rowData.get(0).text();
                 if (headline.contains("Tên khác")) { // get Ten Khac
-                    figure.setOtherAliases(rowData.get(1).text());
+                    historicalFigure.setOtherAliases(rowData.get(1).text());
                 } else if (headline.contains("Năm sinh")) { // get Nam Sinh
                     String year = rowData.get(1).text();
                     int index = year.indexOf("-");
                     String namSinh = year.substring(0, index);
                     String namMat = year.substring(index + 1);
-                    figure.setDob(namSinh);
-                    figure.setDod(namMat);
+                    historicalFigure.setDob(namSinh);
+                    historicalFigure.setDod(namMat);
                 } else if (headline.contains("Tỉnh thành")) { // get Tinh thanh
                     String queQuan = rowData.get(1).text();
-                    figure.setHometown(queQuan);
+                    historicalFigure.setHometown(queQuan);
                 } else if (headline.contains("Thời kì")) { // get Thoi ki
                     Elements br = rowData.get(1).getElementsByTag("br");
                     if (br.size() <= 1) { // trong 1 thoi ki
@@ -55,12 +55,12 @@ public class VanSu extends BasicDataCrawler {
                             dynastyData = dynastyData.trim();
 
                             Dynasty dynasty = new Dynasty(dynastyData);
-                            figure.getDynasty().add(dynasty);
+                            historicalFigure.getDynasty().add(dynasty);
                         } else {
                             String dynastyData = data.substring(index + 2);
                             dynastyData = dynastyData.trim();
                             Dynasty dynasty = new Dynasty(dynastyData);
-                            figure.getDynasty().add(dynasty);
+                            historicalFigure.getDynasty().add(dynasty);
                         }
                     } else { // nhieu thoi ki
                         String data = rowData.get(1).html();
@@ -73,12 +73,12 @@ public class VanSu extends BasicDataCrawler {
                                 String getDynasty = d.substring(index + 1, openIndex);
                                 getDynasty = getDynasty.trim();
                                 Dynasty dynasty = new Dynasty(getDynasty);
-                                figure.getDynasty().add(dynasty);
+                                historicalFigure.getDynasty().add(dynasty);
                             } else {
                                 String getDynasty = d.substring(index + 1);
                                 getDynasty = getDynasty.trim();
                                 Dynasty dynasty = new Dynasty(getDynasty);
-                                figure.getDynasty().add(dynasty);
+                                historicalFigure.getDynasty().add(dynasty);
                             }
                         }
                     }
@@ -89,7 +89,7 @@ public class VanSu extends BasicDataCrawler {
                 for (Element p : paragraphs) {
                     ghiChu = ghiChu.append(p.text());
                 }
-                figure.setNotes(ghiChu.toString());
+                historicalFigure.setNotes(ghiChu.toString());
             }
         }
     }

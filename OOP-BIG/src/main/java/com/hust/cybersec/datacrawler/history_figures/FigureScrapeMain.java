@@ -4,11 +4,10 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
 import com.hust.cybersec.objects.Dynasty;
-import com.hust.cybersec.objects.Figure;
+import com.hust.cybersec.objects.HistoricalFigure;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.LinkedList;
 import com.hust.cybersec.datacrawler.interfaces.DataCombine;
@@ -16,7 +15,7 @@ import com.hust.cybersec.datacrawler.interfaces.WriteToJSON;
 
 public class FigureScrapeMain implements WriteToJSON, DataCombine {
 
-    private LinkedList<Figure> list = new LinkedList<>();
+    private LinkedList<HistoricalFigure> list = new LinkedList<>();
 
     public static void main(String[] args) {
         // ArrayList<String> links = new ArrayList<String>();
@@ -101,8 +100,8 @@ public class FigureScrapeMain implements WriteToJSON, DataCombine {
         }
 
         System.out.println("num of mem: " + list.size());
-        for (Figure figure : list) {
-            List<Dynasty> dynastyList = figure.getDynasty();
+        for (HistoricalFigure historicalFigure : list) {
+            List<Dynasty> dynastyList = historicalFigure.getDynasty();
             for (Dynasty dynasty : dynastyList) {
                 String name = dynasty.getName();
                 dynasty.setName(replacedynasty(name));

@@ -14,7 +14,7 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.hust.cybersec.objects.Festival;
-import com.hust.cybersec.objects.Figure;
+import com.hust.cybersec.objects.HistoricalFigure;
 
 public class AnGiangFestival extends ScrapeMainFestival {
 
@@ -86,8 +86,8 @@ public class AnGiangFestival extends ScrapeMainFestival {
 				}
 				Festival festival = new Festival(fesName, time, place);
 				festival.setDescription(description);
-				Figure figure = new Figure(relatedFigure);
-				festival.setFigure(figure);
+				HistoricalFigure historicalFigure = new HistoricalFigure(relatedFigure);
+				festival.setFigure(historicalFigure);
 				list.add(festival);
 			}
 		}

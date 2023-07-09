@@ -1,7 +1,7 @@
 package com.hust.cybersec.datacrawler.festival;
 
 import com.hust.cybersec.objects.Festival;
-import com.hust.cybersec.objects.Figure;
+import com.hust.cybersec.objects.HistoricalFigure;
 import java.util.ArrayList;
 
 import org.jsoup.nodes.Element;
@@ -80,8 +80,8 @@ public class DaNangFestival extends ScrapeMainFestival {
 			System.out.printf("%s %s %s\n", thoiGian, diaDiem, noiDung);
 			Festival festival = new Festival(tenLeHoi, thoiGian, diaDiem);
 			festival.setDescription(noiDung);
-			Figure figure = new Figure(nhanVat);
-			festival.setFigure(figure);
+			HistoricalFigure historicalFigure = new HistoricalFigure(nhanVat);
+			festival.setFigure(historicalFigure);
 			list.add(festival);
 		} // end for 2
 	}

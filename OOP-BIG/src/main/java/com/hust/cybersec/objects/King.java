@@ -2,7 +2,7 @@ package com.hust.cybersec.objects;
 
 import java.util.*;
 
-public class King extends HistoricalFigure {
+public class King extends Figure {
 
     private String paperURL;
     private String reignBegin;

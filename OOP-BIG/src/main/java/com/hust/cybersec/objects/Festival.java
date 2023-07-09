@@ -4,7 +4,7 @@ public class Festival {
 	private String name;
 	private String time;
 	private String place;
-	private Figure figure;
+	private HistoricalFigure historicalFigure;
 	private String description;
 
 	public Festival(String name, String time, String place) {
@@ -37,12 +37,12 @@ public class Festival {
 		this.place = place;
 	}
 
-	public Figure getFigure() {
-		return figure;
+	public HistoricalFigure getFigure() {
+		return historicalFigure;
 	}
 
-	public void setFigure(Figure figure) {
-		this.figure = figure;
+	public void setFigure(HistoricalFigure historicalFigure) {
+		this.historicalFigure = historicalFigure;
 	}
 
 	public String getDescription() {

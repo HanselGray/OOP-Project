@@ -1,126 +1,50 @@
 package com.hust.cybersec.objects;
 
-import java.util.*;
+public abstract class Figure {
+	protected int id;
+	protected String dob;
+	protected String dod;
+	protected String name;
 
-
-
-// import javafx.scene.chart.Axis.TickMark;
-
-
-public class Figure extends HistoricalFigure {
-	private String Hometown;
-	private String Ethnicity;
-	private String namNhapNgu;
-	private String notes;
-	private String namDoTrangNguyen;
-	private String otherAliases;
-	private King doiVua;
-
-	private List<Dynasty> dynasty = new ArrayList<>();
-
-	public void setOtherAliases(String otherAliases) {
-		this.otherAliases = otherAliases;
-	}
-
-	public String getOtherAliases() {
-		return otherAliases;
-	}
-
-	public Figure(String ten, String namSinh, String namMat, String Hometown, String Ethnicity, String namNhapNgu,
-			String notes, String namDoTrangNguyen) {
-		super(ten, namSinh, namMat);
-		this.Hometown = Hometown;
-		this.Ethnicity = Ethnicity;
-		this.namNhapNgu = namNhapNgu;
-		this.notes = notes;
-		this.namDoTrangNguyen = namDoTrangNguyen;
-
-	}
-
-	public Figure(String ten, String Hometown, String Ethnicity, String namNhapNgu, String notes,
-			String namDoTrangNguyen) {
-		super(ten);
-		this.Hometown = Hometown;
-		this.Ethnicity = Ethnicity;
-		this.namNhapNgu = namNhapNgu;
-		this.notes = notes;
-		this.namDoTrangNguyen = namDoTrangNguyen;
-	}
-
-	public Figure(String ten, String namSinh, String namMat, String Hometown, String notes, String otherAliases,
-			ArrayList<Dynasty> dynasty) {
-		super(ten, namSinh, namMat);
-		this.Hometown = Hometown;
-		this.notes = notes;
-		this.otherAliases = otherAliases;
-		this.dynasty = dynasty;
+	protected Figure(String name, String dob, String dod) {
+		this.dod = dod;
+		this.dob = dob;
+		this.name = name;
 	}
 
 	public Figure() {
 	}
 
-	public String getNamDoTrangNguyen() {
-		return namDoTrangNguyen;
+	public Figure(String name) {
+		this.name = name;
 	}
 
-	public void setNamDoTrangNguyen(String namDoTrangNguyen) {
-		this.namDoTrangNguyen = namDoTrangNguyen;
+	public String getDob() {
+		return (dob == null || dob.strip().equals("...") || dob.strip().equals("…")) ? "Chưa rõ" : dob;
 	}
 
-	public King getDoiVua() {
-		return doiVua;
+	public void setDob(String dob) {
+		this.dob = dob;
 	}
 
-	public void setDoiVua(King doiVua) {
-		this.doiVua = doiVua;
+	public String getDod() {
+		return (dod == null || dod.strip().equals("...") || dod.strip().equals("…")) ? "Chưa rõ" : dod;
 	}
 
-	public Figure(String ten) {
-		super(ten);
+	public void setDod(String dod) {
+		this.dod = dod;
 	}
 
-	public Figure(String ten, String namSinh, String namMat) {
-		super(ten, namSinh, namMat);
+	public String getName() {
+		return name;
 	}
 
-	public String getHometown() {
-		return Hometown;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public void setHometown(String Hometown) {
-		this.Hometown = Hometown;
-	}
-
-	public String getEthnicity() {
-		return Ethnicity;
-	}
-
-	public void setEthnicity(String Ethnicity) {
-		this.Ethnicity = Ethnicity;
-	}
-
-	public String getNamNhapNgu() {
-		return namNhapNgu;
-	}
-
-	public void setNamNhapNgu(String namPhongChuc) {
-		this.namNhapNgu = namPhongChuc;
-	}
-
-	public String getNotes() {
-		return notes;
-	}
-
-	public void setNotes(String notes) {
-		this.notes = notes;
-	}
-
-	public List<Dynasty> getDynasty() {
-		return dynasty;
-	}
-
-	public void setDynasty(List<Dynasty> dynasty) {
-		this.dynasty = dynasty;
+	public int getId() {
+		return id;
 	}
 
 }

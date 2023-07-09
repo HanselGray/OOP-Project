@@ -4,29 +4,29 @@ import java.io.IOException;
 import java.util.*;
 import com.hust.cybersec.application.datareader.ReadData;
 import com.hust.cybersec.objects.Dynasty;
-import com.hust.cybersec.objects.Figure;
+import com.hust.cybersec.objects.HistoricalFigure;
 import com.hust.cybersec.objects.King;
 import java.util.List;
 
 public class LinkData {
 
-    List<Figure> listObservablesFigure;
+    List<HistoricalFigure> listObservablesHistoricalFigure;
     List<King> listObservablesKing;
-    private List<Figure> figures;
+    private List<HistoricalFigure> historicalFigures;
     private List<King> kings;
     private List<Dynasty> dynastys;
     private List<String> added;
 
     public LinkData() throws IOException {
-        listObservablesFigure = new ReadData<Figure>()
-                .FromJsonToArray("/OOP-BIG/src/main/data/figures.json", Figure.class);
+        listObservablesHistoricalFigure = new ReadData<HistoricalFigure>()
+                .FromJsonToArray("/OOP-BIG/src/main/data/figures.json", HistoricalFigure.class);
 
         listObservablesKing = new ReadData<King>().FromJsonToArray("/OOP-BIG/src/main/data/kings.json",
                 King.class);
     }
 
     public void genLink(String relatedFigure) {
-        this.figures = new ArrayList<Figure>();
+        this.historicalFigures = new ArrayList<HistoricalFigure>();
         this.kings = new ArrayList<King>();
         this.dynastys = new ArrayList<Dynasty>();
         this.added = new ArrayList<String>();
@@ -44,9 +44,9 @@ public class LinkData {
             }
         }
 
-        for (Figure f : listObservablesFigure) {
+        for (HistoricalFigure f : listObservablesHistoricalFigure) {
             if (f.getName() != null && relatedFigure.toLowerCase().contains(f.getName().toLowerCase())) {
-                figures.add(f);
+                historicalFigures.add(f);
                 for (Dynasty d : f.getDynasty()) {
                     if (!added.contains(d.getName())) {
                         added.add(d.getName());
@@ -56,7 +56,7 @@ public class LinkData {
                 continue;
             }
             if (f.getOtherAliases() != null && relatedFigure.toLowerCase().contains(f.getOtherAliases().toLowerCase())) {
-                figures.add(f);
+                historicalFigures.add(f);
                 for (Dynasty d : f.getDynasty()) {
                     if (!added.contains(d.getName())) {
                         added.add(d.getName());
@@ -67,8 +67,8 @@ public class LinkData {
         }
     }
 
-    public List<Figure> getFigures() {
-        return figures;
+    public List<HistoricalFigure> getFigures() {
+        return historicalFigures;
     }
 
     public List<King> getKings() {
