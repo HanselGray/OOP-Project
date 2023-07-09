@@ -1,6 +1,10 @@
 package com.hust.cybersec.application;
 
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 import com.hust.cybersec.application.datareader.ReadData;
@@ -21,6 +25,7 @@ import com.hust.cybersec.objects.Relic;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.collections.transformation.FilteredList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -70,6 +75,10 @@ public class SearchController {
     @FXML
     private TextField textField;
 
+    @FXML
+    private Button deletebutton;
+
+    
     @FXML
     void kingoption(ActionEvent event) throws IOException {
     	searchField.setText(king.getText());
@@ -239,19 +248,12 @@ public class SearchController {
         borderPane.setCenter(tableFestivalView);
     }
 
-	@FXML
-    void search(ActionEvent event) {
-    }
 
     @FXML
-    void pressEnter(KeyEvent event) {
-        if (event.getCode().equals(KeyCode.ENTER)) {
-            search(null);
-        } else {
-
-        }
+    void deleteclick(ActionEvent event) {
+    	textField.clear();
     }
-    
+
     
 }
 class TableViewCustom<T> {

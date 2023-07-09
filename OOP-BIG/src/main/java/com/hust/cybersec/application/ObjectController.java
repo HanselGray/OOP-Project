@@ -11,6 +11,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -87,8 +88,7 @@ public class ObjectController {
     
     // 
     public void removeNoidungLabel() {
-        VBox bottomVBox = (VBox) borderPane.getBottom();
-        bottomVBox.getChildren().remove(notelabel);
+        notelabel.setText(null);
     }
     
     
@@ -106,10 +106,10 @@ public class ObjectController {
     }
 
     public void switchToSearchScene(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/searchScene.fxml"));
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        Main.setRoot("/searchScene");
+    }
+    
+    public void addHboxBottom(HBox info) throws IOException {
+    	borderPane.setBottom(info);
     }
 }

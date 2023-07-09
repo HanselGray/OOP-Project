@@ -2,6 +2,7 @@ package com.hust.cybersec.application.showobjects;
 
 import java.io.IOException;
 
+import com.hust.cybersec.application.Main;
 import com.hust.cybersec.application.ObjectController;
 import com.hust.cybersec.objects.Dynasty;
 import com.hust.cybersec.objects.Festival;
@@ -20,6 +21,12 @@ public class FestivalShow2 {
         	Stage stage = new Stage();
         	FXMLLoader loader = new FXMLLoader(getClass().getResource("/objectScene.fxml"));
         	Parent root = loader.load();
+//        	Main.setRoot("/objectScene");
+        	
+        	// set background
+        	root.setStyle(
+					"-fx-background-image:url('https://cdn.discordapp.com/attachments/985587859866148970/1127681782670696529/download-background-lich-su-dep.png?width=900&height=786')"
+					+ ";-fx-background-size : 100% 100%");
         	
             // Get the controller associated with the FXML file
         	ObjectController controller = loader.getController();
@@ -31,15 +38,14 @@ public class FestivalShow2 {
             controller.setLabel1("Tên lễ hội: " + curSelect.getName());
             controller.setLabel2("Địa điểm: " + curSelect.getPlace());
             controller.setLabel3("Thời gian: " + curSelect.getTime());
-            controller.setLabel4("Nhân vật liên quan: " + curSelect.getFigure());
+            controller.setLabel4("Nhân vật liên quan: " + curSelect.getFigure().getName());
             controller.setLabel5("");
             controller.setLabel6("");
             controller.setLabel7("");
             // Remove the "Nội Dung" label from the bottom VBox
-            controller.setNoteLabel("Nội dung:" + curSelect.getDescription());
+            controller.setNoteLabel("Nội dung: " + curSelect.getDescription());
             	
-            
-            Scene scene = new Scene(root);
+			Scene scene = new Scene(root);
             
             stage.setScene(scene);
             stage.show();
