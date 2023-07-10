@@ -17,7 +17,7 @@
    <top>
       <VBox prefHeight="36.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="backButton" mnemonicParsing="false" onAction="#switchToSearchScene" prefHeight="36.0" prefWidth="89.0" text="Back">
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="36.0" prefWidth="89.0" text="Back">
                <font>
                   <Font size="18.0" />
                </font>

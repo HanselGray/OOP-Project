@@ -19,14 +19,14 @@
          <children>
             <VBox prefHeight="800.0" prefWidth="900.0">
                <children>
-                  <Label text="Welcome to VietNam History!">
+                  <Label text="Welcome to VietNam History!" textFill="#eb5220">
                      <font>
                         <Font name="System Bold Italic" size="48.0" />
                      </font>
                      <VBox.margin>
                         <Insets left="113.0" top="269.0" />
                      </VBox.margin></Label>
-                  <Button fx:id="startbutton" mnemonicParsing="false" prefHeight="91.0" prefWidth="168.0" text="Start">
+                  <Button fx:id="startbutton" mnemonicParsing="false" onAction="#toSearchScene" prefHeight="91.0" prefWidth="168.0" text="Start">
                      <font>
                         <Font name="System Bold" size="36.0" />
                      </font>
