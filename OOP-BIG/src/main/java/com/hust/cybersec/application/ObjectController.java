@@ -91,24 +91,31 @@ public class ObjectController {
         notelabel.setText(null);
     }
     
-    
-    @FXML
-    public void initialize() {
-        // Set up the event handler for the back button
-        backButton.setOnAction(event -> {
-			try {
-				switchToSearchScene(event);
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		});
-    }
 
-    public void switchToSearchScene(ActionEvent event) throws IOException {
-        Main.setRoot("/searchScene");
+    @FXML
+    private void backButtonAction(){
+        // get a handle to the stage
+        Stage stage = (Stage) backButton.getScene().getWindow();
+        // do what you have to do
+        stage.close();
     }
-    
+//    @FXML
+//    public void initialize() {
+//        // Set up the event handler for the back button
+//        backButton.setOnAction(event -> {
+//			try {
+//				switchToSearchScene(event);
+//			} catch (IOException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		});
+//    }
+//
+//    public void switchToSearchScene(ActionEvent event) throws IOException {
+//        Main.setRoot("/searchScene");
+//    }
+//    
     public void addHboxBottom(HBox info) throws IOException {
     	borderPane.setBottom(info);
     }
